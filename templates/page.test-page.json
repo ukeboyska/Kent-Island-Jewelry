@@ -620,13 +620,64 @@
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
+        },
+        "item_VBDmnd": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/kent-island-jewelry-square-blue_1.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_bqEtXF": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/rings-collection.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_rXcDhp": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/noreaster_art_3.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
         }
       },
       "block_order": [
         "item_AjqWXD",
         "item_8MRC6j",
         "item_C7gV6E",
-        "item_mJdNfK"
+        "item_mJdNfK",
+        "item_VBDmnd",
+        "item_bqEtXF",
+        "item_rXcDhp"
       ],
       "name": "Multi-column",
       "settings": {
