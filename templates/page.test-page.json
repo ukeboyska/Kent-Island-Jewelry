@@ -74,7 +74,7 @@
         "item_VQTrJx": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/kent-island-jewelry-square-blue.png",
+            "video": "shopify://files/videos/647f13388c4942d9933673ebf09b001f.mp4",
             "tab_label": "Item",
             "subheading": "Subheading",
             "title": "Image with text",
@@ -503,7 +503,6 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square-blue.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -519,7 +518,6 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -560,7 +558,6 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square-blue.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -576,7 +573,6 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -592,7 +588,6 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square-blue.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -608,7 +603,6 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -624,7 +618,6 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square-blue.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -640,7 +633,6 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -656,7 +648,6 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square-blue.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -672,7 +663,6 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
