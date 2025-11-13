@@ -201,6 +201,18 @@
                   {%- endif -%}
                 {%- endcapture -%}
 
+                {%- if modal_content != blank -%}
+                  <input class="modal-state" id="modal-1" type="checkbox" />
+                  <div class="modal">
+                    <label class="modal__bg" for="modal-1"></label>
+                    <div class="modal__inner">
+                      <label class="modal__close" for="modal-1"></label>
+                      <h2>Caaaats FTW!</h2>
+                      <p><img src="https://i.imgur.com/HnrkBwB.gif" alt="" />Aliquam in sagittis nulla. Curabitur euismod diam eget risus venenatis, sed dictum lectus bibendum. Nunc nunc nisi, hendrerit eget nisi id, rhoncus rutrum velit. Nunc vel mauris dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam fringilla quis nisi eget imperdiet.</p>
+                    </div>
+                  </div>
+                {%- endif -%}
+
                 {%- if block_content != blank -%}
                   <div id="block-{{ section.id }}-{{ block.id }}" class="aspect_ratio_{{ section.settings.image_aspect_ratio | replace: '/', '_' }} multi-column__item multi-column__item--align-{{ block.settings.vertical_alignment }} {% if block.settings.link_url != blank %}image-zoom{% endif %}" {% if section.settings.reveal_on_scroll %}reveal{% endif %} {{ block.shopify_attributes }}>
                     {{- block_content -}}
