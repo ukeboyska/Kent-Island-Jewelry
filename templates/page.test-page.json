@@ -380,7 +380,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
-        "before_after": false,
+        "layout_options": "",
         "subheading": "Browse the latest",
         "title": "Fresh Designs for the Season",
         "content": "",
@@ -484,7 +484,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
-        "before_after": true,
+        "layout_options": "before_after",
         "subheading": "Before and After",
         "title": "See the Results",
         "content": "",
@@ -504,6 +504,7 @@
           "type": "item",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/noreaster_art_3.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -519,6 +520,7 @@
           "type": "item",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/rings-collection.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -539,11 +541,11 @@
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
-        "before_after": true,
+        "layout_options": "before_after",
         "subheading": "",
         "title": "",
         "content": "",
-        "image_aspect_ratio": "",
+        "image_aspect_ratio": "1/1",
         "column_alignment": "center",
         "mobile_item_size": "medium",
         "desktop_item_size": "medium",
@@ -690,7 +692,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
-        "before_after": true,
+        "layout_options": "",
         "subheading": "",
         "title": "",
         "content": "",
@@ -929,7 +931,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
-        "before_after": false,
+        "layout_options": "",
         "subheading": "Subheading",
         "title": "Multi-column",
         "content": "",
@@ -1003,7 +1005,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
-        "before_after": false,
+        "layout_options": "",
         "subheading": "",
         "title": "",
         "content": "",
