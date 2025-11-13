@@ -184,6 +184,9 @@ testimonial-item .gallery__image,
 .modal_grid img {
   height: 100%;
 }
+.modal_grid label:hover {
+  cursor: pointer;
+}
 
 
 .image-grid {
