@@ -74,9 +74,12 @@
       {%- endif -%}
 
       {%- if section.blocks.size > 0 -%}
-        <multi-column {% if section.settings.stack_items %}stack{% endif %} {% if section.settings.reveal_on_scroll %}stagger-apparition{% endif %} class="multi-column multi-column--pocket-{{ section.settings.mobile_item_size }} multi-column--{{ section.settings.desktop_item_size }} multi-column--spacing-{{ section.settings.spacing }}">
+        <multi-column {% if section.settings.stack_items %}stack{% endif %} {% if section.settings.reveal_on_scroll %}stagger-apparition{% endif %} class="{% if section.settings.before_after %}before-after{% endif %} multi-column multi-column--pocket-{{ section.settings.mobile_item_size }} multi-column--{{ section.settings.desktop_item_size }} multi-column--spacing-{{ section.settings.spacing }}">
           {%- assign align_arrows_on_image = true -%}
           {%- assign smallest_image_aspect_ratio = 0 -%}
+          {%- if section.settings.image_aspect_ratio != blank -%}
+            {%- assign section_image_aspect_ratio = section.settings.image_aspect_ratio | prepend: 'object-fit: cover; aspect-ratio: ' -%}
+          {%- endif -%}
 
           <div {% unless section.settings.stack_items %}class="scroller"{% endunless %}>
             <scrollable-content class="multi-column__inner multi-column__inner--{{ section.settings.column_alignment }} {% unless section.settings.stack_items %}multi-column__inner--scroller{% endunless %}">
@@ -140,24 +143,42 @@
 
               {%- for block in section.blocks -%}
                 {%- capture block_content -%}
-                  {%- if block.settings.image != blank -%}
+
+                  {%- if block.settings.collection != blank -%}
+                    {%- assign block_image = block.settings.collection.featured_image -%}
+                    {%- assign block_link_url = block.settings.collection.url -%}
+                    {%- assign block_link_text = block.settings.collection.title -%}
+                  {%- endif -%}
+
+                  {%- if block.settings.image != blank or block.settings.collection.featured_image != blank -%}
+
+                    {%- if block.settings.image != blank -%}
+                      {%- assign block_image = block.settings.image -%}
+                    {%- endif -%}
+                    {%- if block.settings.link_url != blank -%}
+                      {%- assign block_link_url = block.settings.link_url -%}
+                    {%- endif -%}
+                    {%- if block.settings.link_text != blank -%}
+                      {%- assign block_link_text = block.settings.link_text -%}
+                    {%- endif -%}
+
                     {%- assign smallest_image_aspect_ratio = smallest_image_aspect_ratio | at_least: block.settings.image.aspect_ratio -%}
                     {%- capture sizes_attribute -%}(max-width: 740px) {{ mobile_calculated_size }}, (max-width: 999px) {{ tablet_calculated_size }}, {{ 1520.0 | divided_by: desktop_items_per_row | minus: gap_width | ceil }}px{%- endcapture -%}
 
-                    {%- if block.settings.link_url != blank -%}
-                      <a href="{{ block.settings.link_url }}" class="multi-column__image-wrapper" style="max-width: {{ block.settings.image_width }}%; width: {{ block.settings.image.width }}px">
-                        {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1100,1200', class: 'multi-column__image' -}}
+                    {%- if block_link_url != blank -%}
+                      <a href="{{ block_link_url }}" class="multi-column__image-wrapper" style="max-width: {{ block.settings.image_width }}%; width: {{ block.settings.image.width }}px">
+                        {{- block_image | image_url: width: block_image.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1100,1200', class: 'multi-column__image', style: section_image_aspect_ratio -}}
                       </a>
                     {%- else -%}
-                      <div class="multi-column__image-wrapper" style="max-width: {{ block.settings.image_width }}%; width: {{ block.settings.image.width }}px">
-                        {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1100,1200', class: 'multi-column__image' -}}
+                      <div class="multi-column__image-wrapper" style="max-width: {{ block.settings.image_width }}%; width: {{ block_image.width }}px">
+                        {{- block_image | image_url: width: block_image.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1100,1200', class: 'multi-column__image', style: section_image_aspect_ratio -}}
                       </div>
                     {%- endif -%}
                   {%- else -%}
                     {%- assign align_arrows_on_image = false -%}
                   {%- endif -%}
 
-                  {%- if block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
+                  {%- if block.settings.collection.title != blank or block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
                     <div class="multi-column__text-container text--{{ block.settings.text_alignment }} text-container">
                       {%- if block.settings.title != blank -%}
                         <p class="heading h5">{{ block.settings.title | escape }}</p>
@@ -167,12 +188,12 @@
                         {{- block.settings.content -}}
                       {%- endif -%}
 
-                      {%- if block.settings.link_text != blank -%}
-                        {%- if block.settings.link_style == 'link' -%}
-                          <a href="{{ block.settings.link_url }}" class="multi-column__link heading heading--small link">{{ block.settings.link_text | escape }}</a>
+                      {%- if block.settings.collection.title != blank or block.settings.link_text != blank -%}
+                        {%- if block.settings.link_style != blank and block.settings.link_style != 'button' -%}
+                          <a href="{{ block.settings.link_url }}" class="multi-column__link heading heading--small {{block.settings.link_style}}">{{ block_link_text | escape }}</a>
                         {%- else -%}
                           <div class="button-wrapper">
-                            <a href="{{ block.settings.link_url }}" class="multi-column__button button button--small button--primary">{{ block.settings.link_text | escape }}</a>
+                            <a href="{{ block.settings.link_url }}" class="multi-column__button button button--small button--primary">{{ block_link_text | escape }}</a>
                           </div>
                         {%- endif -%}
                       {%- endif -%}
@@ -220,6 +241,11 @@
       "name": "Column",
       "type": "item",
       "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
         {
           "type": "image_picker",
           "id": "image",
@@ -276,6 +302,10 @@
             {
               "value": "button",
               "label": "Button"
+            },
+            {
+              "value": "arrow",
+              "label": "Arrow"
             }
           ],
           "default": "link",
@@ -339,6 +369,12 @@
       "default": false
     },
     {
+      "type": "checkbox",
+      "id": "before_after",
+      "label": "Before & After",
+      "default": false
+    },
+    {
       "type": "text",
       "id": "subheading",
       "label": "Subheading",
@@ -354,6 +390,33 @@
       "type": "richtext",
       "id": "content",
       "label": "Content"
+    },
+    {
+      "type": "select",
+      "id": "image_aspect_ratio",
+      "label": "Image Aspect Ratio",
+      "options": [
+        {
+          "value": "",
+          "label": "Default"
+        },
+        {
+          "value": "1/1",
+          "label": "1x1"
+        },
+        {
+          "value": "4/3",
+          "label": "4x3"
+        },
+        {
+          "value": "5/8",
+          "label": "5x8"
+        },
+        {
+          "value": "16/9",
+          "label": "16x9"
+        }
+      ],
     },
     {
       "type": "select",

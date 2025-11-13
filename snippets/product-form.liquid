@@ -415,6 +415,7 @@
       BUY BUTTONS
       ----------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
+       
       {%- when 'buy_buttons' -%}
         {%- if request.page_type != 'password' -%}
           {%- assign recipient_feature_active = false -%}
@@ -475,6 +476,8 @@
                     {{- 'product.form.sold_out' | t -}}
                   {%- endif -%}
                 </button>
+                
+                <button is="toggle-button" style="min-height:52px;color:white;background: rgb(32, 63, 112);" class="product-form__add-button button button--secondary button--full" aria-controls="product-{{ section.id }}-help-drawer" aria-expanded="false">Inquire Now</button>
 
                 {%- if block.settings.show_payment_button and recipient_feature_active == false and template.suffix != 'quick-buy-popover' -%}
                   {{ form | payment_button }}
@@ -499,7 +502,7 @@
         {%- endif -%}
     {%- endcase -%}
   {%- endfor -%}
-
+  
   {%- comment -%}
   IMPLEMENTATION NOTE: under rare circumstances, merchant may want to show selectors but hide the add to cart button. This
   is however problematic as elements changed based on this. So if we detect there is no buy buttons block, we add an empty one
@@ -512,6 +515,8 @@
       <input type="hidden" disabled name="id" value="{{ product.selected_or_first_available_variant.id }}">
     {%- endform -%}
   {%- endif -%}
+
+
 </div>
 
 {%- comment -%}

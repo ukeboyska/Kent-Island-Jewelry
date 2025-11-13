@@ -194,8 +194,14 @@
           {%- endform -%}
         {%- endif -%}
 
-        <span class="footer__copyright text--xsmall text--subdued">{{ shop.name }} <span class="square-separator square-separator--block square-separator--subdued"></span> {{ powered_by_link | replace: '<a', '<a class="link--faded"' }}</span>
-
+        <span style="display:flex;justify-content: space-between;width:100%;">
+          <span class="footer__copyright text--xsmall text--subdued">{{ shop.name }} <span class="square-separator square-separator--block square-separator--subdued"></span> {{ powered_by_link | replace: '<a', '<a class="link--faded"' }}</span>
+          <span>
+            <!--a href="/pages/data-sharing-opt-out">Terms of Service</a-->
+            <a href="/pages/data-sharing-opt-out">Privacy Choices</a>
+          </span>
+        </span>
+        
         <div class="footer__follow-and-payment">
           {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
             <div class="footer__payment-methods">
@@ -296,7 +302,7 @@
           "default": "About our store"
         },
         {
-          "type": "richtext",
+          "type": "textarea",
           "id": "content",
           "label": "Content",
           "default": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"

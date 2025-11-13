@@ -305,6 +305,10 @@ IMPLEMENTATION NOTE: the header in Focal is pretty complex as it allows a lot of
               </li>
             {%- endcomment -%}
 
+            <li class="header__linklist-item">
+              <a href="/pages/contact">Contact</a>
+            </li>
+
             {%- if section.settings.header_layout != 'logo_center_search_open' -%}
               <li class="header__linklist-item">
                 <a href="{{ routes.search_url }}" is="toggle-link" aria-controls="search-drawer" aria-expanded="false">{{ 'search.general.title' | t | escape }}</a>

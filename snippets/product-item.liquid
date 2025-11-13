@@ -46,10 +46,60 @@
       </div>
     {%- endif -%}
 
-    <a href="{{ product.url }}" data-instant class="product-item__aspect-ratio aspect-ratio {% if settings.product_image_size != 'natural' %}aspect-ratio--{{ settings.product_image_size }}{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: product.featured_media.preview_image.aspect_ratio }}%; --aspect-ratio: {{ product.featured_media.preview_image.aspect_ratio }}">
-      {%- if product.featured_media -%}
-        {{ product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1100,1200', class: 'product-item__primary-image', data-media-id: product.featured_media.id }}
-      {%- endif -%}
+
+    
+    {%- if collection.handle == 'silver' or 'gold' or 'pink-gold' -%}
+      {%- assign featured_image = product.featured_image  -%}
+        {%- assign product_url = product.url -%}
+        {%- assign custom_option_name = 'color' -%}
+        {%- if collection.handle == 'silver' -%}
+          {%- assign custom_option_value = 'silver' -%}
+        {% endif %}
+        {%- if collection.handle == 'gold' -%}
+          {%- assign custom_option_value = 'gold' -%}
+        {% endif %}
+        {%- if collection.handle == 'pink-gold' -%}
+          {%- assign custom_option_value = 'pink-gold' -%}
+        {% endif %}
+        {%- if custom_option_name != blank and custom_option_value != blank -%}
+          {%- assign custom_option_name = custom_option_name | downcase | strip -%}
+          {%- assign custom_option_value = custom_option_value | downcase | strip -%}
+          {%- for product_option in product.options_with_values -%}
+            {%- assign option_name = product_option.name | handle -%}
+            {%- if option_name == custom_option_name -%}
+              {%- assign option_values = product_option.values | join: ',' | downcase | split: ',' -%}
+              {%- for option_value in option_values -%}
+                {%- if option_value == custom_option_value -%}
+
+                  {% for variant in product.variants %}
+                    {%- assign custom_variant_value = variant.option1 | downcase | strip  -%}
+                    {% if custom_variant_value == custom_option_value %}
+                      {%- if variant.featured_media -%}
+                        {%- assign featured_image = variant.featured_media -%}
+                        {%- assign product_url = variant.url -%}
+                        {% break %}
+                      {%- endif -%}
+                    {% endif %}
+                  {% endfor %}
+                  {% break %}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+    {%- else -%}  
+      {% assign featured_image = product.featured_media %}
+      {%- assign product_url = product.url -%}
+    {% endif %}
+    
+
+    <a href="{{ product_url }}" data-instant class="product-item__aspect-ratio aspect-ratio {% if settings.product_image_size != 'natural' %}aspect-ratio--{{ settings.product_image_size }}{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: product.featured_media.preview_image.aspect_ratio }}%; --aspect-ratio: {{ product.featured_media.preview_image.aspect_ratio }}">
+      
+      
+        {%- if featured_image -%}
+          {{ featured_image | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1100,1200', class: 'product-item__primary-image', data-media-id: product.featured_media.id }}
+        {%- endif -%}
+
 
       {%- if settings.product_color_display == 'swatch' -%}
         {%- for color_label in color_label_list -%}
@@ -67,7 +117,7 @@
           {%- endif -%}
         {%- endfor -%}
       {%- endif -%}
-
+      
       {%- if settings.show_secondary_image and product.media.size > 1 and hide_secondary_image != true -%}
         {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
         {{- next_media | image_url: width: next_media.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1100,1200', class: 'product-item__secondary-image' -}}
@@ -112,6 +162,8 @@
 
   <div class="product-item__info {% if show_cta %}product-item__info--with-button{% endif %} {% if reduced_font_size %}text--small{% endif %}">
     <div class="product-item-meta">
+
+      {% comment %}
       {%- if settings.show_vendor -%}
         {%- assign vendor_handle = product.vendor | handle -%}
         {%- assign collection_for_vendor = collections[vendor_handle] -%}
@@ -122,8 +174,9 @@
           <a class="product-item-meta__vendor heading heading--xsmall" href="{{ product.vendor | url_for_vendor }}" data-instant>{{ product.vendor }}</a>
         {%- endunless -%}
       {%- endif -%}
+      {% endcomment %}
 
-      <a href="{{ product.url }}" data-instant class="product-item-meta__title">{{ product.title }}</a>
+      <a href="{{ product.url }}" data-instant class="product-item-meta__title heading--xsmall" style="text-decoration:underline;">{{ product.title }}</a>
 
       <div class="product-item-meta__price-list-container">
         <div class="price-list price-list--centered">
@@ -228,11 +281,13 @@
         </div>
       </div>
 
+      {% comment %}
       {%- if settings.show_product_rating and reduced_content != true -%}
         <a class="product-item-meta__reviews-badge text--small" href="{{ product.url }}" data-instant>
           {%- render 'product-rating', product: product -%}
         </a>
       {%- endif -%}
+      {% endcomment %}
 
       {%- if settings.product_color_display != 'hide' and reduced_content != true -%}
         {%- for color_label in color_label_list -%}
