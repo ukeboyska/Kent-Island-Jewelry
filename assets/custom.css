@@ -156,9 +156,12 @@ testimonial-item .gallery__image,
 }
 .modal_grid .multi-column__text-container {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   width: 100%;
   padding: 20px;
+}
+.modal_grid .multi-column__text-container,
+.modal_grid .multi-column__text-container > * {
   color: white;
 }
 
