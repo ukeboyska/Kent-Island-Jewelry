@@ -464,7 +464,7 @@ a.arrow:hover:after {
   width: 50%;
   margin: auto;
   overflow: auto;
-  background: #fff;
+  background: #F1F5E4;
   border-radius: 5px;
   padding: 1em 2em;
   height: 50%;
@@ -477,6 +477,9 @@ a.arrow:hover:after {
   width: 1.1em;
   height: 1.1em;
   cursor: pointer;
+  background: white;
+  border: 1px solid black;
+  padding: 10px;
 }
 
 .modal__close:after,
