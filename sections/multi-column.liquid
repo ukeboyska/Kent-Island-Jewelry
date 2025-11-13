@@ -218,7 +218,7 @@
                       <label class="modal__bg" for="modal-{{ count }}"></label>
                       <div class="modal__inner">
                         <label class="modal__close" for="modal-{{ count }}"></label>
-                        <h2>Caaaats FTW!</h2>
+                        <h2>{{ block.settings.title | escape }}</h2>
                         {{ block.settings.modal_content }}
                       </div>
                     </div>
