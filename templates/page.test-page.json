@@ -561,6 +561,7 @@
           "type": "item",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/rings-collection.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -572,10 +573,27 @@
             "vertical_alignment": "start"
           }
         },
+        "item_8MRC6j": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/noreaster_art_3.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
         "item_C7gV6E": {
           "type": "item",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/gold-spike-adjustable-double-ring.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -591,81 +609,7 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_68QFzi": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_hLUVMJ": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_K7AGtD": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_LnzjUn": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_XAbg9n": {
-          "type": "item",
-          "settings": {
-            "collection": "",
+            "image": "shopify://shop_images/noreaster_art_3.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -680,23 +624,19 @@
       },
       "block_order": [
         "item_AjqWXD",
+        "item_8MRC6j",
         "item_C7gV6E",
-        "item_mJdNfK",
-        "item_68QFzi",
-        "item_hLUVMJ",
-        "item_K7AGtD",
-        "item_LnzjUn",
-        "item_XAbg9n"
+        "item_mJdNfK"
       ],
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
-        "layout_options": "",
+        "layout_options": "before_after",
         "subheading": "",
         "title": "",
         "content": "",
-        "image_aspect_ratio": "",
+        "image_aspect_ratio": "1/1",
         "column_alignment": "center",
         "mobile_item_size": "medium",
         "desktop_item_size": "medium",
