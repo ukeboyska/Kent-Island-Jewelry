@@ -478,8 +478,8 @@ a.arrow:hover:after {
   height: 1.1em;
   cursor: pointer;
   background: white;
-  border: 1px solid black;
-  padding: 10px;
+  border: 1px solid #1b3059;
+  padding: 20px;
 }
 
 .modal__close:after,
@@ -488,12 +488,12 @@ a.arrow:hover:after {
   position: absolute;
   width: 2px;
   height: 1.5em;
-  background: #ccc;
+  background: #1b3059;
   display: block;
   transform: rotate(45deg);
   left: 50%;
   margin: -3px 0 0 -1px;
-  top: 0;
+  top: 11px;
 }
 
 .modal__close:hover:after,
