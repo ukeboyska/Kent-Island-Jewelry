@@ -223,7 +223,13 @@
                             {{- block_image | image_url: width: block_image.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1100,1200', class: 'multi-column__image', style: section_image_aspect_ratio -}}
                           </div>
                           <div>
-                            <h2>{{ block.settings.title | escape }}</h2>
+                            {%- if block.settings.title != blank -%}
+                              <p class="heading h5">{{ block.settings.title | escape }}</p>
+                            {%- endif -%}
+
+                            {%- if block.settings.content != blank -%}
+                              {{- block.settings.content -}}
+                            {%- endif -%}
                             {{ block.settings.modal_content }}
                           </div>
                         </div>
