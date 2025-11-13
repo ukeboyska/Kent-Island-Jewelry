@@ -141,6 +141,7 @@
               {%- assign desktop_items_per_row_minus_one = desktop_items_per_row | minus: 1 -%}
               {%- assign gap_width = desktop_item_gap | divided_by: desktop_items_per_row | times: desktop_items_per_row_minus_one -%}
 
+              {% assign count = 1 %}
               {%- for block in section.blocks -%}
                 {%- capture block_content -%}
                   
@@ -205,24 +206,25 @@
 
                 {%- if block_content != blank -%}
                   {%- if block.settings.modal_content != blank -%}
-                    <label class="btn" for="modal-1">
+                    <label class="btn" for="modal-{{ count }}">
                   {%- endif -%} 
                   <div id="block-{{ section.id }}-{{ block.id }}" class="aspect_ratio_{{ section.settings.image_aspect_ratio | replace: '/', '_' }} multi-column__item multi-column__item--align-{{ block.settings.vertical_alignment }} {% if block.settings.link_url != blank %}image-zoom{% endif %}" {% if section.settings.reveal_on_scroll %}reveal{% endif %} {{ block.shopify_attributes }}>
                     {{- block_content -}}
                   </div>
                   {%- if block.settings.modal_content != blank -%}
                     </label>
-                    <input class="modal-state" id="modal-1" type="checkbox" />
+                    <input class="modal-state" id="modal-{{ count }}" type="checkbox" />
                     <div class="modal">
-                      <label class="modal__bg" for="modal-1"></label>
+                      <label class="modal__bg" for="modal-{{ count }}"></label>
                       <div class="modal__inner">
-                        <label class="modal__close" for="modal-1"></label>
+                        <label class="modal__close" for="modal-{{ count }}"></label>
                         <h2>Caaaats FTW!</h2>
                         {{ block.settings.modal_content }}
                       </div>
                     </div>
                   {%- endif -%} 
                 {%- endif -%}
+                {% assign count = count | plus:1 %}
               {%- endfor -%}
             </scrollable-content>
 
