@@ -808,10 +808,20 @@
             "button_text": "",
             "button_url": ""
           }
+        },
+        "collection_yk8p8d": {
+          "type": "collection",
+          "settings": {
+            "collection": "rings",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
         }
       },
       "block_order": [
-        "collection_cMWwMx"
+        "collection_cMWwMx",
+        "collection_yk8p8d"
       ],
       "name": "Featured collections",
       "settings": {
