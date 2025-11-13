@@ -151,10 +151,15 @@ testimonial-item .gallery__image,
   content: 'After';
 }
 
-
+.modal_grid .multi-column__item {
+  position: relative;
+}
 .modal_grid .multi-column__text-container {
   position: absolute;
   bottom: 0;
+  width: 100%;
+  padding: 20px;
+  color: white;
 }
 
 
