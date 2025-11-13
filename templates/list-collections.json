@@ -49,7 +49,7 @@
         "collection_wHFeDP"
       ],
       "settings": {
-        "collections_to_show": "all",
+        "collections_to_show": "selected",
         "show_collection_title": true
       }
     }
