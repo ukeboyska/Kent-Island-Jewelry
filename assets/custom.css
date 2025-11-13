@@ -152,6 +152,10 @@ testimonial-item .gallery__image,
 }
 
 
+.modal_grid .multi-column__text-container {
+  position: absolute;
+  bottom: 0;
+}
 
 
 .image-grid {
