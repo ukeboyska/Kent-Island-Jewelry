@@ -143,6 +143,10 @@
 
               {%- for block in section.blocks -%}
                 {%- capture block_content -%}
+                  
+                  {%- if section.settings.modal_content != blank -%}
+                  <label class="btn" for="modal-1">
+                  {%- endif -%}    
 
                   {%- if block.settings.collection != blank -%}
                     {%- assign block_image = block.settings.collection.featured_image -%}
@@ -199,6 +203,9 @@
                       {%- endif -%}
                     </div>
                   {%- endif -%}
+                  {%- if section.settings.modal_content != blank -%}
+                  </label>
+                  {%- endif -%} 
                   {%- if section.settings.modal_content != blank -%}
                     <input class="modal-state" id="modal-1" type="checkbox" />
                     <div class="modal">
