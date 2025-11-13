@@ -164,6 +164,9 @@ testimonial-item .gallery__image,
 .modal_grid .multi-column__text-container > * {
   color: white;
 }
+.modal_grid .multi-column__text-container h5 {
+  margin-bottom: -15px;
+}
 
 
 .image-grid {
