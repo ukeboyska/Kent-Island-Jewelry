@@ -181,6 +181,9 @@ testimonial-item .gallery__image,
 .modal_grid .multi-column__text-container .h5 {
   margin-bottom: -7px;
 }
+.modal_grid img {
+  height: 100%;
+}
 
 
 .image-grid {
