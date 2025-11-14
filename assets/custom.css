@@ -247,6 +247,11 @@ testimonial-item .gallery__image,
 .section [class*='position--text'] {
   display: flex;
 }
+@media screen and (max-width: 900px) {
+  .section [class*='position--text'] {
+    flex-wrap: wrap;
+  } 
+}
 .position--text-right header {
   order: 2;
 }
