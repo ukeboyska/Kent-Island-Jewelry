@@ -1156,7 +1156,7 @@
         "section_width": "full",
         "background_overlap": "image",
         "image_position": "left",
-        "image_width": "32%",
+        "image_width": "32.25%",
         "text_alignment": "left",
         "cycle_speed": 8,
         "accent_background": "rgba(0,0,0,0)",
