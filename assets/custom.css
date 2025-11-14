@@ -384,6 +384,9 @@ testimonial-item:has(img) .testimonial__author {
   }
 }
 @media screen and (max-width: 768px) {
+  .multi-column[stack] .multi-column__item {
+    flex-basis: 100%;
+  }
   .timeline__content-wrapper,
   .timeline__image-wrapper {
     width: 100%;
