@@ -538,7 +538,7 @@ a.arrow:hover:after {
   padding-inline: 0;
 }
 @media screen and (max-width: 768px) {
-  .image-with-text__wrapper {
+  .image-with-text__image-wrapper {
     width: 100% !important;
   }
 }
