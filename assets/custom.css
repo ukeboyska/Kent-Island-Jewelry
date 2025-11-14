@@ -562,7 +562,7 @@ a.arrow:hover:after {
     padding-inline: 0;
   }
   .image-with-text__image-wrapper {
-    width: 50% !important;
+    min-width: 50% !important;
   }
 }
 @media screen and (max-width: 768px) {
