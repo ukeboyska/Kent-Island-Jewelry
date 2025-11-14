@@ -582,3 +582,7 @@ a.arrow:hover:after {
     width: 100% !important;
   }
 }
+
+.image-with-text__content-wrapper:has(.text--right) {
+  justify-self: right;
+}
