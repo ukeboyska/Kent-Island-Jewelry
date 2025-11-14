@@ -72,7 +72,7 @@
   {%- endif -%}
 </style>
 
-<section class="section with-background-image {% if section.settings.section_width != blank %} width--{{ section.settings.section_width }} {% endif %} {% if section.settings.background_overlap == 'both' and is_boxed == false %}section--flush{% endif %}" {% if section.settings.background_image != blank %}style="background-image: url({{ section.settings.background_image.src | img_url: "medium" }});"{% endif %}>
+<section class="section with-background-image{% if section.settings.section_padding_bottom != blank %} padding-bottom--{{ section.settings.section_padding_bottom }} {% endif %}  {% if section.settings.section_padding_bottom != blank %} width--{{ section.settings.section_width }} {% endif %} {% if section.settings.background_overlap == 'both' and is_boxed == false %}section--flush{% endif %}" {% if section.settings.background_image != blank %}style="background-image: url({{ section.settings.background_image.src | img_url: "medium" }});"{% endif %}>
   <div {% if is_boxed %}class="container"{% endif %}>
     {%- assign first_block = section.blocks.first -%}
 
@@ -284,6 +284,21 @@
         {
           "value": "24.25%",
           "label": "Quarter"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "section_padding_bottom",
+      "label": "Padding Bottom",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "none",
+          "label": "None"
         }
       ]
     },
