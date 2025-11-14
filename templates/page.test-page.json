@@ -109,7 +109,7 @@
         "section_width": "contained",
         "background_overlap": "image",
         "image_position": "left",
-        "image_width": "50%",
+        "image_width": "",
         "section_padding_bottom": "default",
         "text_alignment": "center",
         "cycle_speed": 8,
