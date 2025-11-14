@@ -338,6 +338,10 @@ testimonial-item:has(img) .testimonial__author {
   background: rgb(var(--text-color)) !important;
 }
 @media screen and (max-width: 1000px) {
+  .multi-column[stack] scrollable-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
   /*[class*=prev-next].hidden-pocket*/
   .timeline__inner .prev-next-buttons.hidden-pocket {
     margin-right: 25px;
