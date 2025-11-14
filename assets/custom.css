@@ -341,6 +341,9 @@ testimonial-item:has(img) .testimonial__author {
   display: flex;
   flex-wrap: wrap;
 }
+.multi-column[stack] .multi-column__item {
+  flex-basis: 33.3%;
+}
 @media screen and (max-width: 1000px) {
   /*[class*=prev-next].hidden-pocket*/
   .timeline__inner .prev-next-buttons.hidden-pocket {
