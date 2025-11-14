@@ -256,7 +256,7 @@ testimonial-item .gallery__image,
     gap: 40px;
   } 
   .shopify-section--collection-list .position--text-right header {
-    order: 1;
+    order: -1;
   }
 }
 .section [class*='position--text'] .section__header {
