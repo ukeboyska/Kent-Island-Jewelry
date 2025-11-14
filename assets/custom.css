@@ -250,6 +250,7 @@ testimonial-item .gallery__image,
 @media screen and (max-width: 768px) {
   .section [class*='position--text'] {
     flex-wrap: wrap;
+    gap: 40px;
   } 
 }
 .position--text-right header {
