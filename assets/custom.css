@@ -534,3 +534,6 @@ a.arrow:hover:after {
   margin-inline-end: 0;
   margin-inline-start: 0;
 }
+.width--full .container {
+  padding-inline: 0;
+}
