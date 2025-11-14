@@ -1023,7 +1023,7 @@
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
-        "stack_items": false,
+        "stack_items": true,
         "layout_options": "",
         "subheading": "",
         "title": "",
