@@ -267,7 +267,7 @@ testimonial-item .gallery__image,
   .shopify-section--collection-list .position--text-right header {
     order: -1;
     justify-content: center;
-    text-align: center;
+    text-align: center !important;
   }
 }
 
