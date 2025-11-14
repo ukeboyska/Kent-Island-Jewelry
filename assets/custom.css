@@ -247,14 +247,17 @@ testimonial-item .gallery__image,
 .section [class*='position--text'] {
   display: flex;
 }
+.position--text-right header {
+  order: 2;
+}
 @media screen and (max-width: 768px) {
   .section [class*='position--text'] {
     flex-wrap: wrap;
     gap: 40px;
   } 
-}
-.position--text-right header {
-  order: 2;
+  .shopify-section--collection-list .position--text-right header {
+    order: 1;
+  }
 }
 .section [class*='position--text'] .section__header {
   text-align: left;
