@@ -528,16 +528,15 @@ a.arrow:hover:after {
 
 
 
-
 .width--full .image-with-text__image-wrapper,
 .width--full .image-with-text__content-wrapper {
   margin-inline-end: 0;
   margin-inline-start: 0;
 }
-.width--full .container {
-  padding-inline: 0;
-}
 @media screen and (max-width: 768px) {
+  .width--full .container {
+    padding-inline: 0;
+  }
   .image-with-text__image-wrapper {
     width: 100% !important;
   }
