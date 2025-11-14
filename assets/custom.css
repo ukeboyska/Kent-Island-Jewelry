@@ -114,7 +114,6 @@ footer .footer__copyright .link--faded {
 .before_after .multi-column__item * {
   height: 100% !important;
 }
-.image-with-text__image-wrapper,
 .image-with-text__image-wrapper img,
 .list-collections__item:has(.list-collections__item-image-wrapper),
 .list-collections__item-image-wrapper,
@@ -127,6 +126,10 @@ testimonial-item .gallery__image,
 .before_after .multi-column__item * {
   border-radius: 10px !important;
   width: 100% !important;
+  overflow: hidden;
+}
+.image-with-text__image-wrapper {
+  border-radius: 10px !important;
   overflow: hidden;
 }
 .multi-column__image-wrapper .multi-column__image {
