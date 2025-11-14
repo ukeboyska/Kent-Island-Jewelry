@@ -497,7 +497,7 @@
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
-        "stack_items": false,
+        "stack_items": true,
         "layout_options": "before_after",
         "subheading": "Before and After",
         "title": "See the Results",
@@ -556,7 +556,7 @@
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
-        "stack_items": false,
+        "stack_items": true,
         "layout_options": "before_after",
         "subheading": "",
         "title": "",
