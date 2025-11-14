@@ -1160,6 +1160,80 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
+    },
+    "multi_column_VAFNYk": {
+      "type": "multi-column",
+      "blocks": {
+        "item_aMwXN3": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/noreaster_art_3.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_rwwGc3": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/rings-collection.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_t7n6Yj": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/silver-spike-adjustable-double-ring.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_aMwXN3",
+        "item_rwwGc3",
+        "item_t7n6Yj"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "layout_options": "",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "image_aspect_ratio": "4/3",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -1181,6 +1255,7 @@
     "multi_column_RiKh9T",
     "multi_column_KpQHJg",
     "multi_column_cFLwFF",
-    "image_with_text_VmafnV"
+    "image_with_text_VmafnV",
+    "multi_column_VAFNYk"
   ]
 }
