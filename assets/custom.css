@@ -342,7 +342,7 @@ testimonial-item:has(img) .testimonial__author {
   flex-wrap: wrap;
 }
 .multi-column[stack] .multi-column__item {
-  flex-basis: 33.3%;
+  flex-basis: calc(34.15% - var(--multi-column-column-gap));
 }
 @media screen and (max-width: 1000px) {
   /*[class*=prev-next].hidden-pocket*/
