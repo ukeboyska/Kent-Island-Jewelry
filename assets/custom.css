@@ -257,7 +257,8 @@ testimonial-item .gallery__image,
   } 
   .shopify-section--collection-list .position--text-right header {
     order: -1;
-    margin-bottom: 0;
+    justify-content: center;
+    text-align: center;
   }
 }
 .section [class*='position--text'] .section__header {
