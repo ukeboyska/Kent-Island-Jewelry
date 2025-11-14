@@ -524,3 +524,13 @@ a.arrow:hover:after {
     box-sizing: border-box;
   }
 }
+
+
+
+
+
+.width--full .image-with-text__image-wrapper,
+.width--full .image-with-text__content-wrapper {
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+}
