@@ -250,6 +250,15 @@ testimonial-item .gallery__image,
 .position--text-right header {
   order: 2;
 }
+.section [class*='position--text'] .section__header {
+  text-align: left;
+}
+.shopify-section--featured-collections [class*='position--text'] .section__header {
+  align-content: center;
+}
+.shopify-section--featured-collections [class*='position--text'] {
+  flex-wrap: wrap;
+}
 @media screen and (max-width: 768px) {
   .section [class*='position--text'] {
     flex-wrap: wrap;
@@ -260,15 +269,6 @@ testimonial-item .gallery__image,
     justify-content: center;
     text-align: center;
   }
-}
-.section [class*='position--text'] .section__header {
-  text-align: left;
-}
-.shopify-section--featured-collections [class*='position--text'] .section__header {
-  align-content: center;
-}
-.shopify-section--featured-collections [class*='position--text'] {
-  flex-wrap: wrap;
 }
 
 .position--text-right .list-collections__item-list {
