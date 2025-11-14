@@ -527,7 +527,10 @@ a.arrow:hover:after {
 
 
 
-.padding-bottom--none {
+.padding-bottom--none:has(.image-with-text__wrapper) {
+  margin-bottom: 40px;
+}
+.padding-bottom--none .image-with-text__wrapper {
   padding-bottom: 0 !important;
 }
 .width--full .image-with-text__image-wrapper,
