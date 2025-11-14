@@ -130,7 +130,7 @@
             {%- endif -%}
           </div>
 
-          <div class="image-with-text__content-wrapper">
+          <div class="image-with-text__content-wrapper" {% if section.settings.image_width %}style="width:calc(100% - {{ section.settings.image_width }});"{% endif %}>
             <div class="image-with-text__content-list">
               {%- for block in section.blocks -%}
                 <image-with-text-item {% if block.settings.image != blank and image_count > 1 %}attached-image="block-{{ block.id }}-{{ block.settings.image.id }}"{% endif %} {% unless forloop.first %}hidden{% endunless %} class="image-with-text__content text-container text--{{ section.settings.text_alignment }}" {{ block.shopify_attributes }}>
