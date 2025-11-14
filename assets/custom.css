@@ -177,7 +177,7 @@ testimonial-item .gallery__image,
   bottom: 0;
   width: 100%;
   padding: 20px;
-  z-index: 5;
+  z-index: 3;
 }
 .modal_grid .multi-column__text-container,
 .modal_grid .multi-column__text-container > * {
