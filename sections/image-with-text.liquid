@@ -72,7 +72,7 @@
   {%- endif -%}
 </style>
 
-<section class="section with-background-image {% if section.settings.background_overlap == 'both' and is_boxed == false %}section--flush{% endif %}" {% if section.settings.background_image != blank %}style="background-image: url({{ section.settings.background_image.src | img_url: "medium" }});"{% endif %}>
+<section class="section with-background-image {% if section.settings.section_width != blank %} width--{{ section.settings.section_width }} {% endif %} {% if section.settings.background_overlap == 'both' and is_boxed == false %}section--flush{% endif %}" {% if section.settings.background_image != blank %}style="background-image: url({{ section.settings.background_image.src | img_url: "medium" }});"{% endif %}>
   <div {% if is_boxed %}class="container"{% endif %}>
     {%- assign first_block = section.blocks.first -%}
 
@@ -215,6 +215,21 @@
         }
       ],
       "default": "full_width"
+    },
+    {
+      "type": "select",
+      "id": "section_width",
+      "label": "Section Width",
+      "options": [
+        {
+          "value": "contained",
+          "label": "Contained"
+        },
+        {
+          "value": "full",
+          "label": "Full"
+        }
+      ]
     },
     {
       "type": "select",
