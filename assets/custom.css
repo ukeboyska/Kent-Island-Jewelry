@@ -538,10 +538,12 @@ a.arrow:hover:after {
   margin-inline-end: 0;
   margin-inline-start: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .width--full .container {
     padding-inline: 0;
   }
+}
+@media screen and (max-width: 768px) {
   .image-with-text__image-wrapper {
     width: 100% !important;
   }
