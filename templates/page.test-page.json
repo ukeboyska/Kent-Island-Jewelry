@@ -691,6 +691,22 @@
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
+        },
+        "item_bVQpHk": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
         }
       },
       "block_order": [
@@ -700,7 +716,8 @@
         "item_mJdNfK",
         "item_VBDmnd",
         "item_bqEtXF",
-        "item_rXcDhp"
+        "item_rXcDhp",
+        "item_bVQpHk"
       ],
       "name": "Multi-column",
       "settings": {
