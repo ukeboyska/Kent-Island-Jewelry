@@ -268,6 +268,7 @@ testimonial-item .gallery__image,
     order: -1;
     justify-content: center;
     text-align: center !important;
+    margin-bottom: 40px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
