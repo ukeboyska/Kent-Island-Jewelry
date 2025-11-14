@@ -1136,6 +1136,7 @@
         "item_D73VHm": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/noreaster_art_3.png",
             "tab_label": "Item",
             "subheading": "Subheading",
             "title": "Image with text",
