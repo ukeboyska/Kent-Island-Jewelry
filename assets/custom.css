@@ -338,8 +338,8 @@ testimonial-item:has(img) .testimonial__author {
   background: rgb(var(--text-color)) !important;
 }
 @media screen and (max-width: 1000px) {
-  /*.timeline__inner .prev-next-buttons.hidden-pocket{*/
-  [class*=prev-next].hidden-pocket {
+  /*[class*=prev-next].hidden-pocket*/
+  .timeline__inner .prev-next-buttons.hidden-pocket {
     margin-right: 25px;
     display: block !important;
   }
