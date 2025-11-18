@@ -9,59 +9,6 @@
  */
 {
   "sections": {
-    "slideshow_qHkM7q": {
-      "type": "slideshow",
-      "blocks": {
-        "image_pN7LnW": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle_left",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "button_1_text": "button",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 72
-          }
-        },
-        "image_YNtyyM": {
-          "type": "image",
-          "settings": {
-            "video": "shopify://files/videos/647f13388c4942d9933673ebf09b001f.mp4",
-            "text_position": "middle_left",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "button_1_text": "button",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 31
-          }
-        }
-      },
-      "block_order": [
-        "image_pN7LnW",
-        "image_YNtyyM"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "section_height": "small",
-        "transition_type": "sweep",
-        "show_initial_transition": false,
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -1262,6 +1209,42 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_Jeij67": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_wbjDzh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/noreaster_art_3.png",
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_wbjDzh"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "full",
+        "background_overlap": "image",
+        "image_position": "right",
+        "image_width": "32.25%",
+        "section_padding_bottom": "none",
+        "text_alignment": "right",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "multi_column_PgyfFR": {
       "type": "multi-column",
       "blocks": {
@@ -1338,46 +1321,9 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
-    },
-    "image_with_text_Jeij67": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_wbjDzh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_wbjDzh"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "section_width": "full",
-        "background_overlap": "image",
-        "image_position": "right",
-        "image_width": "32.25%",
-        "section_padding_bottom": "none",
-        "text_alignment": "right",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
-    "slideshow_qHkM7q",
     "main",
     "image_with_text_FQyfNe",
     "image_with_text_DMRCa4",

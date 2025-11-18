@@ -9,12 +9,53 @@
  */
 {
   "sections": {
+    "image_with_text_HJ9nwb": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_AQEKG8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/K-58.jpg",
+            "tab_label": "Item",
+            "subheading": "About us",
+            "title": "25 Years of Service",
+            "content": "<p>At <strong>Kent Island Jewelry</strong>, we believe jewelry should do more than sparkle — it should tell a story. For more than 24 years, our boutique has been a trusted part of the Eastern Shore community, helping people celebrate life’s most meaningful milestones with pieces that hold heart, heritage, and artistry.</p>",
+            "button_text": "Meet our Team",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_AQEKG8"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "background_image": "shopify://shop_images/shell2.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "left",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#d1e1e3",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
     }
   },
   "order": [
+    "image_with_text_HJ9nwb",
     "main"
   ]
 }
