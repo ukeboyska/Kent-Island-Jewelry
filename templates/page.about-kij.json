@@ -28,6 +28,9 @@
       "block_order": [
         "item_AQEKG8"
       ],
+      "custom_css": [
+        "h3 {font-size: 45px}"
+      ],
       "name": "Image with text",
       "settings": {
         "background_image": "shopify://shop_images/shell2.svg",
