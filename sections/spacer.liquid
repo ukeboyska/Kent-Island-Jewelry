@@ -1,4 +1,4 @@
-<div class="section spacer" style="margin: 0;{%- if section.settings.spacer_height != blank -%}height: {{ section.settings.spacer_height }};{% endif %}"><span></span></div>
+<div class="section spacer" style="margin: 0; height:{%- if section.settings.custom_height != blank -%}{{ section.settings.custom_height }};{% endif %}"><span></span></div>
 
 
 {% schema %}
@@ -10,27 +10,14 @@
   },
   "settings": [
     {
-      "type": "select",
-      "id": "spacer_height",
-      "label": "Spacer Height",
-      "options": [
-        {
-          "value": "20px",
-          "label": "Tiny"
-        },
-        {
-          "value": "40px",
-          "label": "Small"
-        },
-        {
-          "value": "60px",
-          "label": "Medium"
-        },
-        {
-          "value": "80px",
-          "label": "Large"
-        }
-      ]
+        "type": "range",
+        "id": "custom_height",
+        "label": "Custom Height",
+        "min": 4,
+        "max": 120,
+        "step": 4,
+        "unit": "px",
+        "default": 12
     }
   ],
   "presets": [
