@@ -134,10 +134,10 @@ testimonial-item .gallery__image,
 }
 @media screen and (min-width: 768px) {
   .image-with-text--overlap-image:not(.image-with-text--reverse):not(:lang(ae),:lang(ar),:lang(arc),:lang(bcc),:lang(bqi),:lang(ckb),:lang(dv),:lang(fa),:lang(glk),:lang(he),:lang(ku),:lang(mzn),:lang(nqo),:lang(pnb),:lang(ps),:lang(sd),:lang(ug),:lang(ur),:lang(yi)):before {
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 10px 10px 0px;
   }
   .image-with-text:not(:lang(ae),:lang(ar),:lang(arc),:lang(bcc),:lang(bqi),:lang(ckb),:lang(dv),:lang(fa),:lang(glk),:lang(he),:lang(ku),:lang(mzn),:lang(nqo),:lang(pnb),:lang(ps),:lang(sd),:lang(ug),:lang(ur),:lang(yi)):before {
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 0 0 10px;
   }
 }
 .multi-column__image-wrapper .multi-column__image {
