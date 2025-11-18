@@ -1,3 +1,5 @@
+{%comment %}
+
 {%- liquid
   assign alignment_values = section.settings.alignment | split: '_'
   assign heading_alignment = alignment_values | first
@@ -473,3 +475,6 @@
   ]
 }
 {% endschema %}
+
+
+{% endcomment %}
