@@ -132,6 +132,77 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "rich_text_iNVjr3": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "subheading": "",
+        "title": "Reliable Service",
+        "content": "<p>From our <strong>on-site jeweler and design team</strong> to our <strong>carefully curated selection of fine jewelry</strong>, we’re here to help you find or create something extraordinary. Our services include:</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_with_icons_zdXnXy": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_ePt3Yh": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon_width": 50,
+            "title": "Custom jewelry design & CAD modeling",
+            "content": ""
+          }
+        },
+        "item_L9tj9e": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon_width": 50,
+            "title": "Professional repairs & restoration",
+            "content": ""
+          }
+        },
+        "item_QHgQck": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon_width": 50,
+            "title": "Gold and Jewelry buying",
+            "content": ""
+          }
+        },
+        "item_LABczn": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon_width": 50,
+            "title": "Appraisals & insurance documentation",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_ePt3Yh",
+        "item_L9tj9e",
+        "item_QHgQck",
+        "item_LABczn"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -145,6 +216,8 @@
     "rich_text_dBAQ4r",
     "testimonials_cPUCMW",
     "image_with_text_M38H9D",
+    "rich_text_iNVjr3",
+    "text_with_icons_zdXnXy",
     "main"
   ]
 }
