@@ -1,0 +1,34 @@
+<div class="section spacer" style="{%- if section.settings.spacer_height != blank -%}height: {{ section.settings.spacer_height }};{% endif %}"></div>
+
+
+{% schema %}
+{
+  "name": "Spacer",
+  "class": "shopify-section--spacer",
+  "settings": [
+    {
+      "type": "select",
+      "id": "spacer_height",
+      "label": "Spacer Height",
+      "options": [
+        {
+          "value": "20px",
+          "label": "Tiny"
+        },
+        {
+          "value": "40px",
+          "label": "Small"
+        },
+        {
+          "value": "60px",
+          "label": "Medium"
+        },
+        {
+          "value": "80px",
+          "label": "Large"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
