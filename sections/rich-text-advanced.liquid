@@ -82,13 +82,6 @@
             buttons_can_inline: true,
             forloop: forloop
           -%}
-        {%- when 'play-button' -%}
-          {%-
-            render 'play-button-block' with
-            wrapper_class: 'rich-text__play-button section-blocks__video-button',
-            block: block,
-            button_alignment: content_alignment
-          -%}
         {%- when 'border' -%}
           {%- render 'border-block' -%}
         {%- when 'spacer' -%}
@@ -461,103 +454,6 @@
             }
           ],
           "default": "btn--primary"
-        }
-      ]
-    },
-    {
-      "type": "play-button",
-      "name": "t:shared.section_blocks.play_button.name",
-      "settings": [
-        {
-          "type": "radio",
-          "id": "video_source",
-          "label": "t:shared.settings.video_source.label",
-          "options": [
-            {
-              "value": "shopify",
-              "label": "t:shared.settings.video_source.options.shopify"
-            },
-            {
-              "value": "external",
-              "label": "t:shared.settings.video_source.options.external"
-            }
-          ],
-          "default": "external"
-        },
-        {
-          "type": "video",
-          "id": "video",
-          "label": "t:shared.settings.video.label",
-          "info": "t:shared.settings.video.info"
-        },
-        {
-          "type": "video_url",
-          "id": "video_url",
-          "label": "t:shared.settings.external_video_url.label",
-          "accept": [
-            "youtube",
-            "vimeo"
-          ],
-          "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
-        },
-        {
-          "type": "header",
-          "content": "t:shared.section_blocks.play_button.settings.play_button.header.content"
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:shared.section_blocks.play_button.settings.play_button.image.label"
-        },
-        {
-          "type": "select",
-          "id": "aspect_ratio",
-          "label": "t:shared.section_blocks.play_button.settings.play_button.aspect_ratio.label",
-          "options": [
-            {
-              "value": "natural",
-              "label": "t:shared.options.aspect_ratio.natural"
-            },
-            {
-              "value": "square",
-              "label": "t:shared.options.aspect_ratio.square"
-            },
-            {
-              "value": "portrait",
-              "label": "t:shared.options.aspect_ratio.portrait"
-            },
-            {
-              "value": "landscape",
-              "label": "t:shared.options.aspect_ratio.landscape"
-            }
-          ],
-          "default": "square"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "label": "t:shared.section_blocks.play_button.settings.play_button.text.label",
-          "default": "t:shared.section_blocks.play_button.settings.play_button.text.default"
-        },
-        {
-          "type": "select",
-          "id": "icon_style",
-          "label": "t:shared.section_blocks.play_button.settings.play_button.icon_style.label",
-          "options": [
-            {
-              "value": "dark",
-              "label": "t:shared.section_blocks.play_button.settings.play_button.icon_style.options.dark"
-            },
-            {
-              "value": "light",
-              "label": "t:shared.section_blocks.play_button.settings.play_button.icon_style.options.light"
-            },
-            {
-              "value": "outline",
-              "label": "t:shared.section_blocks.play_button.settings.play_button.icon_style.options.outline"
-            }
-          ],
-          "default": "outline"
         }
       ]
     },
