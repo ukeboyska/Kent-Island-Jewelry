@@ -46,6 +46,25 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "rich_text_dBAQ4r": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "subheading": "",
+        "title": "Eastern Shore Artistry",
+        "content": "<p>Co-owners <strong>Patricia Knell & Mary Jo Duffy</strong> bring together decades of experience in fine jewelry, retail, and design. What began as a small island store has grown into a <strong>luxury destination</strong> where craftsmanship, innovation, and personal connection come together.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -56,6 +75,7 @@
   },
   "order": [
     "image_with_text_HJ9nwb",
+    "rich_text_dBAQ4r",
     "main"
   ]
 }
