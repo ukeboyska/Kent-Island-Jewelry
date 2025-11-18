@@ -43,7 +43,7 @@
           {%- endunless -%}
         {%- when 'subheading' -%}
           {%- unless block.settings.subheading == blank -%}
-            <{{ block.settings.subheading_tag }} class="rich-text__subheading ff-subheading {{ block.settings.subheading_font_class }} section-blocks__subheading">
+            <{{ block.settings.subheading_tag }} class="rich-text__subheading ff-subheading section-blocks__subheading">
               {{ block.settings.subheading }}
             </{{ block.settings.subheading_tag }}>
           {%- endunless -%}
@@ -294,65 +294,45 @@
     },
     {
       "type": "subheading",
-      "name": "t:shared.section_blocks.subheading.name",
+      "name": "Subheading",
       "settings": [
         {
           "type": "text",
           "id": "subheading",
-          "label": "t:shared.section_blocks.subheading.settings.subheading.label",
-          "default": "t:sections.rich_text.blocks.subheading.settings.subheading.default"
+          "label": "Subheading",
+          "default": "Subheading Text"
         },
         {
           "type": "select",
           "id": "subheading_tag",
-          "label": "t:shared.settings.heading_tag.subheading.label",
+          "label": "Subheading Tag",
           "options": [
             {
               "value": "h2",
-              "label": "t:shared.settings.heading_tag.options.h2"
+              "label": "H2"
             },
             {
               "value": "h3",
-              "label": "t:shared.settings.heading_tag.options.h3"
+              "label": "H3"
             },
             {
               "value": "h4",
-              "label": "t:shared.settings.heading_tag.options.h4"
+              "label": "H4"
             },
             {
               "value": "h5",
-              "label": "t:shared.settings.heading_tag.options.h5"
+              "label": "H5"
             },
             {
               "value": "h6",
-              "label": "t:shared.settings.heading_tag.options.h6"
+              "label": "H6"
             }
           ],
           "default": "h3"
         },
         {
           "type": "paragraph",
-          "content": "t:shared.settings.heading_tag.subheading.info"
-        },
-        {
-          "type": "select",
-          "id": "subheading_font_class",
-          "label": "t:shared.settings.subheading_font_class.label",
-          "options": [
-            {
-              "value": "fs-heading-6-base",
-              "label": "t:shared.settings.subheading_font_class.options.small"
-            },
-            {
-              "value": "fs-heading-5-base",
-              "label": "t:shared.settings.subheading_font_class.options.medium"
-            },
-            {
-              "value": "fs-heading-4-base",
-              "label": "t:shared.settings.subheading_font_class.options.large"
-            }
-          ],
-          "default": "fs-heading-5-base"
+          "content": "Paragraph"
         }
       ]
     },
@@ -390,17 +370,17 @@
     },
     {
       "type": "image",
-      "name": "t:shared.section_blocks.image.name",
+      "name": "Image",
       "settings": [
         {
           "type": "image_picker",
           "id": "image",
-          "label": "t:shared.section_blocks.image.settings.image.label"
+          "label": "Image Picker"
         },
         {
           "type": "range",
           "id": "image_size",
-          "label": "t:shared.section_blocks.image.settings.image_size.label",
+          "label": "Image Size",
           "min": 50,
           "max": 750,
           "step": 10,
@@ -410,7 +390,7 @@
         {
           "type": "range",
           "id": "image_size_mobile",
-          "label": "t:shared.section_blocks.image.settings.image_size_mobile.label",
+          "label": "Image Size Mobile",
           "min": 50,
           "max": 350,
           "step": 10,
@@ -421,36 +401,36 @@
     },
     {
       "type": "button",
-      "name": "t:shared.section_blocks.button.name",
+      "name": "Button",
       "limit": 2,
       "settings": [
         {
           "type": "url",
           "id": "link",
-          "label": "t:shared.settings.button_link.label"
+          "label": "Link URL"
         },
         {
           "type": "text",
           "id": "link_text",
-          "label": "t:shared.settings.button_link_text.label",
-          "default": "t:shared.section_blocks.button.settings.link_text.default"
+          "label": "Link Text",
+          "default": "Text"
         },
         {
           "type": "select",
           "id": "button_style",
-          "label": "t:shared.settings.button_style.label",
+          "label": "Button Style",
           "options": [
             {
               "value": "btn--primary",
-              "label": "t:shared.settings.button_style.options.solid"
+              "label": "Primary"
             },
             {
               "value": "btn--secondary",
-              "label": "t:shared.settings.button_style.options.outline"
+              "label": "Secondary"
             },
             {
               "value": "btn--callout",
-              "label": "t:shared.settings.button_style.options.text"
+              "label": "Callout"
             }
           ],
           "default": "btn--primary"
@@ -459,16 +439,16 @@
     },
     {
       "type": "border",
-      "name": "t:shared.section_blocks.border.name"
+      "name": "Border"
     },
     {
       "type": "spacer",
-      "name": "t:shared.section_blocks.spacer.name",
+      "name": "Spacer",
       "settings": [
         {
           "type": "range",
           "id": "space",
-          "label": "t:shared.section_blocks.spacer.settings.space.label",
+          "label": "Space Height",
           "min": 4,
           "max": 64,
           "step": 4,
