@@ -1375,6 +1375,13 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "spacer_LBN9cB": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 24
+      }
+    },
     "multi_column_qMR6gU": {
       "type": "multi-column",
       "blocks": {
@@ -1459,6 +1466,7 @@
     "multi_column_VAFNYk",
     "image_with_text_Jeij67",
     "multi_column_PgyfFR",
+    "spacer_LBN9cB",
     "multi_column_qMR6gU",
     "multi_column_8DgM8R"
   ]
