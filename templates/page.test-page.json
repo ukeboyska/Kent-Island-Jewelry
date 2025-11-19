@@ -1404,13 +1404,13 @@
         "reveal_on_scroll": true,
         "stack_items": false,
         "layout_options": "",
-        "subheading": "Subheading",
-        "title": "One Image",
-        "content": "<p>ContentContent Conte ntContent</p>",
+        "subheading": "",
+        "title": "",
+        "content": "",
         "image_aspect_ratio": "",
         "column_alignment": "center",
         "mobile_item_size": "medium",
-        "desktop_item_size": "large",
+        "desktop_item_size": "small",
         "spacing": "normal",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
@@ -1418,28 +1418,6 @@
     },
     "multi_column_8DgM8R": {
       "type": "multi-column",
-      "blocks": {
-        "item_kXHHJa": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/K-58.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_kXHHJa"
-      ],
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
