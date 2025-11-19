@@ -1262,6 +1262,42 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_Jeij67": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_wbjDzh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/noreaster_art_3.png",
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_wbjDzh"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "full",
+        "background_overlap": "image",
+        "image_position": "right",
+        "image_width": "32.25%",
+        "section_padding_bottom": "none",
+        "text_alignment": "right",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "multi_column_PgyfFR": {
       "type": "multi-column",
       "blocks": {
@@ -1339,40 +1375,45 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "image_with_text_Jeij67": {
-      "type": "image-with-text",
+    "multi_column_qMR6gU": {
+      "type": "multi-column",
       "blocks": {
-        "item_wbjDzh": {
+        "item_QLn7nE": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
+            "collection": "",
+            "image": "shopify://shop_images/K-58.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
           }
         }
       },
       "block_order": [
-        "item_wbjDzh"
+        "item_QLn7nE"
       ],
-      "name": "Image with text",
+      "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "section_width": "full",
-        "background_overlap": "image",
-        "image_position": "right",
-        "image_width": "32.25%",
-        "section_padding_bottom": "none",
-        "text_alignment": "right",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
+        "stack_items": false,
+        "layout_options": "",
+        "subheading": "Subheading",
+        "title": "One Image",
+        "content": "",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
@@ -1398,6 +1439,7 @@
     "image_with_text_VmafnV",
     "multi_column_VAFNYk",
     "image_with_text_Jeij67",
-    "multi_column_PgyfFR"
+    "multi_column_PgyfFR",
+    "multi_column_qMR6gU"
   ]
 }
