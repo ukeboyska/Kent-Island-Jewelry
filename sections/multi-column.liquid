@@ -74,7 +74,7 @@
       {%- endif -%}
 
       {%- if section.blocks.size > 0 -%}
-        <multi-column {% if section.settings.stack_items %}stack{% endif %} {% if section.settings.reveal_on_scroll %}stagger-apparition{% endif %} class="{% if section.settings.layout_options %}{{ section.settings.layout_options }}{% endif %} multi-column multi-column--pocket-{{ section.settings.mobile_item_size }} multi-column--{{ section.settings.desktop_item_size }} multi-column--spacing-{{ section.settings.spacing }}">
+        <multi-column {% if section.settings.stack_items %}stack{% endif %} {% if section.settings.reveal_on_scroll %}stagger-apparition{% endif %} class="{% if section.settings.layout_options %}{{ section.settings.layout_options }}{% endif %} multi-column multi-column--pocket-{{ section.settings.mobile_item_size }} multi-column--{{ section.settings.desktop_item_size }} multi-column--spacing-{{ section.settings.spacing }}" class="{% if section.settings.remove_top_margin %}no-margin--top{% endif %} {% if section.settings.remove_bottom_margin %}no-margin--bottom{% endif %}"">
           {%- assign align_arrows_on_image = true -%}
           {%- assign smallest_image_aspect_ratio = 0 -%}
           {%- if section.settings.image_aspect_ratio != blank -%}
