@@ -237,9 +237,53 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
-        "show_title": true,
+        "show_title": false,
         "page_width": "medium"
+      }
+    },
+    "spacer_XQ8cbt": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
+    "image_with_text_fwXjMm": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_neRi4c": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>While our roots are local, our vision is far-reaching — blending coastal charm with timeless sophistication. Whether you’re celebrating an engagement, marking an anniversary, or simply treating yourself, <strong>Kent Island Jewelry</strong> is where your story becomes part of ours.</p>",
+            "button_text": "Schedule an Appointment",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_neRi4c"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "background_image": "shopify://shop_images/shell2.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "left",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     }
   },
@@ -254,6 +298,8 @@
     "spacer_F74qUN",
     "rich_text_iNVjr3",
     "text_with_icons_zdXnXy",
-    "main"
+    "main",
+    "spacer_XQ8cbt",
+    "image_with_text_fwXjMm"
   ]
 }
