@@ -244,12 +244,12 @@
         "item_dDP4gh": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
+            "image": "shopify://shop_images/K-17_2.jpg",
             "tab_label": "Item",
             "subheading": "Subheading",
-            "title": "Image with text",
+            "title": "Trusted for 25 Years",
             "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
+            "button_text": "Our Story",
             "button_link": ""
           }
         }
