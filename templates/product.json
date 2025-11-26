@@ -72,7 +72,7 @@
           "type": "liquid",
           "settings": {
             "title": "Details",
-            "liquid": "{{ product.metafields.custom.details | metafield_tag }}"
+            "liquid": "{{ product.metafields.shopify.jewelry-material | metafield_tag }}"
           }
         },
         "content_LAACnK": {
@@ -83,20 +83,20 @@
             "page": ""
           }
         },
-        "content_UzD4mb": {
-          "type": "content",
-          "settings": {
-            "title": "Refund Policy",
-            "content": "",
-            "page": "refund-policy"
-          }
-        },
         "content_7ENLx4": {
           "type": "content",
           "settings": {
             "title": "Warranty",
             "content": "",
             "page": "warranty"
+          }
+        },
+        "content_UzD4mb": {
+          "type": "content",
+          "settings": {
+            "title": "Refund Policy",
+            "content": "",
+            "page": "refund-policy"
           }
         },
         "trust_hBWNJc": {
@@ -117,8 +117,8 @@
       "block_order": [
         "liquid_VQnjra",
         "content_LAACnK",
-        "content_UzD4mb",
         "content_7ENLx4",
+        "content_UzD4mb",
         "trust_hBWNJc"
       ],
       "settings": {}
