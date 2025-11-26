@@ -649,6 +649,9 @@ a.arrow:hover:after {
   .slideshow__slide-inner {
     flex-wrap: wrap;
   }
+  .slideshow__slide-inner .container {
+    background: rgb(var(--section-accent-background));
+  }
   .slideshow__slide-inner .container,
   .slideshow__slide-inner .slideshow__image-wrapper,
   .slideshow__slide-inner .slideshow__image-wrapper .slideshow__image  {
