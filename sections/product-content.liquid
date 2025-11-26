@@ -173,6 +173,19 @@
       {%- endcapture -%}
     {%- endif -%}
 
+    <collapsible-content open id="block-details-content" class="collapsible">
+      {% assign jewelry_materials = product.metafields.shopify.jewelry-material.value %}
+      {% if jewelry_materials %}
+
+        {% for jewelry_material in jewelry_materials %}
+
+          {{ jewelry_material }}
+
+        {% endfor %}
+
+      {%endif%}
+    </collapsible-content>
+
     {%- if product_tabs_nav_items != blank -%}
       <div class="product-tabs__content">
         {%- assign processed_blocks = 0 -%}
