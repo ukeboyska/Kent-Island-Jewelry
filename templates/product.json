@@ -79,7 +79,7 @@
           "type": "content",
           "settings": {
             "title": "Details",
-            "content": "<p>&lt;span&gt;&lt;/span&gt;</p>",
+            "content": "<span></span>",
             "page": ""
           }
         },
