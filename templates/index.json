@@ -267,6 +267,8 @@
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
         "stack_items": false,
         "layout_options": "",
         "subheading": "Subheading",
@@ -667,6 +669,8 @@
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
         "stack_items": false,
         "layout_options": "",
         "subheading": "Subheading",
@@ -685,7 +689,7 @@
       "type": "spacer",
       "name": "Spacer",
       "settings": {
-        "spacer_height": "80px"
+        "custom_height": 12
       }
     }
   },

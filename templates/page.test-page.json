@@ -279,6 +279,23 @@
     "multi_column_GiGCLt": {
       "type": "multi-column",
       "blocks": {
+        "item_jwYH7Y": {
+          "type": "item",
+          "settings": {
+            "collection": "necklaces",
+            "image": "shopify://shop_images/noreaster_art_3.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
         "item_yRwgt8": {
           "type": "item",
           "settings": {
@@ -299,23 +316,6 @@
           "type": "item",
           "settings": {
             "collection": "gold",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_jwYH7Y": {
-          "type": "item",
-          "settings": {
-            "collection": "necklaces",
-            "image": "shopify://shop_images/noreaster_art_3.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -381,9 +381,9 @@
         }
       },
       "block_order": [
+        "item_jwYH7Y",
         "item_yRwgt8",
         "item_p3VMDr",
-        "item_jwYH7Y",
         "item_mwCBGm",
         "item_nwHBKq",
         "item_9JgRmG"
@@ -413,6 +413,7 @@
         "testimonial_wzRJDd": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/rings-collection.jpg",
             "content": "Write some content about what they are saying about your store.",
             "author": "John S.",
             "link_text": "Read Full Story",

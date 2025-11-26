@@ -62,63 +62,6 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "show_title": true,
-        "page_width": "medium"
-      }
-    },
-    "image_with_text_FQyfNe": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_VQTrJx": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/647f13388c4942d9933673ebf09b001f.mp4",
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item_6mwVqC": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_VQTrJx",
-        "item_6mwVqC"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "background_image": "shopify://shop_images/shell2.svg",
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "section_width": "contained",
-        "background_overlap": "image",
-        "image_position": "left",
-        "image_width": "",
-        "section_padding_bottom": "default",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "#d2545a",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "image_with_text_DMRCa4": {
       "type": "image-with-text",
       "blocks": {
@@ -1464,16 +1407,21 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
     }
   },
   "order": [
     "slideshow_qHkM7q",
-    "main",
-    "image_with_text_FQyfNe",
+    "multi_column_GiGCLt",
     "image_with_text_DMRCa4",
     "collection_list_CnJr8q",
     "featured_collections_pwbAUa",
-    "multi_column_GiGCLt",
     "testimonials_pkgtre",
     "multi_column_gkmQCp",
     "multi_column_gpKmFj",
@@ -1491,6 +1439,7 @@
     "multi_column_PgyfFR",
     "spacer_LBN9cB",
     "multi_column_qMR6gU",
-    "multi_column_8DgM8R"
+    "multi_column_8DgM8R",
+    "main"
   ]
 }
