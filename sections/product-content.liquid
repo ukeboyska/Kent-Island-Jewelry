@@ -180,8 +180,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'description' -%}
-
-              {%comment%}{%- if product.description != blank -%}{%endcomment%}
+              {%- if product.description != blank -%}
                 <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper">
                   <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-controls="block-{{ section.id }}-{{ block.id }}-content" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}">
                     {{- 'product.general.description' | t -}}
@@ -189,20 +188,6 @@
                   </button>
 
                   <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
-
-                  {% assign jewelry_materials = product.metafields.shopify.jewelry-material.value %}
-                    {% if jewelry_materials %}
-
-                      {% for jewelry_material in jewelry_materials %}
-
-                        {{ jewelry_material }}
-
-                      {% endfor %}
-
-                    {%endif%}
-
-
-                    {%comment%}
                     <div class="product-tabs__tab-item-content rte">
                       {{- product.description -}}
                     </div>
@@ -212,12 +197,11 @@
                         {{- trust_content -}}
                       </div>
                     {%- endif -%}
-                    {%endcomment%}
                   </collapsible-content>
                 </div>
 
                 {%- assign processed_blocks = processed_blocks | plus: 1 -%}
-              {%comment%}{%- endif -%}{%endcomment%}
+              {%- endif -%}
 
           {%- when 'content' -%}
             {%- if block.settings.page != blank -%}
@@ -236,16 +220,31 @@
                 </button>
 
                 <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
-                  <div class="product-tabs__tab-item-content rte">
-                    {{- content -}}
-                  </div>
+                  {% if title == 'Details' %}
+                    
+                    {% assign jewelry_materials = product.metafields.shopify.jewelry-material.value %}
+                      {% if jewelry_materials %}
 
-                  {%- if trust_content != blank and processed_blocks == 0 -%}
-                    <div class="product-tabs__trust-list hidden-pocket">
-                      {{- trust_content -}}
-                    </div>
-                  {%- endif -%}
+                        {% for jewelry_material in jewelry_materials %}
+
+                          {{ jewelry_material }}
+
+                        {% endfor %}
+
+                      {%endif%}
+                  {% else %}
+                      <div class="product-tabs__tab-item-content rte">
+                        {{- content -}}
+                      </div>
+
+                      {%- if trust_content != blank and processed_blocks == 0 -%}
+                        <div class="product-tabs__trust-list hidden-pocket">
+                          {{- trust_content -}}
+                        </div>
+                      {%- endif -%}
+                  {% endif %}
                 </collapsible-content>
+
               </div>
 
               {%- assign processed_blocks = processed_blocks | plus: 1 -%}
