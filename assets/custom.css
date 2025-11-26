@@ -633,7 +633,7 @@ a.arrow:hover:after {
     border-radius: 0 0 10px 10px;
   }
   .shopify-section--image-with-text .section.with-background-image {
-    height: calc(100% - var(--image-height));
+    background-size: calc(100% - var(--image-height));
     bottom: 0;
   }
 }
