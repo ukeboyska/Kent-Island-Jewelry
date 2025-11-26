@@ -306,6 +306,9 @@ testimonial-item .gallery__image,
   .section [class*='position--text'] .list-collections__item-list {
       grid-auto-rows: 200px;
   }
+  .slideshow__image-wrapper:not(.overlay--solid):before {
+    background: linear-gradient(270deg,rgba(0, 0, 0, 0) 32%, rgba(var(--section-blocks-overlay-color),var(--section-blocks-overlay-opacity)) 100%);
+  }
 }
 /*
 .testimonial-list__wrapper {
@@ -672,7 +675,3 @@ a.arrow:hover:after {
 }
 
 
-
-.slideshow__image-wrapper:not(.overlay--solid):before {
-  background: linear-gradient(270deg,rgba(0, 0, 0, 0) 32%, rgba(var(--section-blocks-overlay-color),var(--section-blocks-overlay-opacity)) 100%);
-}
