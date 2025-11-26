@@ -614,6 +614,7 @@ a.arrow:hover:after {
   .testimonial-wrap {
     flex-wrap: wrap;
   }
+  .testimonial-list__wrapper,
   .testimonial-wrap split-lines {
     width: 80% !important;
     margin: 0 auto;
