@@ -284,6 +284,17 @@
 
                       {%endif%}
 
+                    {% assign total_carat_weight = product.metafields.custom.total_carat_weight.value %}
+                      {% if total_carat_weight %}
+
+                        <li><strong>Total Carat Weight:</strong>
+
+                          <span class="item">{{ total_carat_weight }}</span>
+
+                        </li>
+
+                      {%endif%}
+
                     </ul>
 
                   {% else %}
