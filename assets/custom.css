@@ -661,3 +661,7 @@ a.arrow:hover:after {
   background: rgb(27, 48, 89);
   color: white;
 }
+.slideshow__image-wrapper native-video,
+.slideshow__image-wrapper native-video video {
+  min-height: 100%;
+}
