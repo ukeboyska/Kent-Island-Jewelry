@@ -225,6 +225,8 @@
                     {% assign jewelry_materials = product.metafields.shopify.jewelry-material.value %}
                       {% if jewelry_materials %}
 
+                        <strong>Material:</strong>
+
                         {% for jewelry_material in jewelry_materials %}
 
                           {{ jewelry_material.label }}
