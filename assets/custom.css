@@ -659,7 +659,7 @@ a.arrow:hover:after {
     position: static;
   }
   slide-show-item[hidden] {
-    position: absolute;
+    display: none;
   }
   .slideshow__image-wrapper:before {
     display: none !important;
