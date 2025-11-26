@@ -613,7 +613,7 @@ a.arrow:hover:after {
 @media screen and (max-width: 768px) {
   .testimonial-wrap {
     flex-wrap: wrap;
-    gap: 0;
+    gap: 20px;
   }
   .testimonial-list__wrapper {
     width: 80% !important;
