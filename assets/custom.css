@@ -631,8 +631,8 @@ a.arrow:hover:after {
 }
 .prev-next-button--prev {
   left: 5px;
-  border-left: 1px solid rgba(var(--prev-next-button-color, var(--root-text-color)),.15) !important;
 }
 .prev-next-button--next {
   right: 5px;
+  border-left: 1px solid rgba(var(--prev-next-button-color, var(--root-text-color)),.15) !important;
 }
