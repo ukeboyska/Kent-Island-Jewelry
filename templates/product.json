@@ -78,7 +78,7 @@
         "content_LAACnK": {
           "type": "content",
           "settings": {
-            "title": "Details",
+            "title": "Description",
             "content": "<span></span>",
             "page": ""
           }
