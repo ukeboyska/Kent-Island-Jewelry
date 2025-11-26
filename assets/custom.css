@@ -650,7 +650,8 @@ a.arrow:hover:after {
     flex-wrap: wrap;
   }
   .slideshow__slide-inner .container,
-  .slideshow__slide-inner .slideshow__image-wrapper  {
+  .slideshow__slide-inner .slideshow__image-wrapper,
+  .slideshow__slide-inner .slideshow__image-wrapper .slideshow__image  {
     position: static;
   }
 }
