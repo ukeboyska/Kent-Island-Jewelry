@@ -655,7 +655,7 @@ a.arrow:hover:after {
     position: static;
   }
   .slideshow__slide-inner:before {
-    display: none;
+    display: none !important;
   }
 }
 
