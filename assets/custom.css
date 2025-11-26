@@ -656,3 +656,8 @@ a.arrow:hover:after {
 .testimonial-list__nav {
   margin-block-start: 40px;
 }
+
+.button-group__wrapper > .button:last-child() {
+  background: var(--primary-button-background);
+  color: white;
+}
