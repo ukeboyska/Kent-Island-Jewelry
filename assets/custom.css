@@ -658,6 +658,9 @@ a.arrow:hover:after {
   .slideshow__slide-inner .slideshow__image-wrapper .slideshow__image  {
     position: static;
   }
+  slide-show-item[hidden] {
+    position: absolute;
+  }
   .slideshow__image-wrapper:before {
     display: none !important;
   }
