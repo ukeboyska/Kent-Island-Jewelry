@@ -273,13 +273,13 @@
 
                       </ul>
                       {%endif%}
-                      
-                    {% assign size_details = product.metafields.custom.jewelry_details.value %}
-                      {% if size_details %}
+
+                    {% assign purity = product.metafields.custom.purity.value %}
+                      {% if purity %}
 
                         <li><strong>Size:</strong>
 
-                          <span class="item">{{ size_details }}</span>
+                          <span class="item">{{ purity }}</span>
 
                         </li>
 
