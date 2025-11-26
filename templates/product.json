@@ -79,7 +79,7 @@
           "type": "content",
           "settings": {
             "title": "Details",
-            "content": "{{ block.settings.page.content }}",
+            "content": "<p>&lt;span&gt;&lt;/span&gt;</p>",
             "page": ""
           }
         },
