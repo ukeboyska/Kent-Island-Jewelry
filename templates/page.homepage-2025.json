@@ -62,163 +62,6 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "image_with_text_DMRCa4": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_dDP4gh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item_D9NNXY": {
-          "type": "item",
-          "settings": {
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_dDP4gh",
-        "item_D9NNXY"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "section_width": "contained",
-        "background_overlap": "image",
-        "image_position": "right",
-        "image_width": "",
-        "section_padding_bottom": "default",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "#b2c2b1",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "collection_list_CnJr8q": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_CLBg6b": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "subheading": "",
-            "title": "Vestibulum",
-            "link_text": "",
-            "link_url": "shopify://products/gold-spike-adjustable-double-ring",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_6iF9Yy": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "subheading": "",
-            "title": "Consictur",
-            "link_text": "",
-            "link_url": "shopify://products/test-2",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_tWdmWP": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/gold-spike-adjustable-double-ring.jpg",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection_CLBg6b",
-        "collection_6iF9Yy",
-        "collection_tWdmWP"
-      ],
-      "name": "Collection list",
-      "settings": {
-        "reveal_on_scroll": false,
-        "content_positioning": "position--text-right",
-        "layout": "collage",
-        "subheading": "Seaside Sparkle",
-        "title": "Nautical Treasures",
-        "description": "Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.",
-        "link_text": "Shop Now",
-        "link_url": "shopify://collections",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "featured_collections_pwbAUa": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_8RLaQt": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        },
-        "collection_WtMqgm": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_8RLaQt",
-        "collection_WtMqgm"
-      ],
-      "name": "Featured collections",
-      "settings": {
-        "subheading": "",
-        "title": "Trending this Summer.",
-        "content": "",
-        "content_positioning": "",
-        "products_count": 4,
-        "mobile_products_per_row": "2",
-        "products_per_row": 4,
-        "stack_products": true,
-        "show_cta": false,
-        "hide_vendor": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "multi_column_GiGCLt": {
       "type": "multi-column",
       "blocks": {
@@ -350,6 +193,133 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "spacer_V7YQkb": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 52
+      }
+    },
+    "collection_list_CnJr8q": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_CLBg6b": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/rings-collection.jpg",
+            "subheading": "",
+            "title": "Vestibulum",
+            "link_text": "",
+            "link_url": "shopify://products/gold-spike-adjustable-double-ring",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_6iF9Yy": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/noreaster_art_3.png",
+            "subheading": "",
+            "title": "Consictur",
+            "link_text": "",
+            "link_url": "shopify://products/test-2",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_tWdmWP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/gold-spike-adjustable-double-ring.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_CLBg6b",
+        "collection_6iF9Yy",
+        "collection_tWdmWP"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "reveal_on_scroll": false,
+        "content_positioning": "position--text-right",
+        "layout": "collage",
+        "subheading": "Seaside Sparkle",
+        "title": "Nautical Treasures",
+        "description": "Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.",
+        "link_text": "Shop Now",
+        "link_url": "shopify://collections",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_i9iNBm": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 52
+      }
+    },
+    "image_with_text_DMRCa4": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_dDP4gh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/noreaster_art_3.png",
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "item_D9NNXY": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_dDP4gh",
+        "item_D9NNXY"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "right",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#b2c2b1",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "testimonials_pkgtre": {
       "type": "testimonials",
       "blocks": {
@@ -395,339 +365,6 @@
         "background_image": "shopify://shop_images/shell2.svg",
         "image_aspect_ratio": "",
         "background": "#d1e1e3",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_gkmQCp": {
-      "type": "multi-column",
-      "blocks": {
-        "item_nzzjHE": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_6adUrN": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_nzzjHE",
-        "item_6adUrN"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "stack_items": true,
-        "layout_options": "before_after",
-        "subheading": "Before and After",
-        "title": "See the Results",
-        "content": "",
-        "image_aspect_ratio": "4/3",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "medium",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_gpKmFj": {
-      "type": "multi-column",
-      "blocks": {
-        "item_eGcCVc": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_UtBTRy": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_eGcCVc",
-        "item_UtBTRy"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "stack_items": true,
-        "layout_options": "before_after",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "image_aspect_ratio": "4/3",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "medium",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_UGWMrH": {
-      "type": "multi-column",
-      "blocks": {
-        "item_AjqWXD": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_8MRC6j": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_C7gV6E": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/gold-spike-adjustable-double-ring.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_mJdNfK": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_VBDmnd": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square-blue_1.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_bqEtXF": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_rXcDhp": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_bVQpHk": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_AjqWXD",
-        "item_8MRC6j",
-        "item_C7gV6E",
-        "item_mJdNfK",
-        "item_VBDmnd",
-        "item_bqEtXF",
-        "item_rXcDhp",
-        "item_bVQpHk"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "stack_items": false,
-        "layout_options": "before_after",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "image_aspect_ratio": "1/1",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "medium",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "image_grid_links_dwLBdE": {
-      "type": "image-grid-links",
-      "blocks": {
-        "image_dqaPfq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "caption": "Read Story",
-            "link": "http://google.com"
-          }
-        },
-        "image_AMCBYU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "caption": "Read Story",
-            "link": "http://google.com"
-          }
-        },
-        "image_GF76kb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "caption": "Read Story",
-            "link": "shopify://blogs/news"
-          }
-        }
-      },
-      "block_order": [
-        "image_dqaPfq",
-        "image_AMCBYU",
-        "image_GF76kb"
-      ],
-      "name": "Image Grid w/Links",
-      "settings": {
-        "subheading": "Subheading",
-        "title": "Image Grid",
-        "show_arrows": true,
-        "image_aspect_ratio": "16/9",
-        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -777,563 +414,6 @@
         "title": "",
         "image_aspect_ratio": "1/1",
         "background": "#d1e1e3",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "featured_collections_D7GUE6": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_cMWwMx": {
-          "type": "collection",
-          "settings": {
-            "collection": "silver",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_cMWwMx"
-      ],
-      "name": "Featured collections",
-      "settings": {
-        "subheading": "",
-        "title": "Our Favorites",
-        "content": "",
-        "content_positioning": "position--text-left",
-        "products_count": 3,
-        "mobile_products_per_row": "2",
-        "products_per_row": 3,
-        "stack_products": true,
-        "show_cta": false,
-        "hide_vendor": true,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "timeline_WQyUhe": {
-      "type": "timeline",
-      "blocks": {
-        "item_963KkU": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "label": "2000",
-            "subheading": "Subheading",
-            "title": "Your heading",
-            "content": "<p>Write content about your store</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item_ntwMbF": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "label": "2010",
-            "subheading": "Subheading",
-            "title": "Your heading",
-            "content": "<p>Write content about your store</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item_LzDc9n": {
-          "type": "item",
-          "settings": {
-            "label": "2020",
-            "subheading": "Subheading",
-            "title": "Your heading",
-            "content": "<p>Write content about your store</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_963KkU",
-        "item_ntwMbF",
-        "item_LzDc9n"
-      ],
-      "name": "Timeline",
-      "settings": {
-        "subheading": "Subheading",
-        "title": "Timeline",
-        "heading_alignment": "left",
-        "text_position": "bottom",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "item_background": "rgba(0,0,0,0)",
-        "item_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_RiKh9T": {
-      "type": "multi-column",
-      "blocks": {
-        "item_wJA9mP": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "modal_content": "",
-            "link_text": "Test",
-            "link_url": "shopify://products/test-2",
-            "link_style": "button",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_GgXUAB": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "modal_content": "",
-            "link_text": "Test",
-            "link_url": "",
-            "link_style": "button",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_wJA9mP",
-        "item_GgXUAB"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "stack_items": false,
-        "layout_options": "",
-        "subheading": "Subheading",
-        "title": "Multi-column",
-        "content": "",
-        "image_aspect_ratio": "4/3",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "large",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_KpQHJg": {
-      "type": "multi-column",
-      "blocks": {
-        "item_eqj3hV": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "Test",
-            "link_url": "shopify://products/test-2",
-            "link_style": "arrow",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_h8Ht6c": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "Test",
-            "link_url": "shopify://products/test-2",
-            "link_style": "arrow",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_JgeYLG": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "Test",
-            "link_url": "",
-            "link_style": "arrow",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_eqj3hV",
-        "item_h8Ht6c",
-        "item_JgeYLG"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "stack_items": true,
-        "layout_options": "",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "image_aspect_ratio": "4/3",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "large",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_cFLwFF": {
-      "type": "multi-column",
-      "blocks": {
-        "item_g7Mk8U": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Firstname Lastname",
-            "content": "<p>Role</p>",
-            "modal_content": "<p>CSS Gradient is a <a href=\"https://designstripe.com/\">Designstripe</a> project that lets you create free gradient backgrounds for your website. Besides being a css gradient generator, the site is also chock-full of colorful content about gradients from <a href=\"https://cssgradient.io/blog/resources/\">technical articles</a> to real life <a href=\"https://cssgradient.io/blog/css-gradient-examples/\">gradient examples</a> like Stripe and Instagram.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_QkJccQ": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Firstname2 Lastname2",
-            "content": "<p>Role</p>",
-            "modal_content": "<p>CSS Gradient is a <a href=\"https://designstripe.com/\">Designstripe</a> project that lets you create free gradient backgrounds for your website. Besides being a css gradient generator, the site is also chock-full of colorful content about gradients from <a href=\"https://cssgradient.io/blog/resources/\">technical articles</a> to real life <a href=\"https://cssgradient.io/blog/css-gradient-examples/\">gradient examples</a> like Stripe and Instagram.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_eLFMNw": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/gold-spike-adjustable-double-ring.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Firstnam3e Lastn3ame",
-            "content": "<p>Role</p>",
-            "modal_content": "<p>CSS Gradient is a <a href=\"https://designstripe.com/\">Designstripe</a> project that lets you create free gradient backgrounds for your website. Besides being a css gradient generator, the site is also chock-full of colorful content about gradients from <a href=\"https://cssgradient.io/blog/resources/\">technical articles</a> to real life <a href=\"https://cssgradient.io/blog/css-gradient-examples/\">gradient examples</a> like Stripe and Instagram.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_UzbneR": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square-blue_1.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Firstnamet66 Lastname66",
-            "content": "<p>Role</p>",
-            "modal_content": "<p>CSS Gradient is a <a href=\"https://designstripe.com/\">Designstripe</a> project that lets you create free gradient backgrounds for your website. Besides being a css gradient generator, the site is also chock-full of colorful content about gradients from <a href=\"https://cssgradient.io/blog/resources/\">technical articles</a> to real life <a href=\"https://cssgradient.io/blog/css-gradient-examples/\">gradient examples</a> like Stripe and Instagram.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_g7Mk8U",
-        "item_QkJccQ",
-        "item_eLFMNw",
-        "item_UzbneR"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "stack_items": false,
-        "layout_options": "modal_grid",
-        "subheading": "",
-        "title": "Our Team",
-        "content": "",
-        "image_aspect_ratio": "5/6",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "medium",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "image_with_text_VmafnV": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_D73VHm": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_D73VHm"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "section_width": "full",
-        "background_overlap": "image",
-        "image_position": "left",
-        "image_width": "32.25%",
-        "section_padding_bottom": "none",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_VAFNYk": {
-      "type": "multi-column",
-      "blocks": {
-        "item_aMwXN3": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_rwwGc3": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_t7n6Yj": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/silver-spike-adjustable-double-ring.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_aMwXN3",
-        "item_rwwGc3",
-        "item_t7n6Yj"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "stack_items": true,
-        "layout_options": "",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "image_aspect_ratio": "4/3",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "large",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "image_with_text_Jeij67": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_wbjDzh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_wbjDzh"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "section_width": "full",
-        "background_overlap": "image",
-        "image_position": "right",
-        "image_width": "32.25%",
-        "section_padding_bottom": "none",
-        "text_alignment": "right",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_PgyfFR": {
-      "type": "multi-column",
-      "blocks": {
-        "item_x7BT3Y": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_kyyPCP": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_RRtHYE": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/silver-spike-adjustable-double-ring.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_x7BT3Y",
-        "item_kyyPCP",
-        "item_RRtHYE"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "stack_items": true,
-        "layout_options": "",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "image_aspect_ratio": "4/3",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "large",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -1419,24 +499,12 @@
   "order": [
     "slideshow_qHkM7q",
     "multi_column_GiGCLt",
-    "image_with_text_DMRCa4",
+    "spacer_V7YQkb",
     "collection_list_CnJr8q",
-    "featured_collections_pwbAUa",
+    "spacer_i9iNBm",
+    "image_with_text_DMRCa4",
     "testimonials_pkgtre",
-    "multi_column_gkmQCp",
-    "multi_column_gpKmFj",
-    "multi_column_UGWMrH",
-    "image_grid_links_dwLBdE",
     "testimonials_Be8tfq",
-    "featured_collections_D7GUE6",
-    "timeline_WQyUhe",
-    "multi_column_RiKh9T",
-    "multi_column_KpQHJg",
-    "multi_column_cFLwFF",
-    "image_with_text_VmafnV",
-    "multi_column_VAFNYk",
-    "image_with_text_Jeij67",
-    "multi_column_PgyfFR",
     "spacer_LBN9cB",
     "multi_column_qMR6gU",
     "multi_column_8DgM8R",
