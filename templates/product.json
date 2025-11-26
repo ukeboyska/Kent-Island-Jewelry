@@ -72,7 +72,7 @@
           "type": "liquid",
           "settings": {
             "title": "Details",
-            "liquid": "{{ product.metafields.shopify.jewelry-material.value }}"
+            "liquid": "{{ jewelry_materials }}"
           }
         },
         "content_LAACnK": {
