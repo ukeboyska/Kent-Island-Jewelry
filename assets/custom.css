@@ -658,6 +658,6 @@ a.arrow:hover:after {
 }
 
 .button-group__wrapper > .button:last-child {
-  background: var(--primary-button-background);
+  background: rgb(27, 48, 89);
   color: white;
 }
