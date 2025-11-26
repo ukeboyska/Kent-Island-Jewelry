@@ -668,6 +668,10 @@ a.arrow:hover:after {
     margin-top: 0;
     padding-top: 0;
   }
+  .slideshow__slide-inner {
+    height: auto;
+    min-height: auto;
+  }
 }
 
 .shopify-section--testimonials .prev-next-button {
