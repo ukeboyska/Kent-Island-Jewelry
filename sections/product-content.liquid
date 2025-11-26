@@ -221,19 +221,60 @@
 
                 <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
                   {% if title == 'Details' %}
-                    
+
+                    <ul>
                     {% assign jewelry_materials = product.metafields.shopify.jewelry-material.value %}
                       {% if jewelry_materials %}
 
-                        <strong>Material:</strong>
+                        <li></li><strong>Material:</strong>
 
                         {% for jewelry_material in jewelry_materials %}
 
                           <span class="item">{{ jewelry_material.label }}</span>
 
-                        {% endfor %}
+                        {% endfor %}</li>
 
                       {%endif%}
+
+                    {% assign band_styles = product.metafields.shopify.jewelry-material.value %}
+                      {% if band_styles %}
+
+                        <li><strong>Band Style:</strong>
+
+                        {% for band_style in band_styles %}
+
+                          <span class="item">{{ band_style.label }}</span>
+
+                        {% endfor %}</li>
+
+                      {%endif%}
+
+                    {% assign band_styles = product.metafields.custom.band_type.value %}
+                      {% if band_styles %}
+
+                        <li><strong>Band Style:</strong>
+
+                        {% for band_style in band_styles %}
+
+                          <span class="item">{{ band_style.label }}</span>
+
+                        {% endfor %}</li>
+
+                      {%endif%}
+
+                    {% assign size_details = product.metafields.custom.jewelry_details.value %}
+                      {% if size_details %}
+
+                        <li><strong>Size:</strong>
+
+                          <span class="item">{{ size_details }}</span>
+
+                        </li>
+
+                      {%endif%}
+                      </ul>
+
+
                   {% else %}
                       <div class="product-tabs__tab-item-content rte">
                         {{- content -}}
