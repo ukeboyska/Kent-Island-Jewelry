@@ -12,6 +12,25 @@
     "slideshow_qHkM7q": {
       "type": "slideshow",
       "blocks": {
+        "image_MdPTgt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/crab_necklace.png",
+            "text_position": "middle_left",
+            "subheading": "Another item",
+            "title": "This is a Beautiful Crab Necklace",
+            "button_1_text": "Button Goes Here",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 56,
+            "overlay_type": "gradient"
+          }
+        },
         "image_YNtyyM": {
           "type": "image",
           "settings": {
@@ -27,11 +46,13 @@
             "button_background": "#f9f9f9",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 29
+            "overlay_opacity": 48,
+            "overlay_type": "gradient"
           }
         }
       },
       "block_order": [
+        "image_MdPTgt",
         "image_YNtyyM"
       ],
       "name": "Slideshow",
@@ -259,6 +280,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "page_hero": false,
         "background_image": "shopify://shop_images/shell2.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
