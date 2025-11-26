@@ -71,8 +71,8 @@
         "liquid_VQnjra": {
           "type": "liquid",
           "settings": {
-            "title": "Details",
-            "liquid": "{{ jewelry_material}}"
+            "title": "Description",
+            "liquid": "{{ jewelry_material }}"
           }
         },
         "content_LAACnK": {
