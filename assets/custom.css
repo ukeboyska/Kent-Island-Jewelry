@@ -618,6 +618,7 @@ a.arrow:hover:after {
     width: 80% !important;
     margin: 0 auto;
   }
+  .testimonial-wrap testimonial-item,
   .testimonial-wrap split-lines {
     width: 100%;
   }
