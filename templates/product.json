@@ -72,7 +72,7 @@
           "type": "liquid",
           "settings": {
             "title": "Details",
-            "liquid": "{{ jewelry_materials }}"
+            "liquid": "{{ jewelry_material}}"
           }
         },
         "content_LAACnK": {
