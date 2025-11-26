@@ -218,7 +218,7 @@
                   {{- title -}}
                   {%- render 'icon' with 'chevron' -%}
                 </button>
-
+g
                 <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
                   {% if title == 'Details' %}
                     
@@ -348,7 +348,7 @@
           "label": "Title"
         },
         {
-          "type": "textarea",
+          "type": "richtext",
           "id": "content",
           "label": "Content"
         },
