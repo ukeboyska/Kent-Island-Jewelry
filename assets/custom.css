@@ -624,6 +624,8 @@ a.arrow:hover:after {
   testimonial-item * {
     justify-content: center !important;
     text-align: center !important;
+  }
+  .testimonial-wrap .blockquote {
     padding-inline-end: 0 !important;
   }
 }
