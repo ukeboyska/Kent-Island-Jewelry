@@ -141,9 +141,17 @@
                   {%- endif -%}
 
                   {%- if block.settings.title != blank -%}
+                    {%- if section.settings.page_hero -%}
+                    <h1 class="heading h1">
+                    {%- else -%}
                     <h3 class="heading h3">
+                    {%- endif; -%}
                       <split-lines {% if section.settings.reveal_on_scroll or forloop.first != true %}reveal{% endif %}>{{ block.settings.title | escape }}</split-lines>
+                    {%- if section.settings.page_hero -%}
+                    </h1>
+                    {%- else -%}
                     </h3>
+                    {%- endif; -%}
                   {%- endif -%}
 
                   <div class="image-with-text__text-wrapper" {% if section.settings.reveal_on_scroll or forloop.first != true %}reveal{% endif %}>
