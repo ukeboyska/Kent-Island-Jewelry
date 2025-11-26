@@ -650,7 +650,8 @@ a.arrow:hover:after {
     flex-wrap: wrap;
   }
   .slideshow__slide-inner .container {
-    background: rgb(var(--section-accent-background));
+    background: #b2c2b1;
+    border-radius: 0 0 10px 10px;
   }
   .slideshow__slide-inner .container,
   .slideshow__slide-inner .slideshow__image-wrapper,
