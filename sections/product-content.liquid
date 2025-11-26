@@ -236,14 +236,14 @@
 
                       {%endif%}
 
-                    {% assign band_styles = product.metafields.custom.band_type.value %}
-                      {% if band_styles %}
+                    {% assign stone_types = product.metafields.custom.stone_type.value %}
+                      {% if stone_types %}
 
                         <li><strong>Band Style:</strong>
 
-                        {% for band_style in band_styles %}
+                        {% for stone_type in stone_types %}
 
-                          <span class="item">{{ band_style.type }}</span>
+                          <span class="item">{{ stone_type.type }}</span>
 
                         {% endfor %}</li>
 
