@@ -636,3 +636,6 @@ a.arrow:hover:after {
   right: 5px;
   border-left: 1px solid rgba(var(--prev-next-button-color, var(--root-text-color)),.15) !important;
 }
+.testimonial-list__nav {
+  margin-block-start: 0px;
+}
