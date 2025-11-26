@@ -648,6 +648,8 @@ a.arrow:hover:after {
   }*/
   .slideshow__slide-inner {
     flex-wrap: wrap;
+    height: auto;
+    min-height: auto;
   }
   slide-show-item {
     background: #b2c2b1;
