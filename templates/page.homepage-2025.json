@@ -77,11 +77,11 @@
       ],
       "name": "Slideshow",
       "settings": {
-        "section_height": "small",
+        "section_height": "medium",
         "transition_type": "sweep",
         "show_initial_transition": false,
         "autoplay": true,
-        "cycle_speed": 5,
+        "cycle_speed": 7,
         "background": "rgba(0,0,0,0)"
       }
     },
