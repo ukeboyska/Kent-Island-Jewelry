@@ -271,8 +271,20 @@
 
                         </li>
 
-                      {%endif%}
                       </ul>
+                      {%endif%}
+                      
+                    {% assign size_details = product.metafields.custom.jewelry_details.value %}
+                      {% if size_details %}
+
+                        <li><strong>Size:</strong>
+
+                          <span class="item">{{ size_details }}</span>
+
+                        </li>
+
+                      </ul>
+                      {%endif%}
 
 
                   {% else %}
