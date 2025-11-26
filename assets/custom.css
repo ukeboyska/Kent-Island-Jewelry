@@ -621,6 +621,10 @@ a.arrow:hover:after {
   .testimonial-wrap split-lines {
     width: 100% !important;
   }
+  .testimonial-list__wrapper {
+    justify-content: center !important;
+    text-align: center !important;
+  }
 }
 
 .prev-next-button {
