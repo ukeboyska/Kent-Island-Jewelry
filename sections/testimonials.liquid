@@ -52,7 +52,7 @@
                 {%- if section.settings.image_aspect_ratio != blank -%}
                   {%- assign section_image_aspect_ratio = section.settings.image_aspect_ratio | prepend: 'object-fit: cover; aspect-ratio: ' -%}
                 {%- endif -%}
-                <div style="display:flex;gap:40px;">
+                <div style="display:flex;gap:40px;align-items: center;">
                   <split-lines style="width: 50%;" {% if section.settings.reveal_on_scroll or forloop.first == false %}reveal-visibility{% endif %}>
                 {%- assign mobile_size = 370 | times: block.settings.image.aspect_ratio | ceil -%}
                 {%- assign tablet_size = 520 | times: block.settings.image.aspect_ratio | ceil -%}
