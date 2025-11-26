@@ -222,7 +222,7 @@
                 <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
                   {% if title == 'Details' %}
 
-                    <ul>
+                    <ul style="list-style:none;padding: 0;margin: 0;">
                     {% assign jewelry_materials = product.metafields.shopify.jewelry-material.value %}
                       {% if jewelry_materials %}
 
