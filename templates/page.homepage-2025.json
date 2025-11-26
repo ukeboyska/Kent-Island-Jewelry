@@ -15,7 +15,7 @@
         "image_YNtyyM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/K-37.jpg",
+            "image": "shopify://shop_images/K-39.jpg",
             "text_position": "middle_left",
             "subheading": "Local Roots, Coastal Luxury",
             "title": "Chesapeake Charm Meets Fine Jewelry",
@@ -27,7 +27,7 @@
             "button_background": "#f9f9f9",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 6
+            "overlay_opacity": 26
           }
         }
       },
@@ -47,77 +47,11 @@
     "multi_column_GiGCLt": {
       "type": "multi-column",
       "blocks": {
-        "item_jwYH7Y": {
-          "type": "item",
-          "settings": {
-            "collection": "necklaces",
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
         "item_yRwgt8": {
           "type": "item",
           "settings": {
-            "collection": "silver",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_p3VMDr": {
-          "type": "item",
-          "settings": {
-            "collection": "gold",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_mwCBGm": {
-          "type": "item",
-          "settings": {
-            "collection": "diamonds",
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_nwHBKq": {
-          "type": "item",
-          "settings": {
-            "collection": "bracelets",
-            "image": "shopify://shop_images/silver-spike-adjustable-double-ring.jpg",
+            "collection": "rings",
+            "image": "shopify://shop_images/media_needed.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -134,7 +68,58 @@
           "type": "item",
           "settings": {
             "collection": "earrings",
-            "image": "shopify://shop_images/noreaster_art_3.png",
+            "image": "shopify://shop_images/media_needed.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_jwYH7Y": {
+          "type": "item",
+          "settings": {
+            "collection": "necklaces",
+            "image": "shopify://shop_images/media_needed.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_nwHBKq": {
+          "type": "item",
+          "settings": {
+            "collection": "bracelets",
+            "image": "shopify://shop_images/media_needed.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_YUabEr": {
+          "type": "item",
+          "settings": {
+            "collection": "estate-jewelry",
+            "image": "shopify://shop_images/media_needed.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -149,12 +134,11 @@
         }
       },
       "block_order": [
-        "item_jwYH7Y",
         "item_yRwgt8",
-        "item_p3VMDr",
-        "item_mwCBGm",
+        "item_9JgRmG",
+        "item_jwYH7Y",
         "item_nwHBKq",
-        "item_9JgRmG"
+        "item_YUabEr"
       ],
       "name": "Multi-column",
       "settings": {
@@ -189,9 +173,9 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
+            "image": "shopify://shop_images/media_needed.png",
             "subheading": "",
-            "title": "Vestibulum",
+            "title": "",
             "link_text": "",
             "link_url": "shopify://products/gold-spike-adjustable-double-ring",
             "text_color": "rgba(0,0,0,0)",
@@ -203,9 +187,9 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
+            "image": "shopify://shop_images/media_needed.png",
             "subheading": "",
-            "title": "Consictur",
+            "title": "",
             "link_text": "",
             "link_url": "shopify://products/test-2",
             "text_color": "rgba(0,0,0,0)",
@@ -217,11 +201,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/gold-spike-adjustable-double-ring.jpg",
+            "image": "shopify://shop_images/media_needed.png",
             "subheading": "",
             "title": "",
             "link_text": "",
-            "link_url": "",
+            "link_url": "#",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -238,9 +222,9 @@
         "reveal_on_scroll": false,
         "content_positioning": "position--text-right",
         "layout": "collage",
-        "subheading": "Seaside Sparkle",
+        "subheading": "",
         "title": "Nautical Treasures",
-        "description": "Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.",
+        "description": "Discover a collection inspired by the charm and character of the Chesapeake Bay. Our handcrafted jewelry captures the spirit of Maryland’s shores, from our gentle waves to our iconic naval history.",
         "link_text": "Shop Now",
         "link_url": "shopify://collections",
         "background": "rgba(0,0,0,0)",
@@ -275,6 +259,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "background_image": "shopify://shop_images/shell2.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "section_width": "contained",
@@ -284,7 +269,7 @@
         "section_padding_bottom": "default",
         "text_alignment": "center",
         "cycle_speed": 8,
-        "accent_background": "#b2c2b1",
+        "accent_background": "#214457",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
