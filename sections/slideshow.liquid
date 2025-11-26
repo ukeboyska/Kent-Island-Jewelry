@@ -89,7 +89,7 @@
           {%- endif -%}
 
           {%- if video != blank -%}
-            <div class="slideshow__image-wrapper">
+            <div class="overlay--{{ block.settings.overlay_type }} slideshow__image-wrapper">
               <native-video autoplay class="video-wrapper video-wrapper--native">
  
                 <template>
