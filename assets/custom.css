@@ -657,7 +657,7 @@ a.arrow:hover:after {
   margin-block-start: 40px;
 }
 
-.button-group__wrapper > .button:last-child() {
+.button-group__wrapper > .button:last-child {
   background: var(--primary-button-background);
   color: white;
 }
