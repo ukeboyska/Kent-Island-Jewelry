@@ -664,10 +664,6 @@ a.arrow:hover:after {
   .slideshow__image-wrapper:before {
     display: none !important;
   }
-  .slideshow__text-wrapper {
-    margin-top: 0;
-    padding-top: 0;
-  }
   .slideshow__slide-inner {
     height: auto;
     min-height: auto;
