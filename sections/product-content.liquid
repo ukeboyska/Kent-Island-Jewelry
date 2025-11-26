@@ -226,7 +226,7 @@
                     {% assign jewelry_materials = product.metafields.shopify.jewelry-material.value %}
                       {% if jewelry_materials %}
 
-                        <li><strong>Material:</strong>
+                        <li><strong>Material(s):</strong>
 
                         {% for jewelry_material in jewelry_materials %}
 
@@ -239,7 +239,7 @@
                     {% assign band_styles = product.metafields.custom.band_type.value %}
                       {% if band_styles %}
 
-                        <li><strong>Band Style:</strong>
+                        <li><strong>Band Style(s):</strong>
 
                         {% for band_style in band_styles %}
 
@@ -252,7 +252,7 @@
                     {% assign stone_types = product.metafields.custom.stone_type.value %}
                       {% if stone_types %}
 
-                        <li><strong>Stone Types:</strong>
+                        <li><strong>Stone Type(s):</strong>
 
                         {% for stone_type in stone_types %}
 
