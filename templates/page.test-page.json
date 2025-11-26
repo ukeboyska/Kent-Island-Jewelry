@@ -27,7 +27,8 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 31
+            "overlay_opacity": 31,
+            "overlay_type": "solid"
           }
         },
         "image_pN7LnW": {
@@ -44,7 +45,8 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 72
+            "overlay_opacity": 72,
+            "overlay_type": "gradient"
           }
         }
       },
