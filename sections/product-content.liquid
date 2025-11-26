@@ -271,21 +271,20 @@
 
                         </li>
 
-                      </ul>
                       {%endif%}
 
                     {% assign purity = product.metafields.custom.purity.value %}
                       {% if purity %}
 
-                        <li><strong>Size:</strong>
+                        <li><strong>Purity:</strong>
 
                           <span class="item">{{ purity }}</span>
 
                         </li>
 
-                      </ul>
                       {%endif%}
 
+                    </ul>
 
                   {% else %}
                       <div class="product-tabs__tab-item-content rte">
