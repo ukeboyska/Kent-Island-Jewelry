@@ -615,6 +615,19 @@ a.arrow:hover:after {
     flex-wrap: wrap;
   }
   .testimonial-wrap split-lines {
-    width: 100%;
+    width: 100% !important;
   }
+}
+
+.prev-next-button {
+  top: 0;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+}
+.prev-next-button--prev {
+  left: 5px;
+}
+.prev-next-button--next {
+  right: 5px;
 }
