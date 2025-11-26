@@ -83,6 +83,14 @@
             "page": ""
           }
         },
+        "content_UzD4mb": {
+          "type": "content",
+          "settings": {
+            "title": "Refund Policy",
+            "content": "",
+            "page": "refund-policy"
+          }
+        },
         "content_7ENLx4": {
           "type": "content",
           "settings": {
@@ -109,6 +117,7 @@
       "block_order": [
         "liquid_VQnjra",
         "content_LAACnK",
+        "content_UzD4mb",
         "content_7ENLx4",
         "trust_hBWNJc"
       ],
