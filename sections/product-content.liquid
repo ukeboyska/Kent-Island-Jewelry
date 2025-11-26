@@ -236,19 +236,6 @@
 
                       {%endif%}
 
-                    {% assign stone_types = product.metafields.custom.stone_type.value %}
-                      {% if stone_types %}
-
-                        <li><strong>Band Style:</strong>
-
-                        {% for stone_type in stone_types %}
-
-                          <span class="item">{{ stone_type.type }}</span>
-
-                        {% endfor %}</li>
-
-                      {%endif%}
-
                     {% assign band_styles = product.metafields.custom.band_type.value %}
                       {% if band_styles %}
 
@@ -256,7 +243,20 @@
 
                         {% for band_style in band_styles %}
 
-                          <span class="item">{{ band_style.label }}</span>
+                          <span class="item">{{ band_style.type }}</span>
+
+                        {% endfor %}</li>
+
+                      {%endif%}
+
+                    {% assign stone_types = product.metafields.custom.stone_type.value %}
+                      {% if stone_types %}
+
+                        <li><strong>Stone Types:</strong>
+
+                        {% for stone_type in stone_types %}
+
+                          <span class="item">{{ stone_type }}</span>
 
                         {% endfor %}</li>
 
