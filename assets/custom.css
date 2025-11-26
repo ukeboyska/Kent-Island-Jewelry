@@ -649,7 +649,7 @@ a.arrow:hover:after {
   .slideshow__slide-inner {
     flex-wrap: wrap;
   }
-  .slideshow__slide-inner .container {
+  slide-show-item {
     background: #b2c2b1;
     border-radius: 0 0 10px 10px;
   }
