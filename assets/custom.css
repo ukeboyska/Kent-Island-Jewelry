@@ -632,6 +632,10 @@ a.arrow:hover:after {
   .image-with-text:before {
     border-radius: 0 0 10px 10px;
   }
+  .shopify-section--image-with-text .section.with-background-image {
+    height: calc(100% - var(--image-height));
+    bottom: 0;
+  }
 }
 
 .shopify-section--testimonials .prev-next-button {
