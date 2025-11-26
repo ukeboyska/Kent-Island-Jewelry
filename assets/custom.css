@@ -654,6 +654,9 @@ a.arrow:hover:after {
   .slideshow__slide-inner .slideshow__image-wrapper .slideshow__image  {
     position: static;
   }
+  .slideshow__slide-inner:before {
+    display: none;
+  }
 }
 
 .shopify-section--testimonials .prev-next-button {
