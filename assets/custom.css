@@ -604,3 +604,14 @@ a.arrow:hover:after {
 .no-margin--bottom {
   margin-bottom: 0 !important;
 }
+
+
+
+.testimonial-wrap {
+  display:flex;gap:40px;align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .testimonial-wrap {
+    flex-wrap: wrap;
+  }
+}
