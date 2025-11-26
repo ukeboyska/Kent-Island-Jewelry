@@ -173,19 +173,6 @@
       {%- endcapture -%}
     {%- endif -%}
 
-    <collapsible-content open id="block-details-content" class="collapsible">
-      {% assign jewelry_materials = product.metafields.shopify.jewelry-material.value %}
-      {% if jewelry_materials %}
-
-        {% for jewelry_material in jewelry_materials %}
-
-          {{ jewelry_material }}
-
-        {% endfor %}
-
-      {%endif%}
-    </collapsible-content>
-
     {%- if product_tabs_nav_items != blank -%}
       <div class="product-tabs__content">
         {%- assign processed_blocks = 0 -%}
@@ -193,6 +180,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'description' -%}
+
               {%- if product.description != blank -%}
                 <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper">
                   <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-controls="block-{{ section.id }}-{{ block.id }}-content" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}">
@@ -201,6 +189,20 @@
                   </button>
 
                   <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
+
+                  {% assign jewelry_materials = product.metafields.shopify.jewelry-material.value %}
+                    {% if jewelry_materials %}
+
+                      {% for jewelry_material in jewelry_materials %}
+
+                        {{ jewelry_material }}
+
+                      {% endfor %}
+
+                    {%endif%}
+
+
+                    {%comment%}
                     <div class="product-tabs__tab-item-content rte">
                       {{- product.description -}}
                     </div>
@@ -210,6 +212,7 @@
                         {{- trust_content -}}
                       </div>
                     {%- endif -%}
+                    {%endcomment%}
                   </collapsible-content>
                 </div>
 
