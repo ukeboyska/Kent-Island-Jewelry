@@ -312,17 +312,6 @@
   </section>
 {%- endif -%}
 
-{% assign jewelry_materials = product.metafields.shopify.jewelry-material.value %}
-  {% if jewelry_materials %}
-
-    {% for jewelry_material in jewelry_materials %}
-
-      {{ jewelry_material }}
-
-    {% endfor %}
-
-  {%endif%}
-
 
 {% schema %}
 {
