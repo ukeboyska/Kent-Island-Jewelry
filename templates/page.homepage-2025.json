@@ -32,9 +32,8 @@
         "image_YNtyyM": {
           "type": "image",
           "settings": {
-            "video": "shopify://files/videos/647f13388c4942d9933673ebf09b001f.mp4",
             "text_position": "middle_left",
-            "subheading": "Tell your story",
+            "subheading": "Local Roots, Coastal Luxury",
             "title": "Slide 1",
             "button_1_text": "button",
             "button_1_link": "",
@@ -286,22 +285,10 @@
             "button_text": "",
             "button_link": ""
           }
-        },
-        "item_D9NNXY": {
-          "type": "item",
-          "settings": {
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
-        "item_dDP4gh",
-        "item_D9NNXY"
+        "item_dDP4gh"
       ],
       "name": "Image with text",
       "settings": {
@@ -318,6 +305,13 @@
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_tefYJj": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 52
       }
     },
     "testimonials_pkgtre": {
@@ -364,55 +358,6 @@
         "title": "",
         "background_image": "shopify://shop_images/shell2.svg",
         "image_aspect_ratio": "",
-        "background": "#d1e1e3",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "testimonials_Be8tfq": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_hqECHT": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S.",
-            "link_text": "Read Full Story",
-            "link_url": "http://google.com"
-          }
-        },
-        "testimonial_zGdBJp": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S.",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "testimonial_k3DGBa": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/gold-spike-adjustable-double-ring.jpg",
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S.",
-            "link_text": "",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_hqECHT",
-        "testimonial_zGdBJp",
-        "testimonial_k3DGBa"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "reveal_on_scroll": true,
-        "subheading": "",
-        "title": "",
-        "image_aspect_ratio": "1/1",
         "background": "#d1e1e3",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -503,8 +448,8 @@
     "collection_list_CnJr8q",
     "spacer_i9iNBm",
     "image_with_text_DMRCa4",
+    "spacer_tefYJj",
     "testimonials_pkgtre",
-    "testimonials_Be8tfq",
     "spacer_LBN9cB",
     "multi_column_qMR6gU",
     "multi_column_8DgM8R",
