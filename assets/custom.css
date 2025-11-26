@@ -615,7 +615,8 @@ a.arrow:hover:after {
     flex-wrap: wrap;
   }
   .testimonial-wrap split-lines {
-    width: 100% !important;
+    width: 80% !important;
+    margin: 0 auto;
   }
 }
 
