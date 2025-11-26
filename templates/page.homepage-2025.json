@@ -12,6 +12,25 @@
     "slideshow_qHkM7q": {
       "type": "slideshow",
       "blocks": {
+        "image_LqFbXh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/showroom.png",
+            "text_position": "middle_left",
+            "subheading": "Now booking",
+            "title": "Our Design Showroom is Open",
+            "button_1_text": "Book Appointment",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#06161d",
+            "button_background": "#203f70",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 100,
+            "overlay_type": "gradient"
+          }
+        },
         "image_MdPTgt": {
           "type": "image",
           "settings": {
@@ -52,6 +71,7 @@
         }
       },
       "block_order": [
+        "image_LqFbXh",
         "image_MdPTgt",
         "image_YNtyyM"
       ],
