@@ -614,10 +614,12 @@ a.arrow:hover:after {
   .testimonial-wrap {
     flex-wrap: wrap;
   }
-  .testimonial-list__wrapper,
-  .testimonial-wrap split-lines {
+  .testimonial-list__wrapper {
     width: 80% !important;
     margin: 0 auto;
+  }
+  .testimonial-wrap split-lines {
+    width: 100%;
   }
 }
 
