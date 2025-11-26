@@ -92,7 +92,7 @@
               <native-video autoplay class="video-wrapper video-wrapper--native">
  
                 <template>
-                  {{- block.settings.video | video_tag: controls: true, autoplay: true, muted: true, playsinline: true, loop: true -}}
+                  {{- block.settings.video | video_tag: controls: false, autoplay: true, muted: true, playsinline: true, loop: true -}}
                 </template>
               </native-video>
             </div>
