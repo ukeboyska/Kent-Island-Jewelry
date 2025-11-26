@@ -629,18 +629,21 @@ a.arrow:hover:after {
   .testimonial-wrap .blockquote {
     padding-inline-end: 0 !important;
   }
+  .image-with-text:before {
+    border-radius: 0 0 10px 10px;
+  }
 }
 
-.prev-next-button {
+.shopify-section--testimonials .prev-next-button {
   top: 0;
   position: absolute;
   margin: auto;
   bottom: 0;
 }
-.prev-next-button--prev {
+.shopify-section--testimonials .prev-next-button--prev {
   left: 5px;
 }
-.prev-next-button--next {
+.shopify-section--testimonials .prev-next-button--next {
   right: 5px;
   border-left: 1px solid rgba(var(--prev-next-button-color, var(--root-text-color)),.15) !important;
 }
