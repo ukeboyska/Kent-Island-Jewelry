@@ -479,11 +479,11 @@
             "title": "",
             "content": "",
             "modal_content": "",
-            "link_text": "Follow on Instagram",
+            "link_text": "Instagram",
             "link_url": "https://www.instagram.com/kijewelrystore/",
             "link_style": "button",
             "text_alignment": "center",
-            "vertical_alignment": "start"
+            "vertical_alignment": "center"
           }
         },
         "item_8Xpgzg": {
@@ -492,14 +492,14 @@
             "collection": "",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "content": "",
             "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
+            "link_text": "Facebook",
+            "link_url": "https://www.facebook.com/KentIslandJewelry/",
+            "link_style": "button",
             "text_alignment": "center",
-            "vertical_alignment": "start"
+            "vertical_alignment": "center"
           }
         }
       },
@@ -523,7 +523,7 @@
         "desktop_item_size": "medium",
         "spacing": "normal",
         "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
+        "text_color": "#122443"
       }
     }
   },
