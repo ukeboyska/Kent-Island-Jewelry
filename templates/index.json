@@ -34,7 +34,8 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "text_position": "middle_center",
+            "image": "shopify://shop_images/showroom_2.png",
+            "text_position": "middle_left",
             "subheading": "New Collection",
             "title": "Introducing Divine: Iconic Jewelry",
             "button_1_text": "",
