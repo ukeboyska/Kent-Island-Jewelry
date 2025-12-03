@@ -267,71 +267,60 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
             "subheading": "",
-            "title": "Rings",
+            "title": "Product 1",
             "link_text": "",
-            "link_url": "",
+            "link_url": "#",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 10
           }
         },
         "collection-2": {
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
             "subheading": "",
-            "title": "Bracelets",
+            "title": "Product 2",
             "link_text": "",
-            "link_url": "",
+            "link_url": "#",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "Earings",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 10
           }
         },
         "collection_YxeiJw": {
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
             "subheading": "",
-            "title": "",
+            "title": "Product 3",
             "link_text": "",
-            "link_url": "",
+            "link_url": "#",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 10
           }
         }
       },
       "block_order": [
         "collection-1",
         "collection-2",
-        "collection-3",
         "collection_YxeiJw"
       ],
       "name": "Collection list",
       "settings": {
         "reveal_on_scroll": true,
-        "content_positioning": "",
+        "content_positioning": "position--text-right",
         "layout": "collage",
         "subheading": "",
         "title": "Nautical Treasures",
-        "description": "",
-        "link_text": "",
-        "link_url": "",
+        "description": "Discover a collection inspired by the charm and character of the Chesapeake Bay. Our handcrafted jewelry captures the spirit of Maryland’s shores, from our gentle waves to our iconic naval history.",
+        "link_text": "Shop Now",
+        "link_url": "shopify://collections/engagement-1",
         "background": "#f7f7f7",
         "text_color": "rgba(0,0,0,0)"
       }
