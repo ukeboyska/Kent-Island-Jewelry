@@ -78,7 +78,7 @@
       "type": "spacer",
       "name": "Spacer",
       "settings": {
-        "custom_height": 36
+        "custom_height": 48
       }
     },
     "testimonials_cPUCMW": {
@@ -112,7 +112,7 @@
       "type": "spacer",
       "name": "Spacer",
       "settings": {
-        "custom_height": 36
+        "custom_height": 48
       }
     },
     "image_with_text_M38H9D": {
@@ -157,7 +157,7 @@
       "type": "spacer",
       "name": "Spacer",
       "settings": {
-        "custom_height": 36
+        "custom_height": 48
       }
     },
     "rich_text_iNVjr3": {
@@ -247,7 +247,7 @@
       "type": "spacer",
       "name": "Spacer",
       "settings": {
-        "custom_height": 36
+        "custom_height": 48
       }
     },
     "image_with_text_fwXjMm": {
@@ -256,9 +256,10 @@
         "item_neRi4c": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/kij_starfish_pair.jpg",
             "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
+            "subheading": "Don't Wait",
+            "title": "Bring Your Vision to Life",
             "content": "<p>While our roots are local, our vision is far-reaching — blending coastal charm with timeless sophistication. Whether you’re celebrating an engagement, marking an anniversary, or simply treating yourself, <strong>Kent Island Jewelry</strong> is where your story becomes part of ours.</p>",
             "button_text": "Schedule an Appointment",
             "button_link": ""
@@ -271,7 +272,7 @@
       "name": "Image with text",
       "settings": {
         "page_hero": false,
-        "background_image": "shopify://shop_images/shell2.svg",
+        "background_image": "shopify://shop_images/Shell_3.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "section_width": "contained",
@@ -281,52 +282,10 @@
         "section_padding_bottom": "default",
         "text_alignment": "center",
         "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
+        "accent_background": "#d1e1e3",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_HwAiaM": {
-      "type": "multi-column",
-      "blocks": {
-        "item_EQwkEP": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_EQwkEP"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "stack_items": false,
-        "layout_options": "",
-        "subheading": "Subheading",
-        "title": "Multi-column",
-        "content": "",
-        "image_aspect_ratio": "",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "large",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
@@ -343,7 +302,6 @@
     "text_with_icons_zdXnXy",
     "main",
     "spacer_XQ8cbt",
-    "image_with_text_fwXjMm",
-    "multi_column_HwAiaM"
+    "image_with_text_fwXjMm"
   ]
 }
