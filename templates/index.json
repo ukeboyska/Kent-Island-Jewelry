@@ -365,6 +365,7 @@
       "name": "Image with text",
       "settings": {
         "page_hero": false,
+        "background_image": "shopify://shop_images/Shell_4.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "section_width": "contained",
