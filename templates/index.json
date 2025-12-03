@@ -199,6 +199,13 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "spacer_jbCVE9": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 48
+      }
+    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
@@ -731,18 +738,12 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
-    },
-    "spacer_jbCVE9": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "custom_height": 12
-      }
     }
   },
   "order": [
     "slideshow",
     "multi-column",
+    "spacer_jbCVE9",
     "featured-collections",
     "collection-list",
     "video",
@@ -754,7 +755,6 @@
     "promotion-blocks",
     "blog-posts",
     "timeline",
-    "multi_column_UWYj6J",
-    "spacer_jbCVE9"
+    "multi_column_UWYj6J"
   ]
 }
