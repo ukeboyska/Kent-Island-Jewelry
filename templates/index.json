@@ -325,75 +325,11 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "video": {
-      "type": "video",
-      "name": "Video",
+    "spacer_7M3MkV": {
+      "type": "spacer",
+      "name": "Spacer",
       "settings": {
-        "subheading": "",
-        "title": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "background_type": "full_width",
-        "video_size": "auto",
-        "autoplay": true,
-        "show_video_controls": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "blocks": {
-        "variant-picker-1": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "selector_mode": "block",
-            "color_mode": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity-selector-2": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy-buttons-3": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "rgba(0,0,0,0)",
-            "atc_button_text_color": "rgba(0,0,0,0)",
-            "buy_now_button_background": "rgba(0,0,0,0)",
-            "buy_now_button_text_color": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "variant-picker-1",
-        "quantity-selector-2",
-        "buy-buttons-3"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "product": "",
-        "subheading": "Subheading",
-        "title": "A must have",
-        "show_vendor": true,
-        "show_sku": false,
-        "show_badges": false,
-        "show_taxes_included": false,
-        "show_product_rating": false,
-        "show_share_buttons": true,
-        "help_page": "",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "show_thumbnails_on_mobile": false,
-        "desktop_thumbnails_position": "bottom",
-        "transition_effect": "slide",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
+        "custom_height": 48
       }
     },
     "image-with-text": {
@@ -735,8 +671,7 @@
     "spacer_jbCVE9",
     "featured-collections",
     "collection-list",
-    "video",
-    "featured-product",
+    "spacer_7M3MkV",
     "image-with-text",
     "shop-the-look",
     "image-with-text-block",
