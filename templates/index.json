@@ -206,60 +206,6 @@
         "custom_height": 48
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "label": "Earings",
-            "button_text": "All earings",
-            "button_url": ""
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "label": "Rings",
-            "button_text": "All rings",
-            "button_url": ""
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "label": "Bracelets",
-            "button_text": "All bracelets",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "name": "Featured collections",
-      "settings": {
-        "subheading": "Your title",
-        "title": "Trending this summer",
-        "content": "",
-        "content_positioning": "",
-        "products_count": 8,
-        "mobile_products_per_row": "2",
-        "products_per_row": 4,
-        "stack_products": false,
-        "show_cta": false,
-        "hide_vendor": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -377,6 +323,53 @@
         "custom_height": 48
       }
     },
+    "testimonials_NwM6aA": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_F4JdDm": {
+          "type": "testimonial",
+          "settings": {
+            "content": "They are beyond friendly, professional and accommodating. We felt truly understood and comfortable with the entire process. We couldn’t recommend them anymore, if you’re looking for any type of jewelry need, they are the place to go!",
+            "author": "Sara S.",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "testimonial_ELU7Je": {
+          "type": "testimonial",
+          "settings": {
+            "content": "The entire staff radiates kindness and professionalism — you can tell they truly love what they do! I absolutely loved how warmly they treated me and how comfortable they made me feel throughout the entire process.",
+            "author": "Saher M.",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "testimonial_xJXDHr": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Kent Island Jewelry, owned by the renowned Patty, stands out with its exceptional personal service, setting a high standard for businesses in the area. The charming and easily accessible location adds to the overall appeal. ",
+            "author": "Michael B.",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_F4JdDm",
+        "testimonial_ELU7Je",
+        "testimonial_xJXDHr"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background_image": "shopify://shop_images/shell2.svg",
+        "image_aspect_ratio": "",
+        "background": "rgba(209,225,227,1)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "multi_column_UWYj6J": {
       "type": "multi-column",
       "blocks": {
@@ -426,13 +419,13 @@
         "remove_bottom_margin": false,
         "stack_items": false,
         "layout_options": "",
-        "subheading": "Subheading",
-        "title": "Multi-column",
+        "subheading": "Be Inspired",
+        "title": "Follow Us on Social",
         "content": "",
         "image_aspect_ratio": "",
         "column_alignment": "center",
         "mobile_item_size": "medium",
-        "desktop_item_size": "large",
+        "desktop_item_size": "medium",
         "spacing": "normal",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
@@ -443,11 +436,11 @@
     "slideshow",
     "multi-column",
     "spacer_jbCVE9",
-    "featured-collections",
     "collection-list",
     "spacer_7M3MkV",
     "image-with-text",
     "spacer_JNCGgW",
+    "testimonials_NwM6aA",
     "multi_column_UWYj6J"
   ]
 }
