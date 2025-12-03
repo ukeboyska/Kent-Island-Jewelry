@@ -373,6 +373,40 @@
     "multi_column_UWYj6J": {
       "type": "multi-column",
       "blocks": {
+        "item_E66xQR": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "https://www.instagram.com/kijewelrystore/",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_VwDLyP": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "https://www.instagram.com/kijewelrystore/",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
         "item_cKUcH6": {
           "type": "item",
           "settings": {
@@ -380,11 +414,11 @@
             "image": "shopify://shop_images/noreaster_art_3.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "content": "",
             "modal_content": "",
-            "link_text": "Button Text",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "https://www.instagram.com/kijewelrystore/",
             "link_style": "button",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -397,11 +431,11 @@
             "image": "shopify://shop_images/noreaster_art_3.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "content": "",
             "modal_content": "",
-            "link_text": "Button Text",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "https://www.instagram.com/kijewelrystore/",
             "link_style": "button",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -409,6 +443,8 @@
         }
       },
       "block_order": [
+        "item_E66xQR",
+        "item_VwDLyP",
         "item_cKUcH6",
         "item_TDTDCN"
       ],
@@ -422,7 +458,7 @@
         "subheading": "Be Inspired",
         "title": "Follow Us on Social",
         "content": "",
-        "image_aspect_ratio": "",
+        "image_aspect_ratio": "1/1",
         "column_alignment": "center",
         "mobile_item_size": "medium",
         "desktop_item_size": "medium",
