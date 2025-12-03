@@ -363,10 +363,10 @@
       "settings": {
         "reveal_on_scroll": true,
         "subheading": "",
-        "title": "",
+        "title": "What Customers Say",
         "background_image": "shopify://shop_images/shell2.svg",
         "image_aspect_ratio": "",
-        "background": "rgba(209,225,227,1)",
+        "background": "#d1e1e3",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -377,7 +377,7 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/media_needed.png",
+            "image": "shopify://shop_images/kij_ring.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -394,7 +394,7 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/media_needed.png",
+            "image": "shopify://shop_images/kij_necklace.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -411,7 +411,7 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
+            "image": "shopify://shop_images/kij_starfish.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -428,7 +428,7 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
+            "image": "shopify://shop_images/kij_watch.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
