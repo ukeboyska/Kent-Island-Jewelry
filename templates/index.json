@@ -321,7 +321,7 @@
         "description": "Discover a collection inspired by the charm and character of the Chesapeake Bay. Our handcrafted jewelry captures the spirit of Maryland’s shores, from our gentle waves to our iconic naval history.",
         "link_text": "Shop Now",
         "link_url": "shopify://collections/engagement-1",
-        "background": "#f7f7f7",
+        "background": "#f9f9f9",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -338,29 +338,18 @@
         "item-1": {
           "type": "item",
           "settings": {
-            "tab_label": "Meet Kevin",
-            "subheading": "Experience",
-            "title": "Boutique like no other",
-            "content": "<p>Our boutique experience is truly unique — from the signature scent infused throughout the space to evoke a sense of familiarity, to the carefully curated monthly playlist that reflects the theme of the latest collection. Every detail is designed to create an immersive atmosphere that engages all five senses.</p>",
-            "button_text": "check this out",
-            "button_link": ""
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "tab_label": "Annual event",
-            "subheading": "Annual event",
-            "title": "Meet our muses",
-            "content": "<p>In addition to the daily in-store experience, we host an annual cocktail event featuring the inspiring individuals who represent our vision. It's a special occasion to connect and share a memorable evening with our guests.</p>",
-            "button_text": "hello",
-            "button_link": ""
+            "image": "shopify://shop_images/K-17_2.jpg",
+            "tab_label": "",
+            "subheading": "Your neighborhood Jeweler",
+            "title": "Trusted for 25 Years",
+            "content": "<p>From the first sketch to the final polish, every piece is shaped by hands and hearts that care deeply about quality. We believe great jewelry should tell a story, and ours begins with the people who create it. </p>",
+            "button_text": "Our Story",
+            "button_link": "shopify://pages/about-us"
           }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2"
+        "item-1"
       ],
       "name": "Image with text",
       "settings": {
@@ -375,7 +364,7 @@
         "section_padding_bottom": "default",
         "text_alignment": "center",
         "cycle_speed": 8,
-        "accent_background": "#fcd27e",
+        "accent_background": "#214457",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
