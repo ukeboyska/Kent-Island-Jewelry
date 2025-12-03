@@ -326,9 +326,9 @@
       "settings": {
         "reveal_on_scroll": true,
         "content_positioning": "",
-        "layout": "grid",
-        "subheading": "Our collections",
-        "title": "Collection list",
+        "layout": "collage",
+        "subheading": "",
+        "title": "Nautical Treasures",
         "description": "",
         "link_text": "",
         "link_url": "",
