@@ -84,6 +84,100 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "multi-column": {
+      "type": "multi-column",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "Earrings",
+            "link_url": "shopify://collections/rings",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>From timeless studs to eye-catching drops, our earrings are designed to frame your face with grace. Find the perfect pair to suit any mood or moment.</p>",
+            "modal_content": "",
+            "link_text": "Earrings",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Layer them up or let one piece shine — our necklaces are made to tell your story. Explore simple chains, meaningful pendants, and showstopping styles.</p>",
+            "modal_content": "",
+            "link_text": "Necklaces",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Make every gesture count. Whether stacking or spotlighting a single piece, our rings bring character and charm to your hands, day or night.</p>",
+            "modal_content": "",
+            "link_text": "Rings",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "layout_options": "",
+        "subheading": "Subheading",
+        "title": "Chic, Fun, Fashion",
+        "content": "",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
@@ -211,99 +305,6 @@
         "link_text": "",
         "link_url": "",
         "background": "#f7f7f7",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi-column": {
-      "type": "multi-column",
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>Add a subtle shimmer or a bold statement to your wrist. Our bracelets blend elegance and everyday wear with ease, from delicate chains to sculptural cuffs.</p>",
-            "modal_content": "",
-            "link_text": "Bracelets",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>From timeless studs to eye-catching drops, our earrings are designed to frame your face with grace. Find the perfect pair to suit any mood or moment.</p>",
-            "modal_content": "",
-            "link_text": "Earrings",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>Layer them up or let one piece shine — our necklaces are made to tell your story. Explore simple chains, meaningful pendants, and showstopping styles.</p>",
-            "modal_content": "",
-            "link_text": "Necklaces",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item-4": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>Make every gesture count. Whether stacking or spotlighting a single piece, our rings bring character and charm to your hands, day or night.</p>",
-            "modal_content": "",
-            "link_text": "Rings",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "item-4"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "stack_items": false,
-        "layout_options": "",
-        "subheading": "Subheading",
-        "title": "Chic, Fun, Fashion",
-        "content": "",
-        "image_aspect_ratio": "",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "medium",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -720,9 +721,9 @@
   },
   "order": [
     "slideshow",
+    "multi-column",
     "featured-collections",
     "collection-list",
-    "multi-column",
     "video",
     "featured-product",
     "image-with-text",
