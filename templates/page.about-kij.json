@@ -55,23 +55,68 @@
         "custom_height": 36
       }
     },
-    "rich_text_dBAQ4r": {
-      "type": "rich-text",
-      "name": "Rich text",
+    "multi_column_hNbwgW": {
+      "type": "multi-column",
+      "blocks": {
+        "item_dqXEpq": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/kij_navy_logo.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_dqXEpq"
+      ],
+      "name": "Multi-column",
       "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": true,
+        "stack_items": false,
+        "layout_options": "",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_QHktHW": {
+      "type": "multi-column",
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": true,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "layout_options": "",
         "subheading": "",
         "title": "Eastern Shore Artistry",
         "content": "<p>Co-owners <strong>Patricia Knell & Mary Jo Duffy</strong> bring together decades of experience in fine jewelry, retail, and design. What began as a small island store has grown into a <strong>luxury destination</strong> where craftsmanship, innovation, and personal connection come together.</p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
         "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "spacer_UWaYWd": {
@@ -292,7 +337,8 @@
   "order": [
     "image_with_text_HJ9nwb",
     "spacer_9pcXAE",
-    "rich_text_dBAQ4r",
+    "multi_column_hNbwgW",
+    "multi_column_QHktHW",
     "spacer_UWaYWd",
     "testimonials_cPUCMW",
     "spacer_JMf7qp",
