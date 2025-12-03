@@ -15,7 +15,7 @@
         "item_AQEKG8": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/K-58.jpg",
+            "image": "shopify://shop_images/kij_group_photo.jpg",
             "tab_label": "Item",
             "subheading": "About us",
             "title": "25 Years of Service",
@@ -28,11 +28,10 @@
       "block_order": [
         "item_AQEKG8"
       ],
-      "custom_css": [
-        "h3 {font-size: 45px;}"
-      ],
+      "custom_css": [],
       "name": "Image with text",
       "settings": {
+        "page_hero": true,
         "background_image": "shopify://shop_images/shell2.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
@@ -137,6 +136,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "page_hero": false,
         "background_image": "shopify://shop_images/Shell_4.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
@@ -270,6 +270,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "page_hero": false,
         "background_image": "shopify://shop_images/shell2.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
@@ -312,6 +313,8 @@
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
         "stack_items": false,
         "layout_options": "",
         "subheading": "Subheading",
