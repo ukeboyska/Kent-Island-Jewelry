@@ -63,7 +63,7 @@
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/kij_navy_logo.png",
-            "image_width": 100,
+            "image_width": 60,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
             "content": "",
