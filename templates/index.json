@@ -12,6 +12,25 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "image_PtDCNp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/crab_necklace.png",
+            "text_position": "middle_left",
+            "subheading": "Nautical Treasures",
+            "title": "Handmade Jewelry Inspired by the Bay",
+            "button_1_text": "Explore Collection",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#203f70",
+            "overlay_opacity": 49,
+            "overlay_type": "gradient"
+          }
+        },
         "slide-2": {
           "type": "image",
           "settings": {
@@ -52,6 +71,7 @@
         }
       },
       "block_order": [
+        "image_PtDCNp",
         "slide-2",
         "slide-1"
       ],
