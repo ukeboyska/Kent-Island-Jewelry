@@ -104,16 +104,34 @@
             "vertical_alignment": "start"
           }
         },
+        "item_TPm3PC": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "Rings",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
         "item-2": {
           "type": "item",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>From timeless studs to eye-catching drops, our earrings are designed to frame your face with grace. Find the perfect pair to suit any mood or moment.</p>",
+            "title": "",
+            "content": "",
             "modal_content": "",
-            "link_text": "Earrings",
+            "link_text": "Bracelets",
             "link_url": "",
             "link_style": "link",
             "text_alignment": "center",
@@ -124,10 +142,11 @@
           "type": "item",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>Layer them up or let one piece shine — our necklaces are made to tell your story. Explore simple chains, meaningful pendants, and showstopping styles.</p>",
+            "title": "",
+            "content": "",
             "modal_content": "",
             "link_text": "Necklaces",
             "link_url": "",
@@ -140,12 +159,13 @@
           "type": "item",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>Make every gesture count. Whether stacking or spotlighting a single piece, our rings bring character and charm to your hands, day or night.</p>",
+            "title": "",
+            "content": "",
             "modal_content": "",
-            "link_text": "Rings",
+            "link_text": "Estate Jewelry",
             "link_url": "",
             "link_style": "link",
             "text_alignment": "center",
@@ -155,6 +175,7 @@
       },
       "block_order": [
         "item-1",
+        "item_TPm3PC",
         "item-2",
         "item-3",
         "item-4"
@@ -169,10 +190,10 @@
         "subheading": "Subheading",
         "title": "Chic, Fun, Fashion",
         "content": "",
-        "image_aspect_ratio": "",
+        "image_aspect_ratio": "1/1",
         "column_alignment": "center",
         "mobile_item_size": "medium",
-        "desktop_item_size": "medium",
+        "desktop_item_size": "small",
         "spacing": "normal",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
