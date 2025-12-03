@@ -121,10 +121,10 @@
         "item_6LEEg3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/media_needed.png",
+            "image": "shopify://shop_images/kij_showroom.jpg",
             "tab_label": "Item",
             "subheading": "",
-            "title": "See For Yourself",
+            "title": "Experience for Yourself",
             "content": "<p>Inside our <strong>nautical-inspired showroom</strong>, you’ll discover a space where the <strong>spirit of the Chesapeake Bay</strong> meets modern elegance. It’s a place that feels as welcoming as it is refined — where our team treats every client like family and every design like a work of art. Stop in anytime, or reserve time to meet with our team.</p>",
             "button_text": "Design with us",
             "button_link": ""
