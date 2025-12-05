@@ -383,9 +383,9 @@
             "title": "",
             "content": "",
             "modal_content": "",
-            "link_text": "",
+            "link_text": "Follow",
             "link_url": "https://www.instagram.com/kijewelrystore/",
-            "link_style": "link",
+            "link_style": "button",
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
@@ -400,7 +400,7 @@
             "title": "",
             "content": "",
             "modal_content": "",
-            "link_text": "",
+            "link_text": "Follow",
             "link_url": "https://www.instagram.com/kijewelrystore/",
             "link_style": "link",
             "text_alignment": "center",
