@@ -639,6 +639,10 @@ a.arrow:hover:after {
   .testimonial-wrap split-lines {
     width: 100% !important;
   }
+  .shopify-section--testimonials .section__color-wrapper {
+    background-size: auto 59%;
+    background-position: 162% 93%;
+  }
   testimonial-item * {
     justify-content: center !important;
     text-align: center !important;
