@@ -630,7 +630,8 @@ a.arrow:hover:after {
   .testimonial__content.blockquote {
     font-size: 21px;
     font-family: 'Lato';
-    padding-top: 110px;
+    padding-top: 115px;
+    line-height: 1.3;
   }
   .testimonial-wrap split-lines {
     width: 100% !important;
