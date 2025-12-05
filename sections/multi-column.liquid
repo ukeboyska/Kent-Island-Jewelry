@@ -192,8 +192,8 @@
                       {%- endif -%}
 
                       {%- if block.settings.collection.title != blank or block.settings.link_text != blank -%}
-ddd
                         {%- if block.settings.link_style != blank and block.settings.link_style != 'button' -%}
+ddd
                           <a href="{{ block.settings.link_url }}" class="multi-column__link heading heading--small {{block.settings.link_style}}">{{ block_link_text | escape }}</a>
                         {%- else -%}
                           <div class="button-wrapper">
