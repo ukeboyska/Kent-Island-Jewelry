@@ -180,7 +180,7 @@
                   {%- else -%}
                     {%- assign align_arrows_on_image = false -%}
                   {%- endif -%}
-ddd
+
                   {%- if block.settings.collection.title != blank or block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
                     <div class="multi-column__text-container text--{{ block.settings.text_alignment }} text-container">
                       {%- if block.settings.title != blank -%}
@@ -192,6 +192,7 @@ ddd
                       {%- endif -%}
 
                       {%- if block.settings.collection.title != blank or block.settings.link_text != blank -%}
+ddd
                         {%- if block.settings.link_style != blank and block.settings.link_style != 'button' -%}
                           <a href="{{ block.settings.link_url }}" class="multi-column__link heading heading--small {{block.settings.link_style}}">{{ block_link_text | escape }}</a>
                         {%- else -%}
