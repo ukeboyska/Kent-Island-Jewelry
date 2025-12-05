@@ -624,8 +624,12 @@ a.arrow:hover:after {
     gap: 20px;
   }
   .testimonial-list__wrapper {
-    width: 80% !important;
+    width: 90% !important;
     margin: 0 auto;
+  }
+  .testimonial__content.blockquote {
+    font-size: 23px;
+    font-family: 'Lato';
   }
   .testimonial-wrap split-lines {
     width: 100% !important;
