@@ -1,0 +1,468 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_qHkM7q": {
+      "type": "slideshow",
+      "blocks": {
+        "image_LqFbXh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/showroom_2.png",
+            "text_position": "middle_left",
+            "subheading": "Now booking",
+            "title": "Our Design Showroom is Open",
+            "button_1_text": "Book Appointment",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#06161d",
+            "button_background": "#203f70",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 100,
+            "overlay_type": "gradient"
+          }
+        },
+        "image_MdPTgt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/crab_necklace.png",
+            "text_position": "middle_left",
+            "subheading": "Another item",
+            "title": "This is a Beautiful Crab Necklace",
+            "button_1_text": "Button Goes Here",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#1b3059",
+            "overlay_opacity": 55,
+            "overlay_type": "gradient"
+          }
+        },
+        "image_YNtyyM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/K-39.jpg",
+            "text_position": "middle_left",
+            "subheading": "Local Roots, Coastal Luxury",
+            "title": "Chesapeake Charm Meets Fine Jewelry",
+            "button_1_text": "Shop now",
+            "button_1_link": "",
+            "button_2_text": "Learn More",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#f9f9f9",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 48,
+            "overlay_type": "gradient"
+          }
+        }
+      },
+      "block_order": [
+        "image_LqFbXh",
+        "image_MdPTgt",
+        "image_YNtyyM"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "section_height": "medium",
+        "transition_type": "sweep",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "cycle_speed": 7,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_GiGCLt": {
+      "type": "multi-column",
+      "blocks": {
+        "item_yRwgt8": {
+          "type": "item",
+          "settings": {
+            "collection": "rings",
+            "image": "shopify://shop_images/media_needed.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_9JgRmG": {
+          "type": "item",
+          "settings": {
+            "collection": "earrings",
+            "image": "shopify://shop_images/media_needed.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_jwYH7Y": {
+          "type": "item",
+          "settings": {
+            "collection": "necklaces",
+            "image": "shopify://shop_images/media_needed.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_nwHBKq": {
+          "type": "item",
+          "settings": {
+            "collection": "bracelets",
+            "image": "shopify://shop_images/media_needed.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_YUabEr": {
+          "type": "item",
+          "settings": {
+            "collection": "estate-jewelry",
+            "image": "shopify://shop_images/media_needed.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_yRwgt8",
+        "item_9JgRmG",
+        "item_jwYH7Y",
+        "item_nwHBKq",
+        "item_YUabEr"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "layout_options": "",
+        "subheading": "Browse the latest",
+        "title": "Fresh Designs for the Season",
+        "content": "",
+        "image_aspect_ratio": "1/1",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "small",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_V7YQkb": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 52
+      }
+    },
+    "collection_list_CnJr8q": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_CLBg6b": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "shopify://products/gold-spike-adjustable-double-ring",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_6iF9Yy": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "shopify://products/test-2",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_tWdmWP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/media_needed.png",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "#",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_CLBg6b",
+        "collection_6iF9Yy",
+        "collection_tWdmWP"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "reveal_on_scroll": false,
+        "content_positioning": "position--text-right",
+        "layout": "collage",
+        "subheading": "",
+        "title": "Nautical Treasures",
+        "description": "Discover a collection inspired by the charm and character of the Chesapeake Bay. Our handcrafted jewelry captures the spirit of Maryland’s shores, from our gentle waves to our iconic naval history.",
+        "link_text": "Shop Now",
+        "link_url": "shopify://collections",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_i9iNBm": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 52
+      }
+    },
+    "image_with_text_DMRCa4": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_dDP4gh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/K-17_2.jpg",
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Trusted for 25 Years",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+            "button_text": "Our Story",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_dDP4gh"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": false,
+        "background_image": "shopify://shop_images/shell2.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "right",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#214457",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_tefYJj": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 52
+      }
+    },
+    "testimonials_pkgtre": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_wzRJDd": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/rings-collection.jpg",
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S.",
+            "link_text": "Read Full Story",
+            "link_url": "http://google.com"
+          }
+        },
+        "testimonial_phqtTe": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S.",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "testimonial_6VWDEh": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S.",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_wzRJDd",
+        "testimonial_phqtTe",
+        "testimonial_6VWDEh"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background_image": "shopify://shop_images/shell2.svg",
+        "image_aspect_ratio": "",
+        "background": "#d1e1e3",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_LBN9cB": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 24
+      }
+    },
+    "multi_column_qMR6gU": {
+      "type": "multi-column",
+      "blocks": {
+        "item_QLn7nE": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/K-58.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_QLn7nE"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "layout_options": "",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "small",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_8DgM8R": {
+      "type": "multi-column",
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": true,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "layout_options": "",
+        "subheading": "Subheading",
+        "title": "One Smaller Image",
+        "content": "<p>ContentContent Conte ntContentContentContent Conte ntContentContentContent Conte ntContentContentContent Conte ntContentContentContent Conte ntContentContentContent Conte ntContent</p>",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "small",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    }
+  },
+  "order": [
+    "slideshow_qHkM7q",
+    "multi_column_GiGCLt",
+    "spacer_V7YQkb",
+    "collection_list_CnJr8q",
+    "spacer_i9iNBm",
+    "image_with_text_DMRCa4",
+    "spacer_tefYJj",
+    "testimonials_pkgtre",
+    "spacer_LBN9cB",
+    "multi_column_qMR6gU",
+    "multi_column_8DgM8R",
+    "main"
+  ]
+}
