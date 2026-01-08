@@ -32,7 +32,7 @@
   {%- endfor -%}
 </style>
 
-<section class="section section--flush mobile-bg--{{ section.settings.mobile-background }}">
+<section class="section section--flush">
   <slide-show {% if section.settings.show_initial_transition %}reveal-on-scroll{% endif %} {% if section.settings.autoplay %}auto-play{% endif %} transition-type="{{ section.settings.transition_type | escape }}" class="slideshow slideshow--{{ section.settings.section_height }}">
     <div class="slideshow__slide-list">
       {%- for block in section.blocks -%}
@@ -168,7 +168,7 @@
           {% endif %}
         {%- endcapture -%}
 
-        <slide-show-item {% if section.settings.transition_type != 'reveal' and section.settings.show_initial_transition or forloop.first == false %}reveal-visibility{% endif %} {{ slide_attributes }}>
+        <slide-show-item style="background: {{ section.settings.mobile-background }}" {% if section.settings.transition_type != 'reveal' and section.settings.show_initial_transition or forloop.first == false %}reveal-visibility{% endif %} {{ slide_attributes }}>
           {%- if block.settings.button_1_link != blank and block.settings.button_1_text == blank and block.settings.button_2_text == blank -%}
             <a class="slideshow__slide-inner" href="{{ block.settings.button_1_link }}">
               {{- slide_content -}}
