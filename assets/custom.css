@@ -724,4 +724,7 @@ a.arrow:hover:after {
   .promotion-block-list .promotion-block--small:nth-child(3n) {
     order: 4;
   }
+  .promotion-block-list .promotion-block--small:nth-child(7n) {
+    order: 8;
+  }
 }
