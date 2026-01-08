@@ -130,6 +130,13 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "spacer_RyryfP": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
     "image_with_text_DMRCa4": {
       "type": "image-with-text",
       "blocks": {
@@ -242,6 +249,7 @@
     "image_with_text_bjc36V",
     "spacer_8McKfa",
     "promotion_blocks_9HghXi",
+    "spacer_RyryfP",
     "image_with_text_DMRCa4",
     "spacer_tefYJj",
     "testimonials_pkgtre",
