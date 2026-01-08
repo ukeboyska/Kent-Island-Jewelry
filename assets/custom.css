@@ -740,4 +740,7 @@ a.arrow:hover:after {
     margin-left: 0;
     margin-right: 0;
   }
+  .slideshow__text-wrapper .content-box .heading--small+.heading--large {
+    margin: 10px 0;
+  }
 }
