@@ -64,7 +64,7 @@
             "subheading": "Your story. your choice.",
             "content": "Natural and Lab-Grown diamonds are both stunning. The difference is personal. Our team will explain the distinctions simply and honestly, helping you choose what aligns with your values, style, and budget without pressure.",
             "author": "– Patti & Mary Jo | Owners",
-            "background": "#ffffff",
+            "background": "#f5fbff",
             "text_color": "#1b3059"
           }
         },
@@ -109,7 +109,7 @@
             "subheading": "Guided, Personal service",
             "content": "You don’t need to be an expert. That’s our role. Through a private consultation, in store or virtually, we'll guide you through the selection process, highlighting what truly matters, from brilliance to long-term value.",
             "author": "",
-            "background": "#f7f8fd",
+            "background": "#f5fbff",
             "text_color": "#122443"
           }
         }
@@ -126,7 +126,7 @@
         "title": "Choices Sure to Dazzle",
         "section_size": "small",
         "stack_on_mobile": true,
-        "background": "#e9f2f3",
+        "background": "#ffffff",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -175,13 +175,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "spacer_tefYJj": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "custom_height": 52
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -196,7 +189,6 @@
     "promotion_blocks_9HghXi",
     "spacer_RyryfP",
     "image_with_text_DMRCa4",
-    "spacer_tefYJj",
     "main"
   ]
 }
