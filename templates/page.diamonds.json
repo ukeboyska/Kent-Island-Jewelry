@@ -63,17 +63,18 @@
             "highlight": true,
             "subheading": "Your story. your choice.",
             "content": "Natural and Lab-Grown diamonds are both stunning. The difference is personal. Our team will explain the distinctions simply and honestly, helping you choose what aligns with your values, style, and budget without pressure.",
-            "author": "",
-            "background": "#f7f8fd",
-            "text_color": "#1e316a"
+            "author": "– Patti & Mary Jo | Owners",
+            "background": "#f5f5f5",
+            "text_color": "#1b3059"
           }
         },
         "image_GM76b3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/90938332-2100x2100-fb62b58a-5cb2-4d89-a4b0-6c2549f75573.jpg",
             "highlight": false,
-            "subheading": "Subheading",
-            "title": "Image with text",
+            "subheading": "",
+            "title": "",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -91,11 +92,11 @@
       ],
       "name": "Promotion blocks",
       "settings": {
-        "subheading": "Subheading",
-        "title": "Promotion blocks",
+        "subheading": "",
+        "title": "Natural and Lab-Grown",
         "section_size": "small",
         "stack_on_mobile": true,
-        "background": "#d1e1e3",
+        "background": "#e9f2f3",
         "text_color": "rgba(0,0,0,0)"
       }
     },
