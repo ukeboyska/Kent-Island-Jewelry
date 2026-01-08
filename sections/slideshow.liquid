@@ -168,7 +168,7 @@
           {% endif %}
         {%- endcapture -%}
 
-        <slide-show-item style="background: {{ section.settings.mobile-background }}" {% if section.settings.transition_type != 'reveal' and section.settings.show_initial_transition or forloop.first == false %}reveal-visibility{% endif %} {{ slide_attributes }}>
+        <slide-show-item style="background: {{ section.settings.mobile-background }};background: {{ block.settings.mobile-background }}" {% if section.settings.transition_type != 'reveal' and section.settings.show_initial_transition or forloop.first == false %}reveal-visibility{% endif %} {{ slide_attributes }}>
           {%- if block.settings.button_1_link != blank and block.settings.button_1_text == blank and block.settings.button_2_text == blank -%}
             <a class="slideshow__slide-inner" href="{{ block.settings.button_1_link }}">
               {{- slide_content -}}
@@ -437,6 +437,13 @@
           "step": 1,
           "unit": "%",
           "default": 30
+        },
+        {
+          "type": "color",
+          "id": "mobile-background",
+          "label": "Mobile Background",
+          "info": "Used for rounded mobile background color (overwrites section bg)",
+          "default": "rgba(0,0,0,0)"
         },
         {
           "type": "select",
