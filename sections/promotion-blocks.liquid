@@ -126,13 +126,13 @@
                     {{- block_content -}}
                   </a>
                 {%- else -%}
-                  <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if block.settings.remove_quote %}remove-quote{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }}>
+                  <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }}>
                     {{- block_content -}}
                   </div>
                 {%- endif -%}
 
               {%- when 'quote' -%}
-                <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block promotion-block--quote {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }}" {{ block.shopify_attributes }}>
+                <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block promotion-block--quote {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if block.settings.remove_quote %}remove-quote{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }}" {{ block.shopify_attributes }}>
                   <div class="promotion-block__content-wrapper text-container">
                     {%- if block.settings.subheading != blank -%}
                       <h4 class="heading heading--small">{{ block.settings.subheading | escape }}</h4>
