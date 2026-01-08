@@ -82,7 +82,7 @@
         "show_initial_transition": false,
         "autoplay": true,
         "cycle_speed": 7,
-        "background": "rgba(0,0,0,0)"
+        "background": "#d2545a"
       }
     },
     "multi-column": {
