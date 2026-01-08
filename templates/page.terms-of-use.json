@@ -1,0 +1,38 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_html_UYh8R7": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div name=\"termly-embed\" data-id=\"d554c04c-d4cf-43e6-bbc8-9a446b9f9832\"></div>\n<script type=\"text/javascript\">(function(d, s, id) {\n  var js, tjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n  js.src = \"https://app.termly.io/embed-policy.min.js\";\n  tjs.parentNode.insertBefore(js, tjs);\n}(document, 'script', 'termly-jssdk'));</script>",
+        "background_type": "full_width",
+        "add_vertical_spacing": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    }
+  },
+  "order": [
+    "custom_html_UYh8R7",
+    "main"
+  ]
+}
