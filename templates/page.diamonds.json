@@ -9,6 +9,43 @@
  */
 {
   "sections": {
+    "image_with_text_bjc36V": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_ft4eg3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/kij_diamond_hero_2.jpg",
+            "tab_label": "Item",
+            "subheading": "Thoughtfully Chosen",
+            "title": "Diamonds",
+            "content": "<p>Choosing a diamond should feel joyous — not overwhelming. We curate exceptional natural and laboratory-grown diamonds, selected for beauty, brilliance, and integrity. Every stone is chosen with intention and presented with  clarity, so you can make a decision that shines.</p>",
+            "button_text": "Find your stone",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_ft4eg3"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": true,
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "left",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#203f70",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "custom_html_JW8Kc4": {
       "type": "custom-html",
       "name": "Custom HTML",
@@ -202,6 +239,7 @@
     }
   },
   "order": [
+    "image_with_text_bjc36V",
     "custom_html_JW8Kc4",
     "spacer_i9iNBm",
     "image_with_text_DMRCa4",
