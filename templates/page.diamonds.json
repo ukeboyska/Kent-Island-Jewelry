@@ -126,7 +126,7 @@
         "title": "Choices Sure to Dazzle",
         "section_size": "small",
         "stack_on_mobile": true,
-        "background": "#ffffff",
+        "background": "#f9f9f9",
         "text_color": "rgba(0,0,0,0)"
       }
     },
