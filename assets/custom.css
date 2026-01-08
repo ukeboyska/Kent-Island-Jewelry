@@ -654,7 +654,7 @@ a.arrow:hover:after {
     border-radius: 10px 10px 10px 10px;
     z-index: 0;
   }
-  #main > .shopify-section:first-child() .image-with-text:before {
+  #main > .shopify-section:first-child .image-with-text:before {
     border-radius: 0 0 10px 10px;
   }
   .shopify-section--image-with-text .section.with-background-image {
