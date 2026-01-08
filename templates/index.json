@@ -28,6 +28,7 @@
             "button_text_color": "#122443",
             "overlay_color": "#06161d",
             "overlay_opacity": 25,
+            "mobile-background": "#b2c2b1",
             "overlay_type": "gradient"
           }
         },
@@ -48,6 +49,7 @@
             "button_text_color": "#ffffff",
             "overlay_color": "#ffffff",
             "overlay_opacity": 77,
+            "mobile-background": "",
             "overlay_type": "gradient"
           }
         },
@@ -67,6 +69,7 @@
             "button_text_color": "#000000",
             "overlay_color": "#203f70",
             "overlay_opacity": 49,
+            "mobile-background": "",
             "overlay_type": "gradient"
           }
         }
