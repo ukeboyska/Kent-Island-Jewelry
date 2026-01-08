@@ -32,7 +32,7 @@
   {%- endfor -%}
 </style>
 
-<section class="section section--flush mobile-bg--{{ block.settings.mobile-background }}">
+<section class="section section--flush mobile-bg--{{ section.settings.mobile-background }}">
   <slide-show {% if section.settings.show_initial_transition %}reveal-on-scroll{% endif %} {% if section.settings.autoplay %}auto-play{% endif %} transition-type="{{ section.settings.transition_type | escape }}" class="slideshow slideshow--{{ section.settings.section_height }}">
     <div class="slideshow__slide-list">
       {%- for block in section.blocks -%}
