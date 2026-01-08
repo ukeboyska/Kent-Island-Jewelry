@@ -15,7 +15,7 @@
         "item_ft4eg3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/kij_diamond_hero_2.jpg",
+            "image": "shopify://shop_images/kij_diamond_square_hero.jpg",
             "tab_label": "Item",
             "subheading": "Thoughtfully Chosen",
             "title": "Diamonds",
@@ -31,6 +31,7 @@
       "name": "Image with text",
       "settings": {
         "page_hero": true,
+        "background_image": "shopify://shop_images/shell2.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "section_width": "contained",
