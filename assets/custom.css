@@ -738,7 +738,7 @@ a.arrow:hover:after {
     padding-top: 30px;
   }
   .slideshow__text-wrapper .container {
-    margin-left: 0;
-    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
