@@ -146,9 +146,9 @@
             "image": "shopify://shop_images/K-17_2.jpg",
             "tab_label": "Item",
             "subheading": "Subheading",
-            "title": "Trusted for 25 Years",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "Our Story",
+            "title": "It Starts with a Conversation",
+            "content": "<p>Diamonds are best experienced, not guessed or left to chance. Book a private diamond consultation and let us guide you with expertise and care.</p>",
+            "button_text": "Book a consultation",
             "button_link": ""
           }
         }
@@ -159,7 +159,7 @@
       "name": "Image with text",
       "settings": {
         "page_hero": false,
-        "background_image": "shopify://shop_images/shell2.svg",
+        "background_image": "shopify://shop_images/Shell_3.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "section_width": "contained",
@@ -169,7 +169,7 @@
         "section_padding_bottom": "default",
         "text_alignment": "center",
         "cycle_speed": 8,
-        "accent_background": "#214457",
+        "accent_background": "#b2c2b1",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
@@ -182,65 +182,10 @@
         "custom_height": 52
       }
     },
-    "testimonials_pkgtre": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_wzRJDd": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S.",
-            "link_text": "Read Full Story",
-            "link_url": "http://google.com"
-          }
-        },
-        "testimonial_phqtTe": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S.",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "testimonial_6VWDEh": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S.",
-            "link_text": "",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_wzRJDd",
-        "testimonial_phqtTe",
-        "testimonial_6VWDEh"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "reveal_on_scroll": true,
-        "subheading": "",
-        "title": "",
-        "background_image": "shopify://shop_images/shell2.svg",
-        "image_aspect_ratio": "",
-        "background": "#d1e1e3",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "spacer_LBN9cB": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "custom_height": 24
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
-        "show_title": true,
+        "show_title": false,
         "page_width": "medium"
       }
     }
@@ -252,8 +197,6 @@
     "spacer_RyryfP",
     "image_with_text_DMRCa4",
     "spacer_tefYJj",
-    "testimonials_pkgtre",
-    "spacer_LBN9cB",
     "main"
   ]
 }
