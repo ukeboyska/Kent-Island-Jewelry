@@ -722,6 +722,6 @@ a.arrow:hover:after {
 }
 @media screen and (max-width: 768px) {
   .promotion-block-list .promotion-block--small:nth-child(3n) {
-    order: 100;
+    order: 4;
   }
 }
