@@ -737,4 +737,8 @@ a.arrow:hover:after {
   .slideshow__text-wrapper .content-box {
     padding-top: 30px;
   }
+  .slideshow__text-wrapper .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
