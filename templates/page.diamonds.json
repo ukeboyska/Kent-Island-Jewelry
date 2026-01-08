@@ -47,6 +47,13 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "spacer_8McKfa": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
     "custom_html_JW8Kc4": {
       "type": "custom-html",
       "name": "Custom HTML",
@@ -241,6 +248,7 @@
   },
   "order": [
     "image_with_text_bjc36V",
+    "spacer_8McKfa",
     "custom_html_JW8Kc4",
     "spacer_i9iNBm",
     "image_with_text_DMRCa4",
