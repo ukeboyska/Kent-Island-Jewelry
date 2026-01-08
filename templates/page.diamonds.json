@@ -88,7 +88,7 @@
         "image_anjykq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/108504089-2100x1973-a9b3ea4e-ef48-4565-a72d-b14745165012.jpg",
+            "image": "shopify://shop_images/loose_diamond.jpg",
             "highlight": false,
             "subheading": "",
             "title": "",
@@ -123,7 +123,7 @@
       "name": "Promotion blocks",
       "settings": {
         "subheading": "",
-        "title": "Natural and Lab-Grown",
+        "title": "Choices Sure to Dazzle",
         "section_size": "small",
         "stack_on_mobile": true,
         "background": "#e9f2f3",
