@@ -635,6 +635,8 @@ a.arrow:hover:after {
   }
   .testimonial__content.blockquote:before {
     left: 0 !important;
+    right: 0;
+    margin: auto;
     font-size: 170px;
   }
   .testimonial-wrap split-lines {
