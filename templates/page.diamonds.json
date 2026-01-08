@@ -61,6 +61,7 @@
           "type": "quote",
           "settings": {
             "highlight": true,
+            "remove_quote": false,
             "subheading": "",
             "content": "Natural and Lab-Grown diamonds are both stunning. The difference is personal. Our team will explain the distinctions simply and honestly, helping you choose what aligns with your values, style, and budget without pressure.",
             "author": "– Patti & Mary Jo | Owners",
@@ -106,6 +107,7 @@
           "type": "quote",
           "settings": {
             "highlight": true,
+            "remove_quote": true,
             "subheading": "Guided, Personal service",
             "content": "You don’t need to be an expert. That’s our role. Through a private consultation, in store or virtually, we'll guide you through the selection process, highlighting what truly matters, from brilliance to long-term value.",
             "author": "",
