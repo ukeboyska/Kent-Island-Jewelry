@@ -717,3 +717,8 @@ a.arrow:hover:after {
 .promotion-block.remove-quote:before {
   display: none !important;
 }
+@media screen and (max-width: 768px) {
+  .promotion-block--small:last-of-type {
+    order: 100;
+  }
+}
