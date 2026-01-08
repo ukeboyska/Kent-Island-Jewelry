@@ -718,7 +718,7 @@ a.arrow:hover:after {
   display: none !important;
 }
 @media screen and (max-width: 768px) {
-  .promotion-block--small:last-of-type {
+  .promotion-block--small.image-zoom:last-of-type {
     order: 100;
   }
 }
