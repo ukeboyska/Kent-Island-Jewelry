@@ -64,7 +64,7 @@
             "subheading": "Your story. your choice.",
             "content": "Natural and Lab-Grown diamonds are both stunning. The difference is personal. Our team will explain the distinctions simply and honestly, helping you choose what aligns with your values, style, and budget without pressure.",
             "author": "– Patti & Mary Jo | Owners",
-            "background": "#f5f5f5",
+            "background": "#ffffff",
             "text_color": "#1b3059"
           }
         },
@@ -84,11 +84,41 @@
             "button_background": "#ffffff",
             "button_text_color": "#1e316a"
           }
+        },
+        "image_anjykq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/108504089-2100x1973-a9b3ea4e-ef48-4565-a72d-b14745165012.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "quote_mcbGbd": {
+          "type": "quote",
+          "settings": {
+            "highlight": true,
+            "subheading": "Guided, Personal service",
+            "content": "You don’t need to be an expert. That’s our role. Through a private consultation, in store or virtually, we'll guide you through the selection process, highlighting what truly matters, from brilliance to long-term value.",
+            "author": "",
+            "background": "#f7f8fd",
+            "text_color": "#122443"
+          }
         }
       },
       "block_order": [
         "quote_fArM8T",
-        "image_GM76b3"
+        "image_GM76b3",
+        "image_anjykq",
+        "quote_mcbGbd"
       ],
       "name": "Promotion blocks",
       "settings": {
@@ -97,65 +127,6 @@
         "section_size": "small",
         "stack_on_mobile": true,
         "background": "#e9f2f3",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_8DgM8R": {
-      "type": "multi-column",
-      "blocks": {
-        "item_FBcrey": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_R7gbUd": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_FBcrey",
-        "item_R7gbUd"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": true,
-        "remove_bottom_margin": false,
-        "stack_items": false,
-        "layout_options": "",
-        "subheading": "Subheading",
-        "title": "Natural and Lab-Grown",
-        "content": "<p>Both are stunning. The difference is personal. We explain the distinctions simply and honestly, helping you choose what aligns with your values, style, and budget — without pressure.</p>",
-        "image_aspect_ratio": "",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "small",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -271,7 +242,6 @@
     "image_with_text_bjc36V",
     "spacer_8McKfa",
     "promotion_blocks_9HghXi",
-    "multi_column_8DgM8R",
     "image_with_text_DMRCa4",
     "spacer_tefYJj",
     "testimonials_pkgtre",
