@@ -730,4 +730,8 @@ a.arrow:hover:after {
   .promotion-block-list .promotion-block--small:nth-child(7n) {
     order: 8;
   }
+  .button:not(.button--text), .shopify-challenge__button, #shopify-product-reviews .spr-summary-actions-newreview, #shopify-product-reviews .spr-button {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
