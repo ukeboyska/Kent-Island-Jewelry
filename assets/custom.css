@@ -651,8 +651,11 @@ a.arrow:hover:after {
     padding-inline-end: 0 !important;
   }
   .image-with-text:before {
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     z-index: 0;
+  }
+  #main > .shopify-section:first-child() .image-with-text:before {
+    border-radius: 0 0 10px 10px;
   }
   .shopify-section--image-with-text .section.with-background-image {
     background-size: 110% auto;
