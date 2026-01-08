@@ -15,7 +15,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<div name=\"termly-embed\" data-id=\"d554c04c-d4cf-43e6-bbc8-9a446b9f9832\"></div>\n<script type=\"text/javascript\">(function(d, s, id) {\n  var js, tjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n  js.src = \"https://app.termly.io/embed-policy.min.js\";\n  tjs.parentNode.insertBefore(js, tjs);\n}(document, 'script', 'termly-jssdk'));</script>",
+        "html": "<div name=\"termly-embed\" data-id=\"bbb7cec3-0d45-4a6e-b2a6-6a7f7c76189b\"></div>\n<script type=\"text/javascript\">(function(d, s, id) {\n  var js, tjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n  js.src = \"https://app.termly.io/embed-policy.min.js\";\n  tjs.parentNode.insertBefore(js, tjs);\n}(document, 'script', 'termly-jssdk'));</script>",
         "background_type": "full_width",
         "add_vertical_spacing": true,
         "background": "rgba(0,0,0,0)",
