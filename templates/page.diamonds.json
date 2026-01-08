@@ -54,24 +54,108 @@
         "custom_height": 36
       }
     },
-    "custom_html_JW8Kc4": {
-      "type": "custom-html",
-      "name": "Custom HTML",
+    "promotion_blocks_9HghXi": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "quote_fArM8T": {
+          "type": "quote",
+          "settings": {
+            "highlight": true,
+            "subheading": "Your story. your choice.",
+            "content": "Natural and Lab-Grown diamonds are both stunning. The difference is personal. Our team will explain the distinctions simply and honestly, helping you choose what aligns with your values, style, and budget without pressure.",
+            "author": "",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a"
+          }
+        },
+        "image_GM76b3": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "quote_fArM8T",
+        "image_GM76b3"
+      ],
+      "name": "Promotion blocks",
       "settings": {
-        "subheading": "Your subheading",
-        "title": "Your title",
-        "html": "<iframe id=\"ifrm\" src=\"https://iframes.ovnight.com/engagement-rings/halo/round?customerid=RJ1366\" style=\"width:100%;height:1200px;border:none;\" scrolling=\"no\"></iframe><script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.10/iframeResizer.js\"></script><script>jQuery('iframe#ifrm').on('load', function (){jQuery('iframe#ifrm').iFrameResize( [{checkOrigin:false,log:true,enablePublicMethods : true,heightCalculationMethod : 'max'}]);});</script>",
-        "background_type": "full_width",
-        "add_vertical_spacing": true,
-        "background": "rgba(0,0,0,0)",
+        "subheading": "Subheading",
+        "title": "Promotion blocks",
+        "section_size": "small",
+        "stack_on_mobile": true,
+        "background": "#d1e1e3",
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "spacer_i9iNBm": {
-      "type": "spacer",
-      "name": "Spacer",
+    "multi_column_8DgM8R": {
+      "type": "multi-column",
+      "blocks": {
+        "item_FBcrey": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_R7gbUd": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_FBcrey",
+        "item_R7gbUd"
+      ],
+      "name": "Multi-column",
       "settings": {
-        "custom_height": 52
+        "reveal_on_scroll": true,
+        "remove_top_margin": true,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "layout_options": "",
+        "subheading": "Subheading",
+        "title": "Natural and Lab-Grown",
+        "content": "<p>Both are stunning. The difference is personal. We explain the distinctions simply and honestly, helping you choose what aligns with your values, style, and budget — without pressure.</p>",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "small",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "image_with_text_DMRCa4": {
@@ -174,70 +258,6 @@
         "custom_height": 24
       }
     },
-    "multi_column_qMR6gU": {
-      "type": "multi-column",
-      "blocks": {
-        "item_QLn7nE": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/K-58.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_QLn7nE"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "stack_items": false,
-        "layout_options": "",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "image_aspect_ratio": "",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "small",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_8DgM8R": {
-      "type": "multi-column",
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": true,
-        "remove_bottom_margin": false,
-        "stack_items": false,
-        "layout_options": "",
-        "subheading": "Subheading",
-        "title": "One Smaller Image",
-        "content": "<p>ContentContent Conte ntContentContentContent Conte ntContentContentContent Conte ntContentContentContent Conte ntContentContentContent Conte ntContentContentContent Conte ntContent</p>",
-        "image_aspect_ratio": "",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "small",
-        "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -249,14 +269,12 @@
   "order": [
     "image_with_text_bjc36V",
     "spacer_8McKfa",
-    "custom_html_JW8Kc4",
-    "spacer_i9iNBm",
+    "promotion_blocks_9HghXi",
+    "multi_column_8DgM8R",
     "image_with_text_DMRCa4",
     "spacer_tefYJj",
     "testimonials_pkgtre",
     "spacer_LBN9cB",
-    "multi_column_qMR6gU",
-    "multi_column_8DgM8R",
     "main"
   ]
 }
