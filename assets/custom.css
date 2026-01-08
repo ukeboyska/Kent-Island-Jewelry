@@ -717,6 +717,9 @@ a.arrow:hover:after {
 .promotion-block.remove-quote:before {
   display: none !important;
 }
+.promotion-block--quote.remove-quote .promotion-block__content-wrapper {
+  margin-top: 0;
+}
 @media screen and (max-width: 768px) {
   .promotion-block-list .promotion-block--small:nth-child(3n) {
     order: 100;
