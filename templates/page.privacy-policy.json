@@ -14,7 +14,7 @@
       "name": "Custom HTML",
       "settings": {
         "subheading": "",
-        "title": "",
+        "title": "Privacy Policy",
         "html": "",
         "background_type": "full_width",
         "add_vertical_spacing": true,
@@ -24,6 +24,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "show_title": true,
         "page_width": "medium"
