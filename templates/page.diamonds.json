@@ -107,10 +107,10 @@
           "type": "quote",
           "settings": {
             "highlight": true,
-            "remove_quote": true,
-            "subheading": "Guided, Personal service",
+            "remove_quote": false,
+            "subheading": "",
             "content": "You don’t need to be an expert. That’s our role. Through a private consultation, in store or virtually, we'll guide you through the selection process, highlighting what truly matters, from brilliance to long-term value.",
-            "author": "",
+            "author": "– Patti & Mary Jo | Owners",
             "background": "#f5fbff",
             "text_color": "#122443"
           }
