@@ -611,9 +611,13 @@ a.arrow:hover:after {
     flex-wrap: wrap;
     display: flex;
   }
-  multi-column[stack-mobile] scrollable-content label,
   .image-with-text__image-wrapper {
     width: 100% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  multi-column[stack-mobile] scrollable-content label {
+    width: 100%;
   }
 }
 
