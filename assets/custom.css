@@ -621,8 +621,8 @@ a.arrow:hover:after {
   }
   .modal__inner>div>.multi-column__image-wrapper {
     width: 100% !important;
-    aspect-ratio: 5/4;
-    height: auto;
+    aspect-ratio: 5/4 !important;
+    height: auto !important;
   }
   .modal__inner > div {
     flex-wrap: wrap;
