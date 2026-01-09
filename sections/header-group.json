@@ -29,6 +29,7 @@
       "block_order": [
         "message-1"
       ],
+      "disabled": true,
       "settings": {
         "announcement_bar_position": "non_sticky",
         "announcement_text_size": "small",
