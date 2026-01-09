@@ -50,7 +50,7 @@
             "button_text_color": "#ffffff",
             "overlay_color": "#ffffff",
             "overlay_opacity": 77,
-            "mobile-background": "",
+            "mobile-background": "#d1e1e3",
             "overlay_type": "gradient"
           }
         },
