@@ -57,20 +57,20 @@
                     {%- render 'icon' with block.settings.icon -%}
                   {%- endif -%}
                 </div>
+
+                {%- if block.settings.title != blank or block.settings.content != blank -%}
+                  <div class="text-with-icons__content-wrapper">
+                    {%- if block.settings.title != blank -%}
+                      <p class="heading heading--small">{{ block.settings.title | escape }}</p>
+                    {%- endif -%}
+
+                    {%- if block.settings.content != blank -%}
+                      {{- block.settings.content -}}
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
               {%- if block.settings.link != blank -%}
                 </a>
-              {%- endif -%}
-
-              {%- if block.settings.title != blank or block.settings.content != blank -%}
-                <div class="text-with-icons__content-wrapper">
-                  {%- if block.settings.title != blank -%}
-                    <p class="heading heading--small">{{ block.settings.title | escape }}</p>
-                  {%- endif -%}
-
-                  {%- if block.settings.content != blank -%}
-                    {{- block.settings.content -}}
-                  {%- endif -%}
-                </div>
               {%- endif -%}
             </native-carousel-item>
           {%- endfor -%}
