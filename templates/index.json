@@ -16,6 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/kij_slider_2.jpg",
+            "mobile_image": "shopify://shop_images/kij_mobile_underwater.jpg",
             "text_position": "middle_left",
             "subheading": "Local roots | Coastal luxury",
             "title": "Chesapeake Charm Meets Fine Jewelry",
@@ -28,7 +29,7 @@
             "button_text_color": "#122443",
             "overlay_color": "#ffffff",
             "overlay_opacity": 65,
-            "mobile-background": "#b2c2b1",
+            "mobile-background": "#d1e1e3",
             "overlay_type": "gradient"
           }
         },
