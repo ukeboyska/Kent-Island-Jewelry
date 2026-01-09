@@ -234,7 +234,8 @@
             "custom_icon": "shopify://shop_images/kij_1.png",
             "custom_icon_width": 75,
             "title": "Custom jewelry design & CAD modeling",
-            "content": ""
+            "content": "",
+            "link": "https://google.com"
           }
         },
         "item_L9tj9e": {
@@ -244,7 +245,8 @@
             "custom_icon": "shopify://shop_images/kij_2.png",
             "custom_icon_width": 75,
             "title": "Professional repairs & restoration",
-            "content": ""
+            "content": "",
+            "link": ""
           }
         },
         "item_QHgQck": {
@@ -254,7 +256,8 @@
             "custom_icon": "shopify://shop_images/kij_3.png",
             "custom_icon_width": 75,
             "title": "Gold and Jewelry buying",
-            "content": ""
+            "content": "",
+            "link": ""
           }
         },
         "item_LABczn": {
@@ -264,7 +267,8 @@
             "custom_icon": "shopify://shop_images/kij_4.png",
             "custom_icon_width": 75,
             "title": "Appraisals & insurance documentation",
-            "content": ""
+            "content": "",
+            "link": ""
           }
         }
       },
