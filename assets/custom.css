@@ -600,6 +600,9 @@ a.arrow:hover:after {
   }
 }
 @media screen and (max-width: 768px) {
+  .multi-column[stack-mobile] .multi-column__item {
+    flex-basis: 100%;
+  }
   .multi-column[stack] .multi-column__item {
     flex-basis: 100%;
   }
