@@ -147,7 +147,7 @@
           "settings": {
             "image": "shopify://shop_images/K-17_2.jpg",
             "tab_label": "Item",
-            "subheading": "Subheading",
+            "subheading": "",
             "title": "It Starts with a Conversation",
             "content": "<p>Diamonds are best experienced, not guessed or left to chance. Book a private diamond consultation and let us guide you with expertise and care.</p>",
             "button_text": "Book a consultation",
