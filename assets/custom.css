@@ -615,6 +615,11 @@ a.arrow:hover:after {
     width: 100% !important;
   }
 }
+@media screen and (max-width: 740px) {
+  .modal {
+    transform: none !important;
+  }
+}
 @media screen and (max-width: 500px) {
   multi-column[stack-mobile] scrollable-content label {
     width: 100%;
