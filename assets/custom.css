@@ -559,6 +559,15 @@ a.arrow:hover:after {
   }
 }
 
+.modal__inner > div > .multi-column__image-wrapper {
+  width: 40% !important;
+}
+.modal__inner > div > div:not:(.multi-column__image-wrapper) {
+  width: 60%;
+  align-self: start;
+  overflow: auto;
+}
+
 
 
 .padding-bottom--none:has(.image-with-text__wrapper) {
