@@ -196,10 +196,10 @@
                           {% assign block_link_text = block.settings.link_text %}
                         {% endif %}
                         {%- if block.settings.link_style != blank and block.settings.link_style != 'button' -%}
-                          <a href="{{ block.settings.link_url }}" class="multi-column__link heading heading--small {{block.settings.link_style}}">{{ block_link_text | escape }}</a>
+                          <a href="{{ block.settings.link_url }}" class="multi-column__link heading heading--small {{block.settings.link_style}}">{{ block.settings.link_text | escape }}</a>
                         {%- else -%}
                           <div class="button-wrapper">
-                            <a href="{{ block.settings.link_url }}" class="multi-column__button button button--small button--primary">{{ block_link_text | escape }}</a>
+                            <a href="{{ block.settings.link_url }}" class="multi-column__button button button--small button--primary">{{ block.settings.link_text | escape }}</a>
                           </div>
                         {%- endif -%}
                       {%- endif -%}
