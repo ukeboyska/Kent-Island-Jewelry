@@ -35,16 +35,16 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/rings-collection.jpg",
+            "image": "shopify://shop_images/patty_photo.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Firstname Lastname",
-            "content": "<p>Role</p>",
+            "title": "Patty Knell",
+            "content": "<p>Founder</p>",
             "modal_content": "<p>CSS Gradient is a <a href=\"https://designstripe.com/\">Designstripe</a> project that lets you create free gradient backgrounds for your website. Besides being a css gradient generator, the site is also chock-full of colorful content about gradients from <a href=\"https://cssgradient.io/blog/resources/\">technical articles</a> to real life <a href=\"https://cssgradient.io/blog/css-gradient-examples/\">gradient examples</a> like Stripe and Instagram.</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
-            "text_alignment": "center",
+            "text_alignment": "left",
             "vertical_alignment": "start"
           }
         },
@@ -119,8 +119,8 @@
         "image_aspect_ratio": "5/6",
         "column_alignment": "center",
         "mobile_item_size": "medium",
-        "desktop_item_size": "medium",
-        "spacing": "normal",
+        "desktop_item_size": "large",
+        "spacing": "loose",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
