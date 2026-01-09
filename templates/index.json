@@ -68,8 +68,8 @@
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "overlay_color": "#203f70",
-            "overlay_opacity": 49,
+            "overlay_color": "#06161d",
+            "overlay_opacity": 47,
             "mobile-background": "",
             "overlay_type": "gradient"
           }
