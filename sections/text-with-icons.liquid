@@ -48,7 +48,7 @@
             <native-carousel-item {% unless forloop.first %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="text-with-icons__item" {{ block.shopify_attributes }}>
               <div class="text-with-icons__icon-wrapper">
                 {%- if block.settings.link != blank -%}
-                  <a href="{{ block.settings.link }}"></a>
+                  <a href="{{ block.settings.link }}">
                 {%- endif -%}
                   {%- if block.settings.custom_icon != blank -%}
                     {% capture custom_icon_width %}{{ block.settings.custom_icon_width | times: 2 }}{% endcapture %}
