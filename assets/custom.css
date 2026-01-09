@@ -607,6 +607,7 @@ a.arrow:hover:after {
   .multi-column[stack] .multi-column__item {
     flex-basis: 100%;
   }
+  multi-column[stack] scrollable-content label,
   .image-with-text__image-wrapper {
     width: 100% !important;
   }
