@@ -619,6 +619,14 @@ a.arrow:hover:after {
   .modal {
     transform: none !important;
   }
+  .modal__inner>div>.multi-column__image-wrapper {
+    width: 100% !important;
+    aspect-ratio: 5/4;
+    height: auto;
+  }
+  .modal__inner > div {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 500px) {
   multi-column[stack-mobile] scrollable-content label {
