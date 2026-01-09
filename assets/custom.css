@@ -747,3 +747,10 @@ a.arrow:hover:after {
     margin: 10px 0;
   }
 }
+
+.text-with-icons__item a {
+  transition: .6s;
+}
+.text-with-icons__item a:hover {
+  opacity: .4;
+}
