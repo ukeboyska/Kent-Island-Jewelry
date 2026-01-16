@@ -633,6 +633,13 @@ a.arrow:hover:after {
   .modal__inner>div>div:not(.multi-column__image-wrapper) {
     width: 100%;
   }
+  .modal__close {
+    z-index: 1;
+  }
+  .modal__close + div {
+    z-index: 0;
+    position: relative;
+  }
 }
 @media screen and (max-width: 500px) {
   multi-column[stack-mobile] scrollable-content label {
