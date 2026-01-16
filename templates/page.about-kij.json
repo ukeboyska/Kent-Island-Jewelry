@@ -21,7 +21,7 @@
             "title": "25 Years of Service",
             "content": "<p>At <strong>Kent Island Jewelry</strong>, we believe jewelry should do more than sparkle — it should tell a story. For more than 24 years, our boutique has been a trusted part of the Eastern Shore community, helping people celebrate life’s most meaningful milestones with pieces that hold heart, heritage, and artistry.</p>",
             "button_text": "Meet our Team",
-            "button_link": ""
+            "button_link": "shopify://pages/meet-the-team"
           }
         }
       },
@@ -85,6 +85,7 @@
         "remove_top_margin": false,
         "remove_bottom_margin": true,
         "stack_items": false,
+        "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "",
         "title": "",
@@ -106,6 +107,7 @@
         "remove_top_margin": true,
         "remove_bottom_margin": false,
         "stack_items": false,
+        "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "",
         "title": "Eastern Shore Artistry",
