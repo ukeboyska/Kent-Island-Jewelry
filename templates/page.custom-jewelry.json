@@ -143,12 +143,21 @@
             "caption": "Custom Bracelet",
             "link": "#"
           }
+        },
+        "image_z9Tz7A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "caption": "Custom Necklace",
+            "link": "#"
+          }
         }
       },
       "block_order": [
         "image_dqaPfq",
         "image_AMCBYU",
-        "image_GF76kb"
+        "image_GF76kb",
+        "image_z9Tz7A"
       ],
       "name": "Image Grid w/Links",
       "settings": {
