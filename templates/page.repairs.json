@@ -141,41 +141,21 @@
         "testimonial_jRATF3": {
           "type": "testimonial",
           "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S.",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "testimonial_MpjqbD": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S.",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "testimonial_CKJqkC": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S.",
+            "content": "After losing a diamond from my wedding ring, I was heartbroken. Not only did they repair it beautifully, they made sure I understood every step of the process. The craftsmanship and care were exceptional.",
+            "author": "Bobbie H.",
             "link_text": "",
             "link_url": ""
           }
         }
       },
       "block_order": [
-        "testimonial_jRATF3",
-        "testimonial_MpjqbD",
-        "testimonial_CKJqkC"
+        "testimonial_jRATF3"
       ],
       "name": "Testimonials",
       "settings": {
         "reveal_on_scroll": true,
         "subheading": "",
-        "title": "",
+        "title": "Another Success Story",
         "background_image": "shopify://shop_images/Shell_4.svg",
         "image_aspect_ratio": "",
         "background": "rgba(209,225,227,1)",
