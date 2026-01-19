@@ -9,63 +9,9 @@
  */
 {
   "sections": {
-    "slideshow_qHkM7q": {
-      "type": "slideshow",
-      "blocks": {
-        "image_YNtyyM": {
-          "type": "image",
-          "settings": {
-            "video": "shopify://files/videos/647f13388c4942d9933673ebf09b001f.mp4",
-            "text_position": "middle_left",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "button_1_text": "button",
-            "button_1_link": "",
-            "button_2_text": "test",
-            "button_2_link": "shopify://collections/holiday",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 31,
-            "overlay_type": "gradient"
-          }
-        },
-        "image_pN7LnW": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle_left",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "button_1_text": "button",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 72,
-            "overlay_type": "gradient"
-          }
-        }
-      },
-      "block_order": [
-        "image_YNtyyM",
-        "image_pN7LnW"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "section_height": "small",
-        "transition_type": "sweep",
-        "show_initial_transition": false,
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "show_title": true,
         "page_width": "medium"
@@ -399,6 +345,7 @@
         "remove_top_margin": false,
         "remove_bottom_margin": false,
         "stack_items": false,
+        "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "Browse the latest",
         "title": "Fresh Designs for the Season",
@@ -508,6 +455,7 @@
         "remove_top_margin": false,
         "remove_bottom_margin": false,
         "stack_items": true,
+        "stack_items_mobile": false,
         "layout_options": "before_after",
         "subheading": "Before and After",
         "title": "See the Results",
@@ -569,6 +517,7 @@
         "remove_top_margin": false,
         "remove_bottom_margin": false,
         "stack_items": true,
+        "stack_items_mobile": false,
         "layout_options": "before_after",
         "subheading": "",
         "title": "",
@@ -812,6 +761,7 @@
         "remove_top_margin": false,
         "remove_bottom_margin": false,
         "stack_items": false,
+        "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "Subheading",
         "title": "Multi-column",
@@ -891,6 +841,7 @@
         "remove_top_margin": false,
         "remove_bottom_margin": false,
         "stack_items": true,
+        "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "",
         "title": "",
@@ -988,6 +939,7 @@
         "remove_top_margin": false,
         "remove_bottom_margin": false,
         "stack_items": false,
+        "stack_items_mobile": false,
         "layout_options": "modal_grid",
         "subheading": "",
         "title": "Our Team",
@@ -1104,6 +1056,7 @@
         "remove_top_margin": false,
         "remove_bottom_margin": false,
         "stack_items": true,
+        "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "",
         "title": "",
@@ -1220,6 +1173,7 @@
         "remove_top_margin": false,
         "remove_bottom_margin": false,
         "stack_items": true,
+        "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "",
         "title": "",
@@ -1270,6 +1224,7 @@
         "remove_top_margin": false,
         "remove_bottom_margin": false,
         "stack_items": false,
+        "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "",
         "title": "",
@@ -1291,6 +1246,7 @@
         "remove_top_margin": true,
         "remove_bottom_margin": false,
         "stack_items": false,
+        "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "Subheading",
         "title": "One Smaller Image",
@@ -1319,8 +1275,6 @@
     }
   },
   "order": [
-    "slideshow_qHkM7q",
-    "main",
     "image_with_text_FQyfNe",
     "image_with_text_DMRCa4",
     "collection_list_CnJr8q",
@@ -1343,6 +1297,7 @@
     "spacer_LBN9cB",
     "multi_column_qMR6gU",
     "multi_column_8DgM8R",
-    "custom_html_cthqP9"
+    "custom_html_cthqP9",
+    "main"
   ]
 }
