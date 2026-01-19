@@ -1,0 +1,196 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_FQyfNe": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_6mwVqC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "tab_label": "Item",
+            "subheading": "Insurance & Market-Based Jewelry Appraisals",
+            "title": "Know Your Worth",
+            "content": "<p>We offer professionally prepared jewelry appraisals tailored to the specific purpose of the valuation. Appraisals take many shapes depending on your needs, and we're here to help.</p>",
+            "button_text": "Make an Appointment",
+            "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
+          }
+        }
+      },
+      "block_order": [
+        "item_6mwVqC"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": true,
+        "background_image": "shopify://shop_images/shell2.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "left",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#203f70",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_jBwftw": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
+    "multi_column_ArqBnK": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Qyp4Hi": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Internal Purchases",
+            "content": "<p>For jewelry purchased in our store, insurance replacement appraisals are completed in-house using original sales documentation, gemstone grading data, detailed item specifications, and current market replacement values. These appraisals are prepared for insurance scheduling and are commonly accepted by major insurance carriers.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_aLwU4p": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "External Purchases",
+            "content": "<p>For outside jewelry, estate items, or pieces requiring third-party documentation, we work with a seasoned independent appraiser who conducts appraisals on-site once per month, providing objective, insurance-compliant valuation.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_fFRCf3": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Market-Based Appraisal",
+            "content": "<p>Separately, we also provide market-based appraisals when evaluating jewelry for potential purchase by our store. These valuations reflect current secondary-market conditions, demand, and intrinsic material value and are used solely to determine a fair purchase offer. Market appraisals are not intended for insurance purposes.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_Qyp4Hi",
+        "item_aLwU4p",
+        "item_fFRCf3"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": true,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "stack_items_mobile": false,
+        "layout_options": "",
+        "subheading": "",
+        "title": "Types of Appraisals",
+        "content": "<p>Because appraisal intent matters, we clearly distinguish between insurance replacement appraisals and market-based appraisals used for jewelry buying decisions. Each appraisal type is clearly identified in the documentation to avoid confusion and ensure proper use.</p>",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_QgBmpA": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
+    "image_with_text_Exg4Tn": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_W3XRTf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "tab_label": "Item",
+            "subheading": "Don't Wait",
+            "title": "Discover Your True Value",
+            "content": "<p>Book an appointment with our team to begin the appraisal process, and better understand the value of your jewelry.</p>",
+            "button_text": "Make an Appointment",
+            "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
+          }
+        }
+      },
+      "block_order": [
+        "item_W3XRTf"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": false,
+        "background_image": "shopify://shop_images/Shell_3.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "right",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#b2c2b1",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_FQyfNe",
+    "spacer_jBwftw",
+    "multi_column_ArqBnK",
+    "spacer_QgBmpA",
+    "image_with_text_Exg4Tn",
+    "main"
+  ]
+}
