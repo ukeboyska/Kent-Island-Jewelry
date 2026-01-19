@@ -1,0 +1,230 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_FQyfNe": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_6mwVqC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "tab_label": "Item",
+            "subheading": "Repairs & restoration",
+            "title": "Return to Past Beauty",
+            "content": "<p>Our on-site jeweler treats each repair with the same care and precision as a custom creation. From simple sizing to full heirloom restoration, we combine technical mastery with heartfelt respect for what your jewelry represents. </p>",
+            "button_text": "Make an Appointment",
+            "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
+          }
+        }
+      },
+      "block_order": [
+        "item_6mwVqC"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": true,
+        "background_image": "shopify://shop_images/shell2.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "left",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#203f70",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_jBwftw": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
+    "multi_column_ArqBnK": {
+      "type": "multi-column",
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": true,
+        "stack_items": false,
+        "stack_items_mobile": false,
+        "layout_options": "",
+        "subheading": "",
+        "title": "Before and After Transformations",
+        "content": "<p>There’s nothing quite like seeing a beloved piece shine again. Our restoration work goes beyond repair — it’s about honoring memories and reviving the beauty that time has softened. Every photo tells the story of craftsmanship, precision, and care that defines our jeweler’s bench.</p>",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_grid_links_dwLBdE": {
+      "type": "image-grid-links",
+      "blocks": {
+        "image_dqaPfq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "caption": "Before",
+            "link": "#"
+          }
+        },
+        "image_AMCBYU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "caption": "AFTER",
+            "link": "#"
+          }
+        },
+        "image_GF76kb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "caption": "Before",
+            "link": "#"
+          }
+        },
+        "image_z9Tz7A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "caption": "After",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "image_dqaPfq",
+        "image_AMCBYU",
+        "image_GF76kb",
+        "image_z9Tz7A"
+      ],
+      "name": "Image Grid w/Links",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_arrows": true,
+        "image_aspect_ratio": "16/9",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_QgBmpA": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
+    "testimonials_yPkdzd": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_jRATF3": {
+          "type": "testimonial",
+          "settings": {
+            "content": "After losing a diamond from my wedding ring, I was heartbroken. Not only did they repair it beautifully, they made sure I understood every step of the process. The craftsmanship and care were exceptional.",
+            "author": "Bobbie H.",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_jRATF3"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "Client Satisfaction",
+        "background_image": "shopify://shop_images/Shell_5A.svg",
+        "image_aspect_ratio": "",
+        "background": "rgba(209,225,227,1)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_jQKprP": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
+    "image_with_text_Exg4Tn": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_W3XRTf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "tab_label": "Item",
+            "subheading": "Don't Wait",
+            "title": "Bring Back the Shine",
+            "content": "<p>Our expert repair team is ready to return your jewelry to its former glory. Stop in today or make an appointment to get the restoration underway.</p>",
+            "button_text": "Make an Appointment",
+            "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
+          }
+        }
+      },
+      "block_order": [
+        "item_W3XRTf"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": false,
+        "background_image": "shopify://shop_images/Shell_3.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "right",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#b2c2b1",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_FQyfNe",
+    "spacer_jBwftw",
+    "multi_column_ArqBnK",
+    "image_grid_links_dwLBdE",
+    "spacer_QgBmpA",
+    "testimonials_yPkdzd",
+    "spacer_jQKprP",
+    "image_with_text_Exg4Tn",
+    "main"
+  ]
+}
