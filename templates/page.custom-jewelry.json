@@ -47,6 +47,13 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "spacer_jBwftw": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
     "timeline_WQyUhe": {
       "type": "timeline",
       "blocks": {
@@ -117,6 +124,13 @@
         "item_text_color": "rgba(0,0,0,0)"
       }
     },
+    "spacer_jLeMrD": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
     "image_grid_links_dwLBdE": {
       "type": "image-grid-links",
       "blocks": {
@@ -161,8 +175,8 @@
       ],
       "name": "Image Grid w/Links",
       "settings": {
-        "subheading": "Subheading",
-        "title": "Image Grid",
+        "subheading": "",
+        "title": "What We've Created Together",
         "show_arrows": true,
         "image_aspect_ratio": "16/9",
         "background": "rgba(0,0,0,0)",
@@ -176,61 +190,14 @@
         "show_title": true,
         "page_width": "medium"
       }
-    },
-    "image_grid_links_nnamjz": {
-      "type": "image-grid-links",
-      "blocks": {
-        "image_iTXkmz": {
-          "type": "image",
-          "settings": {
-            "caption": "Read Story",
-            "link": ""
-          }
-        },
-        "image_JCa4nn": {
-          "type": "image",
-          "settings": {
-            "caption": "Read Story",
-            "link": ""
-          }
-        },
-        "image_XihWgD": {
-          "type": "image",
-          "settings": {
-            "caption": "Read Story",
-            "link": ""
-          }
-        },
-        "image_pFnNh7": {
-          "type": "image",
-          "settings": {
-            "caption": "Read Story",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_iTXkmz",
-        "image_JCa4nn",
-        "image_XihWgD",
-        "image_pFnNh7"
-      ],
-      "name": "Image Grid w/Links",
-      "settings": {
-        "subheading": "Subheading",
-        "title": "Image Grid",
-        "show_arrows": true,
-        "image_aspect_ratio": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
     "image_with_text_FQyfNe",
+    "spacer_jBwftw",
     "timeline_WQyUhe",
+    "spacer_jLeMrD",
     "image_grid_links_dwLBdE",
-    "main",
-    "image_grid_links_nnamjz"
+    "main"
   ]
 }
