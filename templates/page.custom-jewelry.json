@@ -53,10 +53,10 @@
         "item_963KkU": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "label": "2000",
-            "subheading": "Subheading",
-            "title": "Your heading",
+            "image": "shopify://shop_images/media_needed.png",
+            "label": "Step 1",
+            "subheading": "Step 1",
+            "title": "Consultation",
             "content": "<p>Write content about your store</p>",
             "button_text": "",
             "button_link": ""
@@ -93,8 +93,8 @@
       ],
       "name": "Timeline",
       "settings": {
-        "subheading": "Subheading",
-        "title": "Timeline",
+        "subheading": "Our Design process",
+        "title": "Imagination to Perfection",
         "heading_alignment": "left",
         "text_position": "bottom",
         "background": "rgba(0,0,0,0)",
