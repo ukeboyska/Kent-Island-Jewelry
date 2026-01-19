@@ -198,9 +198,9 @@
           "settings": {
             "image": "shopify://shop_images/media_needed.png",
             "tab_label": "Item",
-            "subheading": "Custom jewelry",
-            "title": "Bring Your Vision to Life",
-            "content": "<p>Every custom design begins with a spark, a story, a dream. At Kent Island Jewelry, we turn that inspiration into reality through a collaborative process that blends artistry, precision and passion. Together, we will handcraft a one-of-a-kind piece that reflects your vision and heart.</p>",
+            "subheading": "Don't Wait",
+            "title": "Start Designing Today",
+            "content": "<p>Our designers and jewelers can't wait to meet you. Stop by our studio anytime, or book private consultation to begin designing your own handcrafted jewelry.</p>",
             "button_text": "Make an Appointment",
             "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
           }
@@ -211,7 +211,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "page_hero": true,
+        "page_hero": false,
         "background_image": "shopify://shop_images/Shell_4.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
