@@ -44,7 +44,7 @@
             "link_text": "",
             "link_url": "",
             "link_style": "link",
-            "text_alignment": "left",
+            "text_alignment": "center",
             "vertical_alignment": "start"
           }
         },
@@ -52,29 +52,12 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/noreaster_art_3.png",
+            "image": "shopify://shop_images/mj_headshot.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Firstname2 Lastname2",
-            "content": "<p>Role</p>",
-            "modal_content": "<p>CSS Gradient is a <a href=\"https://designstripe.com/\">Designstripe</a> project that lets you create free gradient backgrounds for your website. Besides being a css gradient generator, the site is also chock-full of colorful content about gradients from <a href=\"https://cssgradient.io/blog/resources/\">technical articles</a> to real life <a href=\"https://cssgradient.io/blog/css-gradient-examples/\">gradient examples</a> like Stripe and Instagram.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_eLFMNw": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/gold-spike-adjustable-double-ring.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Firstnam3e Lastn3ame",
-            "content": "<p>Role</p>",
-            "modal_content": "<p>CSS Gradient is a <a href=\"https://designstripe.com/\">Designstripe</a> project that lets you create free gradient backgrounds for your website. Besides being a css gradient generator, the site is also chock-full of colorful content about gradients from <a href=\"https://cssgradient.io/blog/resources/\">technical articles</a> to real life <a href=\"https://cssgradient.io/blog/css-gradient-examples/\">gradient examples</a> like Stripe and Instagram.</p>",
+            "title": "Mary Jo Duffy",
+            "content": "<p><strong>Co-Owner</strong></p>",
+            "modal_content": "<p>A visionary leader with an eye for possibility, Mary Jo is redefining what it means to be a modern jeweler. She believes that success is measured not just in sales, but in the lives touched and the legacies created through her work. Her purpose-driven approach continues to shape Kent Island Jewelry into a destination built on integrity, imagination, and heart.</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -86,12 +69,92 @@
           "type": "item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/kent-island-jewelry-square-blue_1.png",
+            "image": "shopify://shop_images/mike_headshot.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Firstnamet66 Lastname66",
-            "content": "<p>Role</p>",
-            "modal_content": "<p>CSS Gradient is a <a href=\"https://designstripe.com/\">Designstripe</a> project that lets you create free gradient backgrounds for your website. Besides being a css gradient generator, the site is also chock-full of colorful content about gradients from <a href=\"https://cssgradient.io/blog/resources/\">technical articles</a> to real life <a href=\"https://cssgradient.io/blog/css-gradient-examples/\">gradient examples</a> like Stripe and Instagram.</p>",
+            "title": "Mike Adams",
+            "content": "<p><strong>Master Bench Jeweler</strong></p>",
+            "modal_content": "<p>With over 30 years at the bench, Mike is known for his meticulous attention to detail and technical mastery. From intricate stone setting to complex restorations, his steady craftsmanship ensures that every repair and custom piece meets the highest standards of quality.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_g7Mk8U",
+        "item_QkJccQ",
+        "item_UzbneR"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "stack_items_mobile": true,
+        "layout_options": "modal_grid",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "image_aspect_ratio": "5/6",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_ej8qU9": {
+      "type": "multi-column",
+      "blocks": {
+        "item_cpMzLT": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/michele_headshot.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Michele Horowitz",
+            "content": "<p><strong>Senior Jewelry Consultant</strong></p>",
+            "modal_content": "<p>With a strong background in sales and business ownership, Michele combines expertise with heart. Her ability to make customers feel comfortable and confident sets her apart. Whether she’s helping select a gift or celebrating a milestone, Michele’s integrity and care shine through every experience.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_gARyKf": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/tom_headshot.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Tom Garvey",
+            "content": "<p><strong>Client Care Specialist</strong></p>",
+            "modal_content": "<p>With steady hands and a friendly smile, Tom handles everything from battery replacements to band adjustments with care and accuracy. His attention to detail and excellent customer service make him a key reason clients return time and again.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_UU3BQB": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/shell_headshot_1.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Nanette Daye",
+            "content": "<p><strong>Jewelry Consultant</strong></p>",
+            "modal_content": "<p>Nan has a natural gift for helping customers find pieces they love and for showcasing jewelry in ways that tell a story. Her attention to detail, creative flair, and upbeat energy make her an invaluable part of the Kent Island Jewelry team — both behind the showcases and in front of them.</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -101,10 +164,53 @@
         }
       },
       "block_order": [
-        "item_g7Mk8U",
-        "item_QkJccQ",
-        "item_eLFMNw",
-        "item_UzbneR"
+        "item_cpMzLT",
+        "item_gARyKf",
+        "item_UU3BQB"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "stack_items_mobile": true,
+        "layout_options": "modal_grid",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "image_aspect_ratio": "5/6",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_WmEHLC": {
+      "type": "multi-column",
+      "blocks": {
+        "item_9ejfXT": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/shell_headshot_1.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Leslie Chambers",
+            "content": "<p><strong>Jewelry Consultant</strong></p>",
+            "modal_content": "<p>Leslie is known for her precision and efficiency in handling minor jewelry repairs, battery replacements, and watchband adjustments. She takes pride in getting every detail right and ensuring each piece leaves the store in top condition. Her organized approach and technical skill make her a valued part of the Kent Island Jewelry service team.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_9ejfXT"
       ],
       "name": "Multi-column",
       "settings": {
@@ -218,6 +324,8 @@
   "order": [
     "rich_text_PRAJjW",
     "multi_column_cFLwFF",
+    "multi_column_ej8qU9",
+    "multi_column_WmEHLC",
     "multi_column_KpQHJg",
     "main"
   ]
