@@ -82,7 +82,7 @@
         "item_W3XRTf": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/media_needed.png",
+            "image": "shopify://shop_images/shell_headshot_1.jpg",
             "tab_label": "Item",
             "subheading": "",
             "title": "What You’ll Find in Our Estate Cases",
@@ -122,10 +122,10 @@
             "image": "shopify://shop_images/media_needed.png",
             "tab_label": "Item",
             "subheading": "Don't Wait",
-            "title": "Discover Your True Value",
-            "content": "<p>Book an appointment with our team to begin the appraisal process, and better understand the value of your jewelry.</p>",
-            "button_text": "Make an Appointment",
-            "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
+            "title": "Explore our Collection",
+            "content": "<p>Whether you're collecting something with history or simply looking for a luxury piece at an exceptional value, our Estate Jewelry Collection is full of hidden gems waiting to be discovered.</p>",
+            "button_text": "Stop by Today",
+            "button_link": "#"
           }
         }
       },
