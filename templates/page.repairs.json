@@ -54,23 +54,26 @@
         "custom_height": 36
       }
     },
-    "rich_text_UNRHCn": {
-      "type": "rich-text",
-      "name": "Rich text",
+    "multi_column_ArqBnK": {
+      "type": "multi-column",
+      "name": "Multi-column",
       "settings": {
-        "subheading": "Subheading",
+        "reveal_on_scroll": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": true,
+        "stack_items": false,
+        "stack_items_mobile": false,
+        "layout_options": "",
+        "subheading": "",
         "title": "Before and After Transformations",
         "content": "<p>There’s nothing quite like seeing a beloved piece shine again. Our restoration work goes beyond repair — it’s about honoring memories and reviving the beauty that time has softened. Every photo tells the story of craftsmanship, precision, and care that defines our jeweler’s bench.</p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
         "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "image_grid_links_dwLBdE": {
@@ -79,8 +82,8 @@
         "image_dqaPfq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/K-8_1.jpg",
-            "caption": "Custom Arm Bands",
+            "image": "shopify://shop_images/media_needed.png",
+            "caption": "Before",
             "link": "#"
           }
         },
@@ -88,7 +91,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/media_needed.png",
-            "caption": "Custom Ring",
+            "caption": "AFTER",
             "link": "#"
           }
         },
@@ -96,7 +99,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/media_needed.png",
-            "caption": "Custom Bracelet",
+            "caption": "Before",
             "link": "#"
           }
         },
@@ -104,7 +107,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/media_needed.png",
-            "caption": "Custom Necklace",
+            "caption": "After",
             "link": "#"
           }
         }
@@ -182,7 +185,7 @@
   "order": [
     "image_with_text_FQyfNe",
     "spacer_jBwftw",
-    "rich_text_UNRHCn",
+    "multi_column_ArqBnK",
     "image_grid_links_dwLBdE",
     "spacer_QgBmpA",
     "image_with_text_Exg4Tn",
