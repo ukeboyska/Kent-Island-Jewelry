@@ -17,10 +17,10 @@
           "settings": {
             "image": "shopify://shop_images/media_needed.png",
             "tab_label": "Item",
-            "subheading": "Insurance & Market-Based Jewelry Appraisals",
-            "title": "Know Your Worth",
-            "content": "<p>We offer professionally prepared jewelry appraisals tailored to the specific purpose of the valuation. Appraisals take many shapes depending on your needs, and we're here to help.</p>",
-            "button_text": "Make an Appointment",
+            "subheading": "Estate Jewelry",
+            "title": "Timeless Pieces of Art",
+            "content": "<p>Discover a curated blend of history, craftsmanship, and exceptional value with our Estate Jewelry Collection. Each piece is carefully selected to offer you timeless beauty at an incredible price point.</p>",
+            "button_text": "Do we want a button?",
             "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
           }
         }
@@ -31,7 +31,7 @@
       "name": "Image with text",
       "settings": {
         "page_hero": true,
-        "background_image": "shopify://shop_images/shell2.svg",
+        "background_image": "shopify://shop_images/Shell_3.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "section_width": "contained",
