@@ -76,13 +76,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "spacer_QgBmpA": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "custom_height": 36
-      }
-    },
     "image_with_text_Exg4Tn": {
       "type": "image-with-text",
       "blocks": {
@@ -171,7 +164,6 @@
     "image_with_text_FQyfNe",
     "spacer_jBwftw",
     "multi_column_ArqBnK",
-    "spacer_QgBmpA",
     "image_with_text_Exg4Tn",
     "image_with_text_qLxDi9",
     "main"
