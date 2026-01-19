@@ -91,11 +91,11 @@
           "settings": {
             "image": "shopify://shop_images/media_needed.png",
             "tab_label": "Item",
-            "subheading": "Don't Wait",
-            "title": "Discover Your True Value",
-            "content": "<p>Book an appointment with our team to begin the appraisal process, and better understand the value of your jewelry.</p>",
-            "button_text": "Make an Appointment",
-            "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
+            "subheading": "",
+            "title": "What You’ll Find in Our Estate Cases",
+            "content": "<ul><li><strong>Authentic Estate Pieces:</strong> Vintage rings, heirloom necklaces, classic bracelets, and distinctive one-of-a-kind finds.</li><li><strong>New & Like-New Items:</strong> Sometimes we include brand-new pieces in the estate case when they’re specially priced or part of a special purchase.</li><li><strong>Quality You Can Trust:</strong> Every item is professionally evaluated, cleaned, and prepared to our boutique standards before it’s offered for sale.</li></ul>",
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
