@@ -57,7 +57,7 @@
             "label": "Step 1",
             "subheading": "Step 1",
             "title": "Consultation",
-            "content": "<p>Write content about your store</p>",
+            "content": "<p>Your journey begins with a private consultation to discuss your vision and budget. We’ll explore design ideas, stones, and materials while answering any questions to ensure every detail feels just right.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -66,10 +66,10 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/noreaster_art_3.png",
-            "label": "2010",
-            "subheading": "Subheading",
-            "title": "Your heading",
-            "content": "<p>Write content about your store</p>",
+            "label": "Step 2",
+            "subheading": "STEP 2",
+            "title": "Design",
+            "content": "<p>Based on your consultation, we translate your ideas into a custom design tailored specifically to you. You’ll review and refine the concept until the design perfectly captures your style and intent.</p>",
             "button_text": "",
             "button_link": ""
           }
