@@ -232,6 +232,13 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "spacer_bFnMc8": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 12
+      }
+    },
     "multi_column_KpQHJg": {
       "type": "multi-column",
       "blocks": {
@@ -301,14 +308,14 @@
         "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "",
-        "title": "",
+        "title": "Dive Deeper",
         "content": "",
         "image_aspect_ratio": "4/3",
         "column_alignment": "center",
         "mobile_item_size": "medium",
-        "desktop_item_size": "large",
+        "desktop_item_size": "medium",
         "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
+        "background": "#d1e1e3",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -326,6 +333,7 @@
     "multi_column_cFLwFF",
     "multi_column_ej8qU9",
     "multi_column_WmEHLC",
+    "spacer_bFnMc8",
     "multi_column_KpQHJg",
     "main"
   ]
