@@ -1,0 +1,250 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_FQyfNe": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_6mwVqC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "tab_label": "Item",
+            "subheading": "Custom jewelry",
+            "title": "Bring Your Vision to Life",
+            "content": "<p>Every custom design begins with a spark, a story, a dream. At Kent Island Jewelry, we turn that inspiration into reality through a collaborative process that blends artistry, precision and passion. Together, we will handcraft a one-of-a-kind piece that reflects your vision and heart.</p>",
+            "button_text": "Make an Appointment",
+            "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
+          }
+        }
+      },
+      "block_order": [
+        "item_6mwVqC"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": true,
+        "background_image": "shopify://shop_images/Shell_4.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "left",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#203f70",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_jBwftw": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
+    "timeline_WQyUhe": {
+      "type": "timeline",
+      "blocks": {
+        "item_963KkU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "label": "Step 1",
+            "subheading": "Step 1",
+            "title": "Consultation",
+            "content": "<p>Your journey begins with a private consultation to discuss your vision and budget. We’ll explore design ideas, stones, and materials while answering any questions to ensure every detail feels just right.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "item_ntwMbF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "label": "Step 2",
+            "subheading": "STEP 2",
+            "title": "Design",
+            "content": "<p>Next, we translate your ideas into a custom design tailored specifically to you. You’ll review and refine the concept until the design perfectly captures your style and intent.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "item_LzDc9n": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "label": "step 3",
+            "subheading": "step 3",
+            "title": "Fabrication & Polish",
+            "content": "<p>We bring your design to life using carefully selected materials and meticulous craftsmanship. Each piece is expertly fabricated, set, and polished to ensure exceptional quality and lasting beauty.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "item_q8Ayb6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "label": "Step 4",
+            "subheading": "Step 4",
+            "title": "The Reveal",
+            "content": "<p>The finished piece is presented for your final approval and fitting. Your jewelry is crafted, refined, and ready to be worn and cherished.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_963KkU",
+        "item_ntwMbF",
+        "item_LzDc9n",
+        "item_q8Ayb6"
+      ],
+      "name": "Timeline",
+      "settings": {
+        "subheading": "Our Design process",
+        "title": "Imagination to Perfection",
+        "heading_alignment": "left",
+        "text_position": "bottom",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_background": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_jLeMrD": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
+    "image_grid_links_dwLBdE": {
+      "type": "image-grid-links",
+      "blocks": {
+        "image_dqaPfq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/K-8_1.jpg",
+            "caption": "Custom Arm Bands",
+            "link": "#"
+          }
+        },
+        "image_AMCBYU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "caption": "Custom Ring",
+            "link": "#"
+          }
+        },
+        "image_GF76kb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "caption": "Custom Bracelet",
+            "link": "#"
+          }
+        },
+        "image_z9Tz7A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "caption": "Custom Necklace",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "image_dqaPfq",
+        "image_AMCBYU",
+        "image_GF76kb",
+        "image_z9Tz7A"
+      ],
+      "name": "Image Grid w/Links",
+      "settings": {
+        "subheading": "",
+        "title": "What We've Created Together",
+        "show_arrows": true,
+        "image_aspect_ratio": "16/9",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_QgBmpA": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
+    "image_with_text_Exg4Tn": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_W3XRTf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "tab_label": "Item",
+            "subheading": "Don't Wait",
+            "title": "Start Designing Today",
+            "content": "<p>Our designers and jewelers can't wait to meet you. Stop by our studio anytime, or book private consultation to begin designing your own handcrafted jewelry.</p>",
+            "button_text": "Make an Appointment",
+            "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
+          }
+        }
+      },
+      "block_order": [
+        "item_W3XRTf"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": false,
+        "background_image": "shopify://shop_images/Shell_4.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "right",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#d1e1e3",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_FQyfNe",
+    "spacer_jBwftw",
+    "timeline_WQyUhe",
+    "spacer_jLeMrD",
+    "image_grid_links_dwLBdE",
+    "spacer_QgBmpA",
+    "image_with_text_Exg4Tn",
+    "main"
+  ]
+}
