@@ -17,9 +17,9 @@
           "settings": {
             "image": "shopify://shop_images/media_needed.png",
             "tab_label": "Item",
-            "subheading": "Custom jewelry",
-            "title": "Bring Your Vision to Life",
-            "content": "<p>Every custom design begins with a spark, a story, a dream. At Kent Island Jewelry, we turn that inspiration into reality through a collaborative process that blends artistry, precision and passion. Together, we will handcraft a one-of-a-kind piece that reflects your vision and heart.</p>",
+            "subheading": "Repairs & restoration",
+            "title": "Return to the Beauty You Remember",
+            "content": "<p>Our on-site jeweler treats each repair with the same care and precision as a custom creation. From simple sizing to full heirloom restoration, we combine technical mastery with heartfelt respect for what your jewelry represents. </p>",
             "button_text": "Make an Appointment",
             "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
           }
@@ -31,7 +31,7 @@
       "name": "Image with text",
       "settings": {
         "page_hero": true,
-        "background_image": "shopify://shop_images/Shell_4.svg",
+        "background_image": "shopify://shop_images/shell2.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "section_width": "contained",
@@ -54,81 +54,23 @@
         "custom_height": 36
       }
     },
-    "timeline_WQyUhe": {
-      "type": "timeline",
-      "blocks": {
-        "item_963KkU": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/media_needed.png",
-            "label": "Step 1",
-            "subheading": "Step 1",
-            "title": "Consultation",
-            "content": "<p>Your journey begins with a private consultation to discuss your vision and budget. We’ll explore design ideas, stones, and materials while answering any questions to ensure every detail feels just right.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item_ntwMbF": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/media_needed.png",
-            "label": "Step 2",
-            "subheading": "STEP 2",
-            "title": "Design",
-            "content": "<p>Next, we translate your ideas into a custom design tailored specifically to you. You’ll review and refine the concept until the design perfectly captures your style and intent.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item_LzDc9n": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/media_needed.png",
-            "label": "step 3",
-            "subheading": "step 3",
-            "title": "Fabrication & Polish",
-            "content": "<p>We bring your design to life using carefully selected materials and meticulous craftsmanship. Each piece is expertly fabricated, set, and polished to ensure exceptional quality and lasting beauty.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item_q8Ayb6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/media_needed.png",
-            "label": "Step 4",
-            "subheading": "Step 4",
-            "title": "The Reveal",
-            "content": "<p>The finished piece is presented for your final approval and fitting. Your jewelry is crafted, refined, and ready to be worn and cherished.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_963KkU",
-        "item_ntwMbF",
-        "item_LzDc9n",
-        "item_q8Ayb6"
-      ],
-      "name": "Timeline",
+    "rich_text_UNRHCn": {
+      "type": "rich-text",
+      "name": "Rich text",
       "settings": {
-        "subheading": "Our Design process",
-        "title": "Imagination to Perfection",
-        "heading_alignment": "left",
-        "text_position": "bottom",
+        "subheading": "Subheading",
+        "title": "Before and After Transformations",
+        "content": "<p>There’s nothing quite like seeing a beloved piece shine again. Our restoration work goes beyond repair — it’s about honoring memories and reviving the beauty that time has softened. Every photo tells the story of craftsmanship, precision, and care that defines our jeweler’s bench.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
-        "item_background": "rgba(0,0,0,0)",
-        "item_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "spacer_jLeMrD": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "custom_height": 36
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "image_grid_links_dwLBdE": {
@@ -176,7 +118,7 @@
       "name": "Image Grid w/Links",
       "settings": {
         "subheading": "",
-        "title": "What We've Created Together",
+        "title": "",
         "show_arrows": true,
         "image_aspect_ratio": "16/9",
         "background": "rgba(0,0,0,0)",
@@ -240,8 +182,7 @@
   "order": [
     "image_with_text_FQyfNe",
     "spacer_jBwftw",
-    "timeline_WQyUhe",
-    "spacer_jLeMrD",
+    "rich_text_UNRHCn",
     "image_grid_links_dwLBdE",
     "spacer_QgBmpA",
     "image_with_text_Exg4Tn",
