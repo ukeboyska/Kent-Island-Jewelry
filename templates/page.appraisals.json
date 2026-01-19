@@ -17,9 +17,9 @@
           "settings": {
             "image": "shopify://shop_images/media_needed.png",
             "tab_label": "Item",
-            "subheading": "Repairs & restoration",
-            "title": "Return to Past Beauty",
-            "content": "<p>Our on-site jeweler treats each repair with the same care and precision as a custom creation. From simple sizing to full heirloom restoration, we combine technical mastery with heartfelt respect for what your jewelry represents. </p>",
+            "subheading": "Insurance & Market-Based Jewelry Appraisals",
+            "title": "Know Your Worth",
+            "content": "<p>We offer professionally prepared jewelry appraisals tailored to the specific purpose of the valuation. Appraisals take many shapes depending on your needs, and we're here to help.</p>",
             "button_text": "Make an Appointment",
             "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
           }
@@ -56,21 +56,76 @@
     },
     "multi_column_ArqBnK": {
       "type": "multi-column",
+      "blocks": {
+        "item_Qyp4Hi": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Internal Purchases",
+            "content": "<p>For jewelry purchased in our store, insurance replacement appraisals are completed in-house using original sales documentation, gemstone grading data, detailed item specifications, and current market replacement values. These appraisals are prepared for insurance scheduling and are commonly accepted by major insurance carriers.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_aLwU4p": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "External Purchases",
+            "content": "<p>For outside jewelry, estate items, or pieces requiring third-party documentation, we work with a seasoned independent appraiser who conducts appraisals on-site once per month, providing objective, insurance-compliant valuation.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_fFRCf3": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Market-Based Appraisal",
+            "content": "<p>Separately, we also provide market-based appraisals when evaluating jewelry for potential purchase by our store. These valuations reflect current secondary-market conditions, demand, and intrinsic material value and are used solely to determine a fair purchase offer. Market appraisals are not intended for insurance purposes.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_Qyp4Hi",
+        "item_aLwU4p",
+        "item_fFRCf3"
+      ],
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
         "remove_top_margin": false,
-        "remove_bottom_margin": true,
+        "remove_bottom_margin": false,
         "stack_items": false,
         "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "",
-        "title": "Before and After Transformations",
-        "content": "<p>There’s nothing quite like seeing a beloved piece shine again. Our restoration work goes beyond repair — it’s about honoring memories and reviving the beauty that time has softened. Every photo tells the story of craftsmanship, precision, and care that defines our jeweler’s bench.</p>",
+        "title": "Types of Appraisals",
+        "content": "<p>Because appraisal intent matters, we clearly distinguish between insurance replacement appraisals and market-based appraisals used for jewelry buying decisions. Each appraisal type is clearly identified in the documentation to avoid confusion and ensure proper use.</p>",
         "image_aspect_ratio": "",
         "column_alignment": "center",
         "mobile_item_size": "medium",
-        "desktop_item_size": "medium",
+        "desktop_item_size": "large",
         "spacing": "normal",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
@@ -158,7 +213,7 @@
         "title": "Client Satisfaction",
         "background_image": "shopify://shop_images/Shell_5A.svg",
         "image_aspect_ratio": "",
-        "background": "rgba(209,225,227,1)",
+        "background": "#d1e1e3",
         "text_color": "rgba(0,0,0,0)"
       }
     },
