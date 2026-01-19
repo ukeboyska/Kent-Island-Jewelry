@@ -183,6 +183,51 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "spacer_QgBmpA": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
+    "image_with_text_Exg4Tn": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_W3XRTf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "tab_label": "Item",
+            "subheading": "Custom jewelry",
+            "title": "Bring Your Vision to Life",
+            "content": "<p>Every custom design begins with a spark, a story, a dream. At Kent Island Jewelry, we turn that inspiration into reality through a collaborative process that blends artistry, precision and passion. Together, we will handcraft a one-of-a-kind piece that reflects your vision and heart.</p>",
+            "button_text": "Make an Appointment",
+            "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
+          }
+        }
+      },
+      "block_order": [
+        "item_W3XRTf"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": true,
+        "background_image": "shopify://shop_images/Shell_4.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "left",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#203f70",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -198,6 +243,8 @@
     "timeline_WQyUhe",
     "spacer_jLeMrD",
     "image_grid_links_dwLBdE",
+    "spacer_QgBmpA",
+    "image_with_text_Exg4Tn",
     "main"
   ]
 }
