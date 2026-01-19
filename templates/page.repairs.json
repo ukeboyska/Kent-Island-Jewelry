@@ -135,6 +135,60 @@
         "custom_height": 36
       }
     },
+    "testimonials_yPkdzd": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_jRATF3": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S.",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "testimonial_MpjqbD": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S.",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "testimonial_CKJqkC": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S.",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_jRATF3",
+        "testimonial_MpjqbD",
+        "testimonial_CKJqkC"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background_image": "shopify://shop_images/Shell_4.svg",
+        "image_aspect_ratio": "",
+        "background": "rgba(209,225,227,1)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_jQKprP": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
     "image_with_text_Exg4Tn": {
       "type": "image-with-text",
       "blocks": {
@@ -188,6 +242,8 @@
     "multi_column_ArqBnK",
     "image_grid_links_dwLBdE",
     "spacer_QgBmpA",
+    "testimonials_yPkdzd",
+    "spacer_jQKprP",
     "image_with_text_Exg4Tn",
     "main"
   ]
