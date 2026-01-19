@@ -85,12 +85,25 @@
             "button_text": "",
             "button_link": ""
           }
+        },
+        "item_q8Ayb6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "label": "Step 4",
+            "subheading": "Step 4",
+            "title": "The Reveal",
+            "content": "<p>The finished piece is presented for your final approval and fitting. Your jewelry is crafted, refined, and ready to be worn and cherished.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "item_963KkU",
         "item_ntwMbF",
-        "item_LzDc9n"
+        "item_LzDc9n",
+        "item_q8Ayb6"
       ],
       "name": "Timeline",
       "settings": {
