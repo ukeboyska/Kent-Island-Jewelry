@@ -77,10 +77,11 @@
         "item_LzDc9n": {
           "type": "item",
           "settings": {
-            "label": "2020",
-            "subheading": "Subheading",
-            "title": "Your heading",
-            "content": "<p>Write content about your store</p>",
+            "image": "shopify://shop_images/media_needed.png",
+            "label": "step 3",
+            "subheading": "step 3",
+            "title": "Fabrication & Polish",
+            "content": "<p>We bring your design to life using carefully selected materials and meticulous craftsmanship. Each piece is expertly fabricated, set, and polished to ensure exceptional quality and lasting beauty.</p>",
             "button_text": "",
             "button_link": ""
           }
