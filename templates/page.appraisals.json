@@ -114,7 +114,7 @@
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
-        "remove_top_margin": false,
+        "remove_top_margin": true,
         "remove_bottom_margin": false,
         "stack_items": false,
         "stack_items_mobile": false,
