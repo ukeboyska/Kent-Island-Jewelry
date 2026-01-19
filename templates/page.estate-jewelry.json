@@ -140,7 +140,7 @@
         "background_type": "full_width",
         "section_width": "contained",
         "background_overlap": "image",
-        "image_position": "right",
+        "image_position": "left",
         "image_width": "",
         "section_padding_bottom": "default",
         "text_alignment": "center",
