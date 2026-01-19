@@ -65,11 +65,11 @@
         "item_ntwMbF": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
+            "image": "shopify://shop_images/media_needed.png",
             "label": "Step 2",
             "subheading": "STEP 2",
             "title": "Design",
-            "content": "<p>Based on your consultation, we translate your ideas into a custom design tailored specifically to you. You’ll review and refine the concept until the design perfectly captures your style and intent.</p>",
+            "content": "<p>Next, we translate your ideas into a custom design tailored specifically to you. You’ll review and refine the concept until the design perfectly captures your style and intent.</p>",
             "button_text": "",
             "button_link": ""
           }
