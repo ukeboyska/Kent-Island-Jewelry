@@ -63,8 +63,8 @@
             "collection": "",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Step 1: Private Evaluation",
-            "content": "<p>Your items are examined in front of you by experienced professionals using industry-standard testing methods. We explain each step clearly, so you understand exactly what you have.</p>",
+            "title": "Step 1: Request Mail-In Kit",
+            "content": "<p>Begin by requesting our insured mail-in gold kit. Each kit includes secure packaging, clear instructions, and prepaid insured shipping.</p>",
             "modal_content": "",
             "link_text": "",
             "link_url": "",
@@ -148,41 +148,98 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "image_with_text_Exg4Tn": {
-      "type": "image-with-text",
+    "multi_column_GYXRKe": {
+      "type": "multi-column",
       "blocks": {
-        "item_W3XRTf": {
+        "item_CLanDq": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/shell_headshot_1.jpg",
-            "tab_label": "Item",
-            "subheading": "",
-            "title": "What You’ll Find in Our Estate Cases",
-            "content": "<ul><li><strong>Authentic Estate Pieces:</strong> Vintage rings, heirloom necklaces, classic bracelets, and distinctive one-of-a-kind finds.</li><li><strong>New & Like-New Items:</strong> Sometimes we include brand-new pieces in the estate case when they’re specially priced or part of a special purchase.</li><li><strong>Quality You Can Trust:</strong> Every item is professionally evaluated, cleaned, and prepared to our boutique standards before it’s offered for sale.</li></ul>",
-            "button_text": "",
-            "button_link": ""
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 1: Private Evaluation",
+            "content": "<p>Your items are examined in front of you by experienced professionals using industry-standard testing methods. We explain each step clearly, so you understand exactly what you have.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_EYTyzR": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 2: Testing & Weighing",
+            "content": "<p>Your gold is tested for purity and weighed accurately. We separate items by karat and review everything with you in real time. No back rooms, no mystery.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_zXBcFe": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 3: Market-Based Offer",
+            "content": "<p>We provide a competitive offer based on current market prices, purity, and weight. Our pricing is straightforward and clearly explained.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_UjeKYf": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 4: Your Decision",
+            "content": "<p>You decide how to proceed, with no pressure from us. There is never any obligation to sell. If you accept the offer, payment is issued promptly.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
           }
         }
       },
       "block_order": [
-        "item_W3XRTf"
+        "item_CLanDq",
+        "item_EYTyzR",
+        "item_zXBcFe",
+        "item_UjeKYf"
       ],
-      "name": "Image with text",
+      "name": "Multi-column",
       "settings": {
-        "page_hero": false,
         "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "section_width": "contained",
-        "background_overlap": "image",
-        "image_position": "right",
-        "image_width": "",
-        "section_padding_bottom": "default",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "accent_background": "#f9f9f9",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
+        "remove_top_margin": true,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "stack_items_mobile": false,
+        "layout_options": "",
+        "subheading": "",
+        "title": "Mail-In Gold Buying Experience",
+        "content": "<p>Our process is simple, secure, and insured. </p>",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "#e5eee4",
+        "text_color": "#06161d"
       }
     },
     "image_with_text_qLxDi9": {
@@ -236,7 +293,7 @@
     "image_with_text_FQyfNe",
     "spacer_jBwftw",
     "multi_column_ArqBnK",
-    "image_with_text_Exg4Tn",
+    "multi_column_GYXRKe",
     "image_with_text_qLxDi9",
     "main"
   ]
