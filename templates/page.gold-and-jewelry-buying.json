@@ -56,6 +56,27 @@
     },
     "multi_column_ArqBnK": {
       "type": "multi-column",
+      "blocks": {
+        "item_qJwLrB": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 1: Private Evaluation",
+            "content": "<p>Visit us in store for a discreet, one-on-one consultation. Your items are examined in front of you by experienced professionals using industry-standard testing methods. We explain each step clearly, so you understand exactly what you have.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_qJwLrB"
+      ],
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
@@ -65,8 +86,8 @@
         "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "",
-        "title": "Securing True Gems",
-        "content": "<p>Our on-site master jeweler meticulously inspects every item before it reaches the showcase. Stones are checked for security, prongs are evaluated, and each piece is polished to restore its brilliance. This ensures that when you purchase from our estate collection, you’re choosing jewelry that looks stunning and wears with confidence.</p>",
+        "title": "In-Store Gold Buying Experience",
+        "content": "",
         "image_aspect_ratio": "",
         "column_alignment": "center",
         "mobile_item_size": "medium",
