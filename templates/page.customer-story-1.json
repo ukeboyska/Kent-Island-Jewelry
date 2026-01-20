@@ -12,49 +12,35 @@
     "image_with_text_FQyfNe": {
       "type": "image-with-text",
       "blocks": {
-        "item_VQTrJx": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/647f13388c4942d9933673ebf09b001f.mp4",
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
         "item_6mwVqC": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/rings-collection.jpg",
+            "image": "shopify://shop_images/clock_result.jpg",
             "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+            "subheading": "Customer Story",
+            "title": "Doug & Janie N.",
+            "content": "<p>Doug and Janie came to Kent Island Jewelry with a mission: restore a custom-made wall clock so they could gift it to their granddaughter. Here's how we did it.</p>",
             "button_text": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "item_VQTrJx",
         "item_6mwVqC"
       ],
       "name": "Image with text",
       "settings": {
         "page_hero": true,
-        "background_image": "shopify://shop_images/shell2.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "section_width": "contained",
         "background_overlap": "image",
-        "image_position": "left",
+        "image_position": "right",
         "image_width": "",
         "section_padding_bottom": "default",
         "text_alignment": "center",
         "cycle_speed": 8,
-        "accent_background": "#d2545a",
+        "accent_background": "#d1e1e3",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
