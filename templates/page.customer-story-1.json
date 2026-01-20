@@ -131,17 +131,44 @@
         "custom_height": 24
       }
     },
+    "testimonials_cb4rR8": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_QLkGFJ": {
+          "type": "testimonial",
+          "settings": {
+            "content": "The Kent Island Jewelry team could not have been kinder or easier to work with. Leslie, Patti, and Mary Jo took such good care of us, and we're already working on our next project together.",
+            "author": "Doug and Janie N.",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_QLkGFJ"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background_image": "shopify://shop_images/Shell_4.svg",
+        "image_aspect_ratio": "",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "image_with_text_GapLbg": {
       "type": "image-with-text",
       "blocks": {
         "item_FV7t3k": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/clock_hero.jpg",
+            "image": "shopify://shop_images/clock_result.jpg",
             "tab_label": "Item",
             "subheading": "The Result?",
             "title": "A Thrilled Recipient",
-            "content": "<p>Their granddaughter opened their gift on Christmas Eve, and couldn't have been more excited. The clock now hangs proudly in her home. Doug and Janie are thrilled with the result, and </p>",
+            "content": "<p>Their granddaughter opened their gift on Christmas Eve, and couldn't have been more excited. The clock now hangs proudly in her home. Doug and Janie are thrilled with the result, and we can't wait to work with them again.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -153,7 +180,7 @@
       "name": "Image with text",
       "settings": {
         "page_hero": false,
-        "background_image": "shopify://shop_images/Shell_5A.svg",
+        "background_image": "shopify://shop_images/shell2.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "section_width": "contained",
@@ -182,6 +209,7 @@
     "image_with_text_FQyfNe",
     "multi_column_PAAAfp",
     "spacer_LBN9cB",
+    "testimonials_cb4rR8",
     "image_with_text_GapLbg",
     "main"
   ]
