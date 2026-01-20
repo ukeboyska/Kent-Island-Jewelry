@@ -15,7 +15,7 @@
         "item_txaLrq": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/media_needed.png",
+            "image": "shopify://shop_images/clock_hero.jpg",
             "tab_label": "Item",
             "subheading": "Featured Story",
             "title": "Creating Memories Like Clockwork",
