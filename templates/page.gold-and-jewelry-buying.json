@@ -57,6 +57,22 @@
     "multi_column_ArqBnK": {
       "type": "multi-column",
       "blocks": {
+        "item_bBRbkk": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 4: Your Decision",
+            "content": "<p>You decide how to proceed, with no pressure from us. There is never any obligation to sell. If you accept the offer, payment is issued promptly.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
         "item_qJwLrB": {
           "type": "item",
           "settings": {
@@ -64,7 +80,39 @@
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Step 1: Private Evaluation",
-            "content": "<p>Visit us in store for a discreet, one-on-one consultation. Your items are examined in front of you by experienced professionals using industry-standard testing methods. We explain each step clearly, so you understand exactly what you have.</p>",
+            "content": "<p>Your items are examined in front of you by experienced professionals using industry-standard testing methods. We explain each step clearly, so you understand exactly what you have.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_rKciTC": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 2: Testing & Weighing",
+            "content": "<p>Your gold is tested for purity and weighed accurately. We separate items by karat and review everything with you in real time. No back rooms, no mystery.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_DiLzkF": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 3: Market-Based Offer",
+            "content": "<p>We provide a competitive offer based on current market prices, purity, and weight. Our pricing is straightforward and clearly explained.</p>",
             "modal_content": "",
             "link_text": "",
             "link_url": "",
@@ -75,7 +123,10 @@
         }
       },
       "block_order": [
-        "item_qJwLrB"
+        "item_bBRbkk",
+        "item_qJwLrB",
+        "item_rKciTC",
+        "item_DiLzkF"
       ],
       "name": "Multi-column",
       "settings": {
@@ -91,7 +142,7 @@
         "image_aspect_ratio": "",
         "column_alignment": "center",
         "mobile_item_size": "medium",
-        "desktop_item_size": "large",
+        "desktop_item_size": "medium",
         "spacing": "normal",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
