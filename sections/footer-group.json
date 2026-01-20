@@ -27,11 +27,17 @@
             "menu": "footer"
           }
         },
+        "links_prhwkA": {
+          "type": "links",
+          "settings": {
+            "menu": "footer"
+          }
+        },
         "newsletter": {
           "type": "newsletter",
           "settings": {
             "title": "Newsletter",
-            "content": "<p>A short sentence describing what someone will receive by subscribing</p>"
+            "content": "<p>Subscribe to stay up to date on new arrivals, events, and exclusive offers.</p>"
           }
         },
         "social_media": {
@@ -45,6 +51,7 @@
       "block_order": [
         "text",
         "links",
+        "links_prhwkA",
         "newsletter",
         "social_media"
       ],
