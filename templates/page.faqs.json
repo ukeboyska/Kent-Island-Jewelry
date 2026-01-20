@@ -130,6 +130,19 @@
             "title": "Can you redesign or reuse my existing jewelry?",
             "answer": "<p>Absolutely. We love giving new life to sentimental pieces. Gold, diamonds, and gemstones from your existing jewelry can often be reused or repurposed into a new design.</p>"
           }
+        },
+        "question_EB746f": {
+          "type": "question",
+          "settings": {
+            "title": "How long does custom jewelry take?",
+            "answer": "<p>Most custom projects take <strong>3–6 weeks</strong>, depending on complexity. Timelines will be discussed and confirmed before work begins.</p>"
+          }
+        },
+        "category_QDYdbE": {
+          "type": "category",
+          "settings": {
+            "title": "Repairs & Services"
+          }
         }
       },
       "block_order": [
@@ -144,7 +157,9 @@
         "question_Db6Ciy",
         "category_z7jmhe",
         "question_XyqBMj",
-        "question_t3DCc7"
+        "question_t3DCc7",
+        "question_EB746f",
+        "category_QDYdbE"
       ],
       "name": "FAQ",
       "settings": {
