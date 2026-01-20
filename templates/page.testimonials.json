@@ -15,12 +15,12 @@
         "item_txaLrq": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/kij_diamond_square_hero.jpg",
+            "image": "shopify://shop_images/media_needed.png",
             "tab_label": "Item",
-            "subheading": "Thoughtfully Chosen",
-            "title": "Diamonds",
-            "content": "<p>Choosing a diamond should feel joyous — not overwhelming. We curate exceptional natural and laboratory-grown diamonds, selected for beauty, brilliance, and integrity. Every stone is chosen with intention and presented with  clarity, so you can make a decision that shines.</p>",
-            "button_text": "Find your stone",
+            "subheading": "Featured Story",
+            "title": "Creating Memories Like Clockwork",
+            "content": "<p>Doug and Janie Norton wished to restore and repair a work of art as a gift for their granddaughter. Learn how we brought this one-of-a-kind clock ticking again.</p>",
+            "button_text": "Read Now",
             "button_link": ""
           }
         }
@@ -148,8 +148,8 @@
       ],
       "name": "Promotion blocks",
       "settings": {
-        "subheading": "Your Story. Your Choice.",
-        "title": "Natural and Lab-Grown",
+        "subheading": "",
+        "title": "More from Our Community",
         "section_size": "small",
         "stack_on_mobile": true,
         "background": "#f9f9f9",
