@@ -112,10 +112,10 @@
           "type": "quote",
           "settings": {
             "highlight": true,
-            "remove_quote": true,
-            "subheading": "Guided, Personal Service.",
-            "content": "Natural and Lab-Grown diamonds are both stunning. The difference is personal. Our team will explain the distinctions simply and honestly, helping you choose what aligns with your values, style, and budget without pressure.",
-            "author": "",
+            "remove_quote": false,
+            "subheading": "I wouldn’t trust my jewelry with anyone else.",
+            "content": "I’ve been coming here for years for everything from repairs to appraisals. The service is always honest, professional, and personal. They’ve earned my trust time and time again.",
+            "author": "– Mark T. | Stevensville",
             "background": "#f8feff",
             "text_color": "#1b3059"
           }
@@ -123,7 +123,7 @@
         "image_j7p8QF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/90938332-2100x2100-fb62b58a-5cb2-4d89-a4b0-6c2549f75573.jpg",
+            "image": "shopify://shop_images/media_needed.png",
             "highlight": false,
             "subheading": "",
             "title": "",
