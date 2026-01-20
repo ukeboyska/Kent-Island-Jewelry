@@ -157,6 +157,13 @@
             "title": "What types of repairs do you offer?",
             "answer": "<p>We offer ring sizing, prong repair, stone setting, chain repair, rhodium plating, engraving, clasp replacement, and more.</p>"
           }
+        },
+        "question_JJnwbm": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer mail-in jewelry repairs?",
+            "answer": "<p>Yes. We offer <strong>secure mail-in repair services</strong> for clients who are not local. Instructions are provided on our website, and all items are fully documented upon arrival. </p>"
+          }
         }
       },
       "block_order": [
@@ -175,7 +182,8 @@
         "question_EB746f",
         "category_QDYdbE",
         "question_bNkCXL",
-        "question_FDkcMR"
+        "question_FDkcMR",
+        "question_JJnwbm"
       ],
       "name": "FAQ",
       "settings": {
