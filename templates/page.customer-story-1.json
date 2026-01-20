@@ -139,9 +139,9 @@
           "settings": {
             "image": "shopify://shop_images/clock_hero.jpg",
             "tab_label": "Item",
-            "subheading": "Customer Story",
-            "title": "Doug & Janie N.",
-            "content": "<p>Doug and Janie came to Kent Island Jewelry with a mission: restore a custom-made wall clock so they could gift it to their granddaughter, an open water swimmer. Here's how we did it.</p>",
+            "subheading": "The Result?",
+            "title": "A Thrilled Recipient",
+            "content": "<p>Their granddaughter opened their gift on Christmas Eve, and couldn't have been more excited. The clock now hangs proudly in her home. Doug and Janie are thrilled with the result, and </p>",
             "button_text": "",
             "button_link": ""
           }
@@ -152,7 +152,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "page_hero": true,
+        "page_hero": false,
         "background_image": "shopify://shop_images/Shell_5A.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
