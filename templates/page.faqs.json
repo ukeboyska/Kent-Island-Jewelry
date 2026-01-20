@@ -143,6 +143,20 @@
           "settings": {
             "title": "Repairs & Services"
           }
+        },
+        "question_bNkCXL": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have an on-site jeweler?",
+            "answer": "<p>Yes. We have a <strong>master jeweler on-site</strong>, allowing us to perform most repairs in-house for better quality control and faster turnaround.</p>"
+          }
+        },
+        "question_FDkcMR": {
+          "type": "question",
+          "settings": {
+            "title": "What types of repairs do you offer?",
+            "answer": "<p>We offer ring sizing, prong repair, stone setting, chain repair, rhodium plating, engraving, clasp replacement, and more.</p>"
+          }
         }
       },
       "block_order": [
@@ -159,7 +173,9 @@
         "question_XyqBMj",
         "question_t3DCc7",
         "question_EB746f",
-        "category_QDYdbE"
+        "category_QDYdbE",
+        "question_bNkCXL",
+        "question_FDkcMR"
       ],
       "name": "FAQ",
       "settings": {
