@@ -290,6 +290,23 @@
     "multi_column_rxUgGX": {
       "type": "multi-column",
       "blocks": {
+        "item_TQxKcw": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/K-77.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "Contact Us",
+            "link_url": "shopify://pages/contact",
+            "link_style": "arrow",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
         "item_VD9zMJ": {
           "type": "item",
           "settings": {
@@ -302,23 +319,6 @@
             "modal_content": "",
             "link_text": "Book Appointment",
             "link_url": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F",
-            "link_style": "arrow",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_TQxKcw": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/jewelry_teaser_unsp.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "Explore Jewelry",
-            "link_url": "shopify://collections",
             "link_style": "arrow",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -343,8 +343,8 @@
         }
       },
       "block_order": [
-        "item_VD9zMJ",
         "item_TQxKcw",
+        "item_VD9zMJ",
         "item_wThXLG"
       ],
       "name": "Multi-column",
