@@ -214,20 +214,37 @@
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
+        },
+        "item_xYR9Rn": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 5: Your Decision",
+            "content": "<p>If you accept the offer, payment is issued quickly. If you decline the offer, your items are safely returned to you at no cost.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
         }
       },
       "block_order": [
         "item_CLanDq",
         "item_EYTyzR",
         "item_zXBcFe",
-        "item_UjeKYf"
+        "item_UjeKYf",
+        "item_xYR9Rn"
       ],
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
         "remove_top_margin": true,
         "remove_bottom_margin": false,
-        "stack_items": false,
+        "stack_items": true,
         "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "",
@@ -238,7 +255,7 @@
         "mobile_item_size": "medium",
         "desktop_item_size": "medium",
         "spacing": "normal",
-        "background": "#e5eee4",
+        "background": "#f3f9f2",
         "text_color": "#06161d"
       }
     },
