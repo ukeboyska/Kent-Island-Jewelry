@@ -36,7 +36,7 @@
         "background_type": "full_width",
         "section_width": "contained",
         "background_overlap": "image",
-        "image_position": "right",
+        "image_position": "left",
         "image_width": "",
         "section_padding_bottom": "default",
         "text_alignment": "center",
@@ -154,7 +154,7 @@
         "title": "",
         "background_image": "shopify://shop_images/Shell_4.svg",
         "image_aspect_ratio": "",
-        "background": "#ffffff",
+        "background": "#d1e1e3",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -185,12 +185,12 @@
         "background_type": "full_width",
         "section_width": "contained",
         "background_overlap": "image",
-        "image_position": "left",
+        "image_position": "right",
         "image_width": "",
         "section_padding_bottom": "default",
         "text_alignment": "center",
         "cycle_speed": 8,
-        "accent_background": "#d1e1e3",
+        "accent_background": "#b2c2b1",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
