@@ -20,8 +20,8 @@
             "subheading": "Estate Jewelry",
             "title": "Timeless Pieces of Art",
             "content": "<p>Discover a curated blend of history, craftsmanship, and exceptional value with our Estate Jewelry Collection. Each piece is carefully selected to offer you timeless beauty at an incredible price point.</p>",
-            "button_text": "Do we want a button?",
-            "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
+            "button_text": "Shop Now",
+            "button_link": "#"
           }
         }
       },
@@ -124,7 +124,7 @@
             "subheading": "Don't Wait",
             "title": "Explore our Collection",
             "content": "<p>Whether you're collecting something with history or simply looking for a luxury piece at an exceptional value, our Estate Jewelry Collection is full of hidden gems waiting to be discovered.</p>",
-            "button_text": "Stop by Today",
+            "button_text": "Shop Now",
             "button_link": "#"
           }
         }
