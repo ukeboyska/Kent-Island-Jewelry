@@ -196,6 +196,25 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "rich_text_LK9E6N": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "subheading": "Have a project in mind?",
+        "title": "Bring Your Vision to Life",
+        "content": "<p>We offer private consultations for custom jewelry design, repairs and restoration, and more. Choose a time that works for you, and let's get started.</p>",
+        "button_text": "Book an Appointment",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#203f70",
+        "text_color": "#ffffff",
+        "button_background": "#f9f9f9",
+        "button_text_color": "#06161d"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -211,6 +230,7 @@
     "spacer_LBN9cB",
     "testimonials_cb4rR8",
     "image_with_text_GapLbg",
+    "rich_text_LK9E6N",
     "main"
   ]
 }
