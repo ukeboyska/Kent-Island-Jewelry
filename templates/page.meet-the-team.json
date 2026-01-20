@@ -48,23 +48,6 @@
             "vertical_alignment": "start"
           }
         },
-        "item_QkJccQ": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/mj_headshot.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Mary Jo Duffy",
-            "content": "<p><strong>Co-Owner</strong></p>",
-            "modal_content": "<p>A visionary leader with an eye for possibility, Mary Jo is redefining what it means to be a modern jeweler. She believes that success is measured not just in sales, but in the lives touched and the legacies created through her work. Her purpose-driven approach continues to shape Kent Island Jewelry into a destination built on integrity, imagination, and heart.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
         "item_UzbneR": {
           "type": "item",
           "settings": {
@@ -81,12 +64,29 @@
             "text_alignment": "left",
             "vertical_alignment": "start"
           }
+        },
+        "item_QkJccQ": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/mj_headshot.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Mary Jo Duffy",
+            "content": "<p><strong>Co-Owner</strong></p>",
+            "modal_content": "<p>A visionary leader with an eye for possibility, Mary Jo is redefining what it means to be a modern jeweler. She believes that success is measured not just in sales, but in the lives touched and the legacies created through her work. Her purpose-driven approach continues to shape Kent Island Jewelry into a destination built on integrity, imagination, and heart.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
         }
       },
       "block_order": [
         "item_g7Mk8U",
-        "item_QkJccQ",
-        "item_UzbneR"
+        "item_UzbneR",
+        "item_QkJccQ"
       ],
       "name": "Multi-column",
       "settings": {
@@ -144,73 +144,11 @@
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
-        },
-        "item_UU3BQB": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/shell_headshot_1.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Nanette Daye",
-            "content": "<p><strong>Jewelry Consultant</strong></p>",
-            "modal_content": "<p>Nan has a natural gift for helping customers find pieces they love and for showcasing jewelry in ways that tell a story. Her attention to detail, creative flair, and upbeat energy make her an invaluable part of the Kent Island Jewelry team — both behind the showcases and in front of them.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
         }
       },
       "block_order": [
         "item_cpMzLT",
-        "item_gARyKf",
-        "item_UU3BQB"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "stack_items": false,
-        "stack_items_mobile": true,
-        "layout_options": "modal_grid",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "image_aspect_ratio": "5/6",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "large",
-        "spacing": "loose",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_WmEHLC": {
-      "type": "multi-column",
-      "blocks": {
-        "item_9ejfXT": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/shell_headshot_1.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Leslie Chambers",
-            "content": "<p><strong>Jewelry Consultant</strong></p>",
-            "modal_content": "<p>Leslie is known for her precision and efficiency in handling minor jewelry repairs, battery replacements, and watchband adjustments. She takes pride in getting every detail right and ensuring each piece leaves the store in top condition. Her organized approach and technical skill make her a valued part of the Kent Island Jewelry service team.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_9ejfXT"
+        "item_gARyKf"
       ],
       "name": "Multi-column",
       "settings": {
@@ -332,7 +270,6 @@
     "rich_text_PRAJjW",
     "multi_column_cFLwFF",
     "multi_column_ej8qU9",
-    "multi_column_WmEHLC",
     "spacer_bFnMc8",
     "multi_column_KpQHJg",
     "main"
