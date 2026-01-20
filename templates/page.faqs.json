@@ -164,6 +164,67 @@
             "title": "Do you offer mail-in jewelry repairs?",
             "answer": "<p>Yes. We offer <strong>secure mail-in repair services</strong> for clients who are not local. Instructions are provided on our website, and all items are fully documented upon arrival. </p>"
           }
+        },
+        "category_UYxY6A": {
+          "type": "category",
+          "settings": {
+            "title": "Gold & Estate Buying"
+          }
+        },
+        "question_btMHzb": {
+          "type": "question",
+          "settings": {
+            "title": "Do you buy gold, silver, and estate jewelry?",
+            "answer": "<p>Yes. We buy <strong>gold, silver, platinum, diamonds, and estate jewelry</strong>. Appointments are encouraged to ensure privacy and one-on-one service.</p>"
+          }
+        },
+        "question_eRd7E6": {
+          "type": "question",
+          "settings": {
+            "title": "How do you determine what my jewelry is worth?",
+            "answer": "<p>We evaluate metal content, gemstone quality, craftsmanship, and current market pricing. We explain the process clearly so you understand how your offer is determined.</p>"
+          }
+        },
+        "question_tzfrEK": {
+          "type": "question",
+          "settings": {
+            "title": "Is there any obligation to sell?",
+            "answer": "<p>No. Consultations are <strong>free and pressure-free</strong>. You are under no obligation to sell after receiving an offer.</p>"
+          }
+        },
+        "category_npxzxU": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping & Online Orders"
+          }
+        },
+        "question_Up8y8b": {
+          "type": "question",
+          "settings": {
+            "title": "Is your website secure?",
+            "answer": "<p>Yes. Our website uses <strong>encrypted, secure checkout technology</strong> to protect your personal and payment information.</p>"
+          }
+        },
+        "question_TLkP4g": {
+          "type": "question",
+          "settings": {
+            "title": "How is jewelry shipped?",
+            "answer": "<p>All jewelry orders are shipped <strong>fully insured</strong> with tracking and signature confirmation.</p>"
+          }
+        },
+        "question_QTc4J6": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship outside the U.S.?",
+            "answer": "<p>Currently, we ship within the United States. For special requests, please contact us directly.</p>"
+          }
+        },
+        "question_9BbFT8": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer financing?",
+            "answer": "<p>Yes. Financing options may be available for qualified purchases. Please contact us or ask in-store for current programs.</p>"
+          }
         }
       },
       "block_order": [
@@ -183,7 +244,16 @@
         "category_QDYdbE",
         "question_bNkCXL",
         "question_FDkcMR",
-        "question_JJnwbm"
+        "question_JJnwbm",
+        "category_UYxY6A",
+        "question_btMHzb",
+        "question_eRd7E6",
+        "question_tzfrEK",
+        "category_npxzxU",
+        "question_Up8y8b",
+        "question_TLkP4g",
+        "question_QTc4J6",
+        "question_9BbFT8"
       ],
       "name": "FAQ",
       "settings": {
