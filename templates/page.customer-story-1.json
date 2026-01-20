@@ -47,54 +47,81 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "image_with_text_DMRCa4": {
-      "type": "image-with-text",
+    "multi_column_PAAAfp": {
+      "type": "multi-column",
       "blocks": {
-        "item_dDP4gh": {
+        "item_w84CdT": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Inspection",
+            "content": "<p>We began with an assessment of the clock. The clock features a custom body, custom arm, and a handpainted design. We discovered general wear and an issue with the battery plate on the back of the clock that would require repair.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
           }
         },
-        "item_D9NNXY": {
+        "item_7Q6hCU": {
           "type": "item",
           "settings": {
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Repair",
+            "content": "<p>For outside jewelry, estate items, or pieces requiring third-party documentation, we work with a seasoned independent appraiser who conducts appraisals on-site once per month, providing objective, insurance-compliant valuation.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_CYKhjg": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Market-Based Appraisal",
+            "content": "<p>Separately, we also provide market-based appraisals when evaluating jewelry for potential purchase by our store. These valuations reflect current secondary-market conditions, demand, and intrinsic material value and are used solely to determine a fair purchase offer. Market appraisals are not intended for insurance purposes.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
           }
         }
       },
       "block_order": [
-        "item_dDP4gh",
-        "item_D9NNXY"
+        "item_w84CdT",
+        "item_7Q6hCU",
+        "item_CYKhjg"
       ],
-      "name": "Image with text",
+      "name": "Multi-column",
       "settings": {
-        "page_hero": false,
-        "background_image": "shopify://shop_images/Shell_5A.svg",
         "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "section_width": "contained",
-        "background_overlap": "image",
-        "image_position": "right",
-        "image_width": "",
-        "section_padding_bottom": "default",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "#b2c2b1",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
+        "remove_top_margin": true,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "stack_items_mobile": false,
+        "layout_options": "",
+        "subheading": "",
+        "title": "The Process",
+        "content": "<p>Doug and Janie worked with Leslie, Patti, and Mary Jo to bring this clock back to life.</p>",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "collection_list_CnJr8q": {
@@ -1250,7 +1277,7 @@
   },
   "order": [
     "image_with_text_FQyfNe",
-    "image_with_text_DMRCa4",
+    "multi_column_PAAAfp",
     "collection_list_CnJr8q",
     "featured_collections_pwbAUa",
     "multi_column_GiGCLt",
