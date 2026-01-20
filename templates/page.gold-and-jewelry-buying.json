@@ -17,11 +17,11 @@
           "settings": {
             "image": "shopify://shop_images/media_needed.png",
             "tab_label": "Item",
-            "subheading": "Estate Jewelry",
-            "title": "Timeless Pieces of Art",
-            "content": "<p>Discover a curated blend of history, craftsmanship, and exceptional value with our Estate Jewelry Collection. Each piece is carefully selected to offer you timeless beauty at an incredible price point.</p>",
-            "button_text": "Do we want a button?",
-            "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
+            "subheading": "Gold & Jewelry Buying",
+            "title": "Transparent & Respectful",
+            "content": "<p>Selling gold should feel clear and dignified, never rushed or uncertain. Whether you visit us in person or choose our secure mail-in option, our process is designed to be straightforward, educational, and completely pressure-free.</p>",
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
