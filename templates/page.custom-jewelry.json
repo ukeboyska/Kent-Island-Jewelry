@@ -84,7 +84,7 @@
         "item_LzDc9n": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/media_needed.png",
+            "image": "shopify://shop_images/fabrication_unspl.jpg",
             "label": "step 3",
             "subheading": "step 3",
             "title": "Fabrication & Polish",
@@ -96,7 +96,7 @@
         "item_q8Ayb6": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/media_needed.png",
+            "image": "shopify://shop_images/ring_display.jpg",
             "label": "Step 4",
             "subheading": "Step 4",
             "title": "The Reveal",
