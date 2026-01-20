@@ -163,26 +163,16 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "spacer_kyiX8z": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
     "multi_column_QKKGcM": {
       "type": "multi-column",
       "blocks": {
-        "item_AFyFq9": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/K-28.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "",
-            "modal_content": "",
-            "link_text": "Book Appointment",
-            "link_url": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F",
-            "link_style": "arrow",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
         "item_PedjQj": {
           "type": "item",
           "settings": {
@@ -195,6 +185,23 @@
             "modal_content": "",
             "link_text": "Leave A Review",
             "link_url": "https://www.google.com/search?sca_esv=f7f6af2a69be1eb0&rlz=1C5CHFA_enUS914US914&si=AL3DRZHrmvnFAVQPOO2Bzhf8AX9KZZ6raUI_dT7DG_z0kV2_x3Xvic5EUN4okamUyaRk7p_cV_GFwj4cUiXX-07nnJVCJxoF321bLf2eSLsEZCkwwWbehB-ujqLSl1GM4vtdltdZun65KYXpNfDSfNLbibShS6OCHg%3D%3D&q=Kent+Island+Jewelry+Reviews&sa=X&ved=2ahUKEwj2ise-iJmSAxXRD1kFHYMkC5AQ0bkNegQIIhAH&biw=1743&bih=1008&dpr=2&aic=0",
+            "link_style": "arrow",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_AFyFq9": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/K-28.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "modal_content": "",
+            "link_text": "Book Appointment",
+            "link_url": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F",
             "link_style": "arrow",
             "text_alignment": "center",
             "vertical_alignment": "start"
@@ -219,8 +226,8 @@
         }
       },
       "block_order": [
-        "item_AFyFq9",
         "item_PedjQj",
+        "item_AFyFq9",
         "item_iXDX6a"
       ],
       "name": "Multi-column",
@@ -256,6 +263,7 @@
     "image_with_text_HDKUK8",
     "spacer_LBN9cB",
     "promotion_blocks_JKpBNC",
+    "spacer_kyiX8z",
     "multi_column_QKKGcM",
     "main"
   ]
