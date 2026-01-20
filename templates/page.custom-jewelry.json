@@ -60,7 +60,7 @@
         "item_963KkU": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/media_needed.png",
+            "image": "shopify://shop_images/design_consult_stul.jpg",
             "label": "Step 1",
             "subheading": "Step 1",
             "title": "Consultation",
@@ -72,7 +72,7 @@
         "item_ntwMbF": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/media_needed.png",
+            "image": "shopify://shop_images/design_phase_stul.jpg",
             "label": "Step 2",
             "subheading": "STEP 2",
             "title": "Design",
