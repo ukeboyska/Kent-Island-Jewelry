@@ -804,31 +804,31 @@ a.arrow:hover:after {
 }
 
 /* Standard syntax (Chrome, Firefox, Safari, Edge, Opera, and IE11+) */
-.header ::placeholder {
+.header::placeholder {
   color: white;
   opacity: 1;
 }
 
 /* Firefox 18- (might use ::-moz-placeholder or :-moz-placeholder) */
-.header ::-moz-placeholder {
+.header::-moz-placeholder {
   color: white;
   opacity: 1;
 }
 
 /* Internet Explorer 10-11 */
-.header :-ms-input-placeholder {
+.header:-ms-input-placeholder {
   color: white;
   opacity: 1;
 }
 
 /* Microsoft Edge */
-.header ::-ms-input-placeholder {
+.header::-ms-input-placeholder {
   color: white;
   opacity: 1;
 }
 
 /* Older versions of webkit browsers (Chrome, Safari, Opera) */
-.header ::-webkit-input-placeholder {
+.header::-webkit-input-placeholder {
   color: white;
   opacity: 1;
 }
