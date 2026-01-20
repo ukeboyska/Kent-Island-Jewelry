@@ -225,6 +225,26 @@
             "title": "Do you offer financing?",
             "answer": "<p>Yes. Financing options may be available for qualified purchases. Please contact us or ask in-store for current programs.</p>"
           }
+        },
+        "category_L3G4xJ": {
+          "type": "category",
+          "settings": {
+            "title": "Care & maintenance"
+          }
+        },
+        "question_kzVEPf": {
+          "type": "question",
+          "settings": {
+            "title": "How should I care for my jewelry?",
+            "answer": "<p>We recommend regular cleanings, avoiding harsh chemicals, and having pieces inspected annually. Complimentary cleanings are available in-store.</p>"
+          }
+        },
+        "question_pR3BKb": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer jewelry inspections?",
+            "answer": "<p>Yes. We strongly recommend <strong>routine inspections</strong>, especially for rings worn daily, to prevent stone loss or damage.</p>"
+          }
         }
       },
       "block_order": [
@@ -253,7 +273,10 @@
         "question_Up8y8b",
         "question_TLkP4g",
         "question_QTc4J6",
-        "question_9BbFT8"
+        "question_9BbFT8",
+        "category_L3G4xJ",
+        "question_kzVEPf",
+        "question_pR3BKb"
       ],
       "name": "FAQ",
       "settings": {
