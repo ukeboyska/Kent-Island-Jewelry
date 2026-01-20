@@ -15,7 +15,7 @@
         "item_6mwVqC": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/media_needed.png",
+            "image": "shopify://shop_images/gold_stul.jpg",
             "tab_label": "Item",
             "subheading": "Gold & Jewelry Buying",
             "title": "Transparent & Respectful",
@@ -265,7 +265,7 @@
         "item_MxmgKj": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/media_needed.png",
+            "image": "shopify://shop_images/gold_unspl.jpg",
             "tab_label": "Item",
             "subheading": "Have a question?",
             "title": "We're Here to Help",
