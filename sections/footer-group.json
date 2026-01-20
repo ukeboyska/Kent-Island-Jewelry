@@ -1,1 +1,62 @@
-{"type":"footer","name":"Footer group","sections":{"footer":{"type":"footer","blocks":{"text":{"type":"text","settings":{"title":"","content":"<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0949\/8361\/8851\/files\/kent-island-jewelry-square.png?v=1759938791\" alt=\"Kent Island Jewlery\" style=\"width:110px;\">\n<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"}},"links":{"type":"links","settings":{"menu":"footer"}},"newsletter":{"type":"newsletter","settings":{"title":"Newsletter","content":"<p>A short sentence describing what someone will receive by subscribing<\/p>"}},"social_media":{"type":"social_media","settings":{"title":"Follow us","content":""}}},"block_order":["text","links","newsletter","social_media"],"settings":{"show_payment_icons":true,"enable_follow_on_shop":true,"show_country_selector":true,"show_locale_selector":true}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "content": "<img src=\"https://cdn.shopify.com/s/files/1/0949/8361/8851/files/kent-island-jewelry-square.png?v=1759938791\" alt=\"Kent Island Jewlery\" style=\"width:110px;\">\n<p>Kent Island Jewelry is committed to providing a warm, welcoming, and unforgettable experience for customers. From custom designs to thoughtfully curated collections, each piece is made to be worn, loved, and passed on. \n</p>"
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>A short sentence describing what someone will receive by subscribing</p>"
+          }
+        },
+        "social_media": {
+          "type": "social_media",
+          "settings": {
+            "title": "Follow us",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "links",
+        "newsletter",
+        "social_media"
+      ],
+      "settings": {
+        "show_payment_icons": true,
+        "enable_follow_on_shop": true,
+        "show_country_selector": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
