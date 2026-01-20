@@ -110,6 +110,19 @@
             "title": "Do you offer appraisals?",
             "answer": "<p>Yes. We provide <strong>professional jewelry appraisals</strong> for insurance, estate planning, and personal records. Appraisals are completed by appointment.</p>"
           }
+        },
+        "category_z7jmhe": {
+          "type": "category",
+          "settings": {
+            "title": "Custom Design"
+          }
+        },
+        "question_XyqBMj": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer custom jewelry design?",
+            "answer": "<p>Yes, custom design is one of our specialties. From redesigning heirloom pieces to creating something entirely new, our on-site jeweler works closely with you through every step of the process.</p>"
+          }
         }
       },
       "block_order": [
@@ -121,7 +134,9 @@
         "question_BUd98b",
         "question_76U8yK",
         "question_AYVJp8",
-        "question_Db6Ciy"
+        "question_Db6Ciy",
+        "category_z7jmhe",
+        "question_XyqBMj"
       ],
       "name": "FAQ",
       "settings": {
