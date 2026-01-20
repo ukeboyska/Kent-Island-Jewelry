@@ -57,22 +57,6 @@
     "multi_column_ArqBnK": {
       "type": "multi-column",
       "blocks": {
-        "item_bBRbkk": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Step 4: Your Decision",
-            "content": "<p>You decide how to proceed, with no pressure from us. There is never any obligation to sell. If you accept the offer, payment is issued promptly.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
         "item_qJwLrB": {
           "type": "item",
           "settings": {
@@ -120,13 +104,29 @@
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
+        },
+        "item_bBRbkk": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 4: Your Decision",
+            "content": "<p>You decide how to proceed, with no pressure from us. There is never any obligation to sell. If you accept the offer, payment is issued promptly.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
         }
       },
       "block_order": [
-        "item_bBRbkk",
         "item_qJwLrB",
         "item_rKciTC",
-        "item_DiLzkF"
+        "item_DiLzkF",
+        "item_bBRbkk"
       ],
       "name": "Multi-column",
       "settings": {
@@ -144,7 +144,7 @@
         "mobile_item_size": "medium",
         "desktop_item_size": "medium",
         "spacing": "normal",
-        "background": "rgba(0,0,0,0)",
+        "background": "#d1e1e3",
         "text_color": "rgba(0,0,0,0)"
       }
     },
