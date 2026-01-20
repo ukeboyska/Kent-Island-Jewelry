@@ -103,6 +103,13 @@
             "title": "Are your diamonds certified?",
             "answer": "<p>Most center diamonds are graded by reputable laboratories such as <strong>GIA or IGI</strong>. Certification details are listed on each product page when available.</p>"
           }
+        },
+        "question_Db6Ciy": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer appraisals?",
+            "answer": "<p>Yes. We provide <strong>professional jewelry appraisals</strong> for insurance, estate planning, and personal records. Appraisals are completed by appointment.</p>"
+          }
         }
       },
       "block_order": [
@@ -113,7 +120,8 @@
         "category_ERHirC",
         "question_BUd98b",
         "question_76U8yK",
-        "question_AYVJp8"
+        "question_AYVJp8",
+        "question_Db6Ciy"
       ],
       "name": "FAQ",
       "settings": {
