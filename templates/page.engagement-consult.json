@@ -1,0 +1,171 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_FQyfNe": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_6mwVqC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "tab_label": "Item",
+            "subheading": "Estate Jewelry",
+            "title": "Timeless Pieces of Art",
+            "content": "<p>Discover a curated blend of history, craftsmanship, and exceptional value with our Estate Jewelry Collection. Each piece is carefully selected to offer you timeless beauty at an incredible price point.</p>",
+            "button_text": "Do we want a button?",
+            "button_link": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F"
+          }
+        }
+      },
+      "block_order": [
+        "item_6mwVqC"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": true,
+        "background_image": "shopify://shop_images/Shell_3.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "left",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#203f70",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_jBwftw": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
+    "multi_column_ArqBnK": {
+      "type": "multi-column",
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": true,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "stack_items_mobile": false,
+        "layout_options": "",
+        "subheading": "",
+        "title": "Securing True Gems",
+        "content": "<p>Our on-site master jeweler meticulously inspects every item before it reaches the showcase. Stones are checked for security, prongs are evaluated, and each piece is polished to restore its brilliance. This ensures that when you purchase from our estate collection, you’re choosing jewelry that looks stunning and wears with confidence.</p>",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_Exg4Tn": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_W3XRTf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/shell_headshot_1.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "What You’ll Find in Our Estate Cases",
+            "content": "<ul><li><strong>Authentic Estate Pieces:</strong> Vintage rings, heirloom necklaces, classic bracelets, and distinctive one-of-a-kind finds.</li><li><strong>New & Like-New Items:</strong> Sometimes we include brand-new pieces in the estate case when they’re specially priced or part of a special purchase.</li><li><strong>Quality You Can Trust:</strong> Every item is professionally evaluated, cleaned, and prepared to our boutique standards before it’s offered for sale.</li></ul>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_W3XRTf"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": false,
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "right",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#f9f9f9",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_qLxDi9": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_MxmgKj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "tab_label": "Item",
+            "subheading": "Don't Wait",
+            "title": "Explore our Collection",
+            "content": "<p>Whether you're collecting something with history or simply looking for a luxury piece at an exceptional value, our Estate Jewelry Collection is full of hidden gems waiting to be discovered.</p>",
+            "button_text": "Stop by Today",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "item_MxmgKj"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": false,
+        "background_image": "shopify://shop_images/Shell_3.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "left",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#b2c2b1",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_FQyfNe",
+    "spacer_jBwftw",
+    "multi_column_ArqBnK",
+    "image_with_text_Exg4Tn",
+    "image_with_text_qLxDi9",
+    "main"
+  ]
+}
