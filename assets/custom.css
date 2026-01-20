@@ -802,3 +802,33 @@ a.arrow:hover:after {
 .text-with-icons__item a:hover {
   opacity: .4;
 }
+
+/* Standard syntax (Chrome, Firefox, Safari, Edge, Opera, and IE11+) */
+header::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+/* Firefox 18- (might use ::-moz-placeholder or :-moz-placeholder) */
+header::-moz-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+/* Internet Explorer 10-11 */
+header:-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+/* Microsoft Edge */
+header::-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+/* Older versions of webkit browsers (Chrome, Safari, Opera) */
+header::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
