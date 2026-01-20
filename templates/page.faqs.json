@@ -1,0 +1,317 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_FQyfNe": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_6mwVqC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "tab_label": "Item",
+            "subheading": "Gold & Jewelry Buying",
+            "title": "Transparent & Respectful",
+            "content": "<p>Selling gold should feel clear and dignified, never rushed or uncertain. Whether you visit us in person or choose our secure mail-in option, our process is designed to be straightforward, educational, and completely pressure-free.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_6mwVqC"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": true,
+        "background_image": "shopify://shop_images/shell2.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "left",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#203f70",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "spacer_jBwftw": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "custom_height": 36
+      }
+    },
+    "multi_column_ArqBnK": {
+      "type": "multi-column",
+      "blocks": {
+        "item_qJwLrB": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 1: Private Evaluation",
+            "content": "<p>Your items are examined in front of you by experienced professionals using industry-standard testing methods. We explain each step clearly, so you understand exactly what you have.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_rKciTC": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 2: Testing & Weighing",
+            "content": "<p>Your gold is tested for purity and weighed accurately. We separate items by karat and review everything with you in real time. No back rooms, no mystery.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_DiLzkF": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 3: Market-Based Offer",
+            "content": "<p>We provide a competitive offer based on current market prices, purity, and weight. Our pricing is straightforward and clearly explained.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_bBRbkk": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 4: Your Decision",
+            "content": "<p>You decide how to proceed, with no pressure from us. There is never any obligation to sell. If you accept the offer, payment is issued promptly.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_qJwLrB",
+        "item_rKciTC",
+        "item_DiLzkF",
+        "item_bBRbkk"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": true,
+        "remove_bottom_margin": false,
+        "stack_items": false,
+        "stack_items_mobile": false,
+        "layout_options": "",
+        "subheading": "",
+        "title": "In-Store Gold Buying Experience",
+        "content": "",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "#d1e1e3",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_GYXRKe": {
+      "type": "multi-column",
+      "blocks": {
+        "item_CLanDq": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 1: Request Mail-In Kit",
+            "content": "<p>Begin by requesting our insured mail-in gold kit. Each kit includes secure packaging, clear instructions, and prepaid insured shipping.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_EYTyzR": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 2: Safely Send Your Items",
+            "content": "<p>Package your gold following the provided instructions and ship it using the insured label. Your items are protected from the moment they leave your hands.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_zXBcFe": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 3: Professional Evaluation",
+            "content": "<p>Once received, your items are carefully logged, tested, and weighed by our experienced team using the same transparent standards as our in-store process.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_UjeKYf": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 4: Receive Your Offer",
+            "content": "<p>We contact you promptly with a clear, market-based offer. You are free to accept or decline with no pressure and no obligation.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_xYR9Rn": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Step 5: Your Decision",
+            "content": "<p>If you accept the offer, payment is issued quickly. If you decline the offer, your items are safely returned to you at no cost.</p>",
+            "modal_content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_CLanDq",
+        "item_EYTyzR",
+        "item_zXBcFe",
+        "item_UjeKYf",
+        "item_xYR9Rn"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "remove_top_margin": true,
+        "remove_bottom_margin": false,
+        "stack_items": true,
+        "stack_items_mobile": false,
+        "layout_options": "",
+        "subheading": "",
+        "title": "Mail-In Gold Buying Experience",
+        "content": "<p>Our process is simple, secure, and insured. </p>",
+        "image_aspect_ratio": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "#f3f9f2",
+        "text_color": "#06161d"
+      }
+    },
+    "image_with_text_qLxDi9": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_MxmgKj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/media_needed.png",
+            "tab_label": "Item",
+            "subheading": "Have a question?",
+            "title": "We're Here to Help",
+            "content": "<p>Our team is ready to assist with your gold and jewelry sales. Contact us today for help with immediate questions.</p>",
+            "button_text": "Contact Us",
+            "button_link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": [
+        "item_MxmgKj"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "page_hero": false,
+        "background_image": "shopify://shop_images/Shell_5A.svg",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "section_width": "contained",
+        "background_overlap": "image",
+        "image_position": "right",
+        "image_width": "",
+        "section_padding_bottom": "default",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#b2c2b1",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_FQyfNe",
+    "spacer_jBwftw",
+    "multi_column_ArqBnK",
+    "multi_column_GYXRKe",
+    "image_with_text_qLxDi9",
+    "main"
+  ]
+}
