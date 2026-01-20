@@ -267,11 +267,11 @@
           "settings": {
             "image": "shopify://shop_images/media_needed.png",
             "tab_label": "Item",
-            "subheading": "Don't Wait",
-            "title": "Explore our Collection",
-            "content": "<p>Whether you're collecting something with history or simply looking for a luxury piece at an exceptional value, our Estate Jewelry Collection is full of hidden gems waiting to be discovered.</p>",
-            "button_text": "Stop by Today",
-            "button_link": "#"
+            "subheading": "Have a question?",
+            "title": "We're Here to Help",
+            "content": "<p>Our team is ready to assist with your gold and jewelry sales. Contact us today for help with immediate questions.</p>",
+            "button_text": "Contact Us",
+            "button_link": "shopify://pages/contact"
           }
         }
       },
