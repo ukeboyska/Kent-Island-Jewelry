@@ -47,52 +47,112 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "testimonials_Be8tfq": {
-      "type": "testimonials",
+    "promotion_blocks_JKpBNC": {
+      "type": "promotion-blocks",
       "blocks": {
-        "testimonial_hqECHT": {
-          "type": "testimonial",
+        "quote_7PYf7f": {
+          "type": "quote",
           "settings": {
-            "image": "shopify://shop_images/rings-collection.jpg",
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S.",
-            "link_text": "Read Full Story",
-            "link_url": "http://google.com"
+            "highlight": true,
+            "remove_quote": false,
+            "subheading": "I felt completely at ease from the moment I walked in.",
+            "content": "I came in with jewelry from my mother’s estate and didn’t know where to start. They explained everything clearly, treated the pieces with care, and never pressured me. It was comforting to work with people who are both knowledgeable and genuinely kind.",
+            "author": "– Linda M. | Chester, MD",
+            "background": "#f8feff",
+            "text_color": "#1b3059"
           }
         },
-        "testimonial_zGdBJp": {
-          "type": "testimonial",
+        "image_QGCCKt": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/noreaster_art_3.png",
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S.",
+            "image": "shopify://shop_images/media_needed.png",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
             "link_text": "",
-            "link_url": ""
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
           }
         },
-        "testimonial_k3DGBa": {
-          "type": "testimonial",
+        "image_4UiNVC": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gold-spike-adjustable-double-ring.jpg",
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S.",
+            "image": "shopify://shop_images/media_needed.png",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
             "link_text": "",
-            "link_url": ""
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "quote_JQRePw": {
+          "type": "quote",
+          "settings": {
+            "highlight": true,
+            "remove_quote": false,
+            "subheading": "They brought my treasured ring back to life.",
+            "content": "After losing a diamond from my wedding ring, I was heartbroken. Not only did they repair it beautifully, they made sure I understood every step of the process. The craftsmanship and care were exceptional.",
+            "author": "– Bobbie H. | Kent Island",
+            "background": "#f5fbff",
+            "text_color": "#122443"
+          }
+        },
+        "quote_8nQ3aX": {
+          "type": "quote",
+          "settings": {
+            "highlight": true,
+            "remove_quote": true,
+            "subheading": "Guided, Personal Service.",
+            "content": "Natural and Lab-Grown diamonds are both stunning. The difference is personal. Our team will explain the distinctions simply and honestly, helping you choose what aligns with your values, style, and budget without pressure.",
+            "author": "",
+            "background": "#f8feff",
+            "text_color": "#1b3059"
+          }
+        },
+        "image_j7p8QF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/90938332-2100x2100-fb62b58a-5cb2-4d89-a4b0-6c2549f75573.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
           }
         }
       },
       "block_order": [
-        "testimonial_hqECHT",
-        "testimonial_zGdBJp",
-        "testimonial_k3DGBa"
+        "quote_7PYf7f",
+        "image_QGCCKt",
+        "image_4UiNVC",
+        "quote_JQRePw",
+        "quote_8nQ3aX",
+        "image_j7p8QF"
       ],
-      "name": "Testimonials",
+      "name": "Promotion blocks",
       "settings": {
-        "reveal_on_scroll": true,
-        "subheading": "",
-        "title": "",
-        "image_aspect_ratio": "1/1",
-        "background": "#d1e1e3",
+        "subheading": "Your Story. Your Choice.",
+        "title": "Natural and Lab-Grown",
+        "section_size": "small",
+        "stack_on_mobile": true,
+        "background": "#f9f9f9",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -427,7 +487,7 @@
   },
   "order": [
     "image_with_text_HDKUK8",
-    "testimonials_Be8tfq",
+    "promotion_blocks_JKpBNC",
     "image_with_text_VmafnV",
     "multi_column_VAFNYk",
     "image_with_text_Jeij67",
