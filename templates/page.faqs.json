@@ -17,9 +17,9 @@
           "settings": {
             "image": "shopify://shop_images/media_needed.png",
             "tab_label": "Item",
-            "subheading": "Gold & Jewelry Buying",
-            "title": "Transparent & Respectful",
-            "content": "<p>Selling gold should feel clear and dignified, never rushed or uncertain. Whether you visit us in person or choose our secure mail-in option, our process is designed to be straightforward, educational, and completely pressure-free.</p>",
+            "subheading": "Frequently asked questions",
+            "title": "We're Here to Help You",
+            "content": "<p>Explore common questions regarding our business, our services, and how we can help you today.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -31,7 +31,7 @@
       "name": "Image with text",
       "settings": {
         "page_hero": true,
-        "background_image": "shopify://shop_images/shell2.svg",
+        "background_image": "shopify://shop_images/Shell_4.svg",
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "section_width": "contained",
@@ -47,254 +47,161 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "spacer_jBwftw": {
-      "type": "spacer",
-      "name": "Spacer",
+    "faq_wUKpjF": {
+      "type": "faq",
+      "blocks": {
+        "category_jmctre": {
+          "type": "category",
+          "settings": {
+            "title": "General"
+          }
+        },
+        "question_my6Hn6": {
+          "type": "question",
+          "settings": {
+            "title": "Where are you located?",
+            "answer": "<p>Kent Island Jewelry is proudly located in <strong>Chester, Maryland</strong>, near the Chesapeake Bay. We are a locally owned, female-led jewelry store with over <strong>24 years of trusted service</strong> in the community.</p>"
+          }
+        },
+        "question_czyjrU": {
+          "type": "question",
+          "settings": {
+            "title": "Do you sell online or in-store only?",
+            "answer": "<p>We offer <strong>both in-store and online shopping</strong>. Select items are available for purchase online, while our full collection, including estate jewelry, custom designs, and one-of-a-kind pieces, is best experienced in person.</p>"
+          }
+        },
+        "question_HFt4FB": {
+          "type": "question",
+          "settings": {
+            "title": "Are you an independent jewelry store?",
+            "answer": "<p>Yes. Kent Island Jewelry is an <strong>independent, family-owned business</strong>, not a chain. This allows us to offer personalized service, unique inventory, and fair pricing without corporate pressure.</p>"
+          }
+        },
+        "category_ERHirC": {
+          "type": "category",
+          "settings": {
+            "title": "Jewelry & Quality"
+          }
+        },
+        "question_BUd98b": {
+          "type": "question",
+          "settings": {
+            "title": "Is your jewelry authentic and professionally inspected?",
+            "answer": "<p>Absolutely. Every piece is <strong>professionally inspected</strong> by our experienced on-site jeweler before being offered for sale. Estate pieces are carefully evaluated for authenticity, condition, and value.</p>"
+          }
+        },
+        "question_76U8yK": {
+          "type": "question",
+          "settings": {
+            "title": "Do you sell natural and lab-grown diamonds?",
+            "answer": "<p>Yes. We offer <strong>both natural and lab-grown diamonds</strong>, clearly disclosed and transparently priced. We’re happy to explain the differences and help you choose what best fits your values and budget.</p>"
+          }
+        },
+        "question_AYVJp8": {
+          "type": "question",
+          "settings": {
+            "title": "Are your diamonds certified?",
+            "answer": "<p>Most center diamonds are graded by reputable laboratories such as <strong>GIA or IGI</strong>. Certification details are listed on each product page when available.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_jmctre",
+        "question_my6Hn6",
+        "question_czyjrU",
+        "question_HFt4FB",
+        "category_ERHirC",
+        "question_BUd98b",
+        "question_76U8yK",
+        "question_AYVJp8"
+      ],
+      "name": "FAQ",
       "settings": {
-        "custom_height": 36
+        "show_navigation": true,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
-    "multi_column_ArqBnK": {
+    "multi_column_rxUgGX": {
       "type": "multi-column",
       "blocks": {
-        "item_qJwLrB": {
+        "item_VD9zMJ": {
           "type": "item",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/K-28.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Step 1: Private Evaluation",
-            "content": "<p>Your items are examined in front of you by experienced professionals using industry-standard testing methods. We explain each step clearly, so you understand exactly what you have.</p>",
+            "title": "",
+            "content": "",
             "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
+            "link_text": "Book Appointment",
+            "link_url": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ErPSik-r0vDvNiEntTIkqD3-0SJC-5JsSdgWTPr5e6CO1FT3dhxQj5FEdoFqs5AEQ1dz9tC1F",
+            "link_style": "arrow",
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
         },
-        "item_rKciTC": {
+        "item_TQxKcw": {
           "type": "item",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/jewelry_teaser_unsp.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Step 2: Testing & Weighing",
-            "content": "<p>Your gold is tested for purity and weighed accurately. We separate items by karat and review everything with you in real time. No back rooms, no mystery.</p>",
+            "title": "",
+            "content": "",
             "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
+            "link_text": "Explore Jewelry",
+            "link_url": "shopify://collections",
+            "link_style": "arrow",
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
         },
-        "item_DiLzkF": {
+        "item_wThXLG": {
           "type": "item",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/K-58.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Step 3: Market-Based Offer",
-            "content": "<p>We provide a competitive offer based on current market prices, purity, and weight. Our pricing is straightforward and clearly explained.</p>",
+            "title": "",
+            "content": "",
             "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_bBRbkk": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Step 4: Your Decision",
-            "content": "<p>You decide how to proceed, with no pressure from us. There is never any obligation to sell. If you accept the offer, payment is issued promptly.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
+            "link_text": "Our Story",
+            "link_url": "shopify://pages/about-us",
+            "link_style": "arrow",
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
         }
       },
       "block_order": [
-        "item_qJwLrB",
-        "item_rKciTC",
-        "item_DiLzkF",
-        "item_bBRbkk"
+        "item_VD9zMJ",
+        "item_TQxKcw",
+        "item_wThXLG"
       ],
       "name": "Multi-column",
       "settings": {
         "reveal_on_scroll": true,
-        "remove_top_margin": true,
+        "remove_top_margin": false,
         "remove_bottom_margin": false,
-        "stack_items": false,
+        "stack_items": true,
         "stack_items_mobile": false,
         "layout_options": "",
         "subheading": "",
-        "title": "In-Store Gold Buying Experience",
+        "title": "Dive Deeper",
         "content": "",
-        "image_aspect_ratio": "",
+        "image_aspect_ratio": "4/3",
         "column_alignment": "center",
         "mobile_item_size": "medium",
         "desktop_item_size": "medium",
         "spacing": "normal",
         "background": "#d1e1e3",
         "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "multi_column_GYXRKe": {
-      "type": "multi-column",
-      "blocks": {
-        "item_CLanDq": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Step 1: Request Mail-In Kit",
-            "content": "<p>Begin by requesting our insured mail-in gold kit. Each kit includes secure packaging, clear instructions, and prepaid insured shipping.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_EYTyzR": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Step 2: Safely Send Your Items",
-            "content": "<p>Package your gold following the provided instructions and ship it using the insured label. Your items are protected from the moment they leave your hands.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_zXBcFe": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Step 3: Professional Evaluation",
-            "content": "<p>Once received, your items are carefully logged, tested, and weighed by our experienced team using the same transparent standards as our in-store process.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_UjeKYf": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Step 4: Receive Your Offer",
-            "content": "<p>We contact you promptly with a clear, market-based offer. You are free to accept or decline with no pressure and no obligation.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_xYR9Rn": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Step 5: Your Decision",
-            "content": "<p>If you accept the offer, payment is issued quickly. If you decline the offer, your items are safely returned to you at no cost.</p>",
-            "modal_content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "item_CLanDq",
-        "item_EYTyzR",
-        "item_zXBcFe",
-        "item_UjeKYf",
-        "item_xYR9Rn"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "reveal_on_scroll": true,
-        "remove_top_margin": true,
-        "remove_bottom_margin": false,
-        "stack_items": true,
-        "stack_items_mobile": false,
-        "layout_options": "",
-        "subheading": "",
-        "title": "Mail-In Gold Buying Experience",
-        "content": "<p>Our process is simple, secure, and insured. </p>",
-        "image_aspect_ratio": "",
-        "column_alignment": "center",
-        "mobile_item_size": "medium",
-        "desktop_item_size": "medium",
-        "spacing": "normal",
-        "background": "#f3f9f2",
-        "text_color": "#06161d"
-      }
-    },
-    "image_with_text_qLxDi9": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_MxmgKj": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/media_needed.png",
-            "tab_label": "Item",
-            "subheading": "Have a question?",
-            "title": "We're Here to Help",
-            "content": "<p>Our team is ready to assist with your gold and jewelry sales. Contact us today for help with immediate questions.</p>",
-            "button_text": "Contact Us",
-            "button_link": "shopify://pages/contact"
-          }
-        }
-      },
-      "block_order": [
-        "item_MxmgKj"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "page_hero": false,
-        "background_image": "shopify://shop_images/Shell_5A.svg",
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "section_width": "contained",
-        "background_overlap": "image",
-        "image_position": "right",
-        "image_width": "",
-        "section_padding_bottom": "default",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "#b2c2b1",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "main": {
@@ -308,10 +215,8 @@
   },
   "order": [
     "image_with_text_FQyfNe",
-    "spacer_jBwftw",
-    "multi_column_ArqBnK",
-    "multi_column_GYXRKe",
-    "image_with_text_qLxDi9",
+    "faq_wUKpjF",
+    "multi_column_rxUgGX",
     "main"
   ]
 }
