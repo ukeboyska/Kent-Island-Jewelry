@@ -158,7 +158,7 @@
         "title": "Client Satisfaction",
         "background_image": "shopify://shop_images/Shell_5A.svg",
         "image_aspect_ratio": "",
-        "background": "rgba(209,225,227,1)",
+        "background": "#dde8dc",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -175,7 +175,7 @@
         "item_W3XRTf": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/media_needed.png",
+            "image": "shopify://shop_images/crab_earrings.jpg",
             "tab_label": "Item",
             "subheading": "Don't Wait",
             "title": "Bring Back the Shine",
@@ -201,7 +201,7 @@
         "section_padding_bottom": "default",
         "text_alignment": "center",
         "cycle_speed": 8,
-        "accent_background": "#b2c2b1",
+        "accent_background": "#d1e1e3",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
