@@ -35,7 +35,7 @@
     "heading_font_size": "large",
     "heading_text_transform": "normal",
     "text_font": "lato_n4",
-    "text_font_size": 20,
+    "text_font_size": 16,
     "stagger_products_apparition": true,
     "round_color_swatches": true,
     "show_vendor": true,
