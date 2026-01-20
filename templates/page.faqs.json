@@ -123,6 +123,13 @@
             "title": "Do you offer custom jewelry design?",
             "answer": "<p>Yes, custom design is one of our specialties. From redesigning heirloom pieces to creating something entirely new, our on-site jeweler works closely with you through every step of the process.</p>"
           }
+        },
+        "question_t3DCc7": {
+          "type": "question",
+          "settings": {
+            "title": "Can you redesign or reuse my existing jewelry?",
+            "answer": "<p>Absolutely. We love giving new life to sentimental pieces. Gold, diamonds, and gemstones from your existing jewelry can often be reused or repurposed into a new design.</p>"
+          }
         }
       },
       "block_order": [
@@ -136,7 +143,8 @@
         "question_AYVJp8",
         "question_Db6Ciy",
         "category_z7jmhe",
-        "question_XyqBMj"
+        "question_XyqBMj",
+        "question_t3DCc7"
       ],
       "name": "FAQ",
       "settings": {
